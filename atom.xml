@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-08-31T05:45:44+00:00</updated>
+  <updated>2013-08-31T06:11:59+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[引っ越したい欲]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/31/%E5%BC%95%E3%81%A3%E8%B6%8A%E3%81%97%E3%81%9F%E3%81%84%E6%AC%B2/"/>
+    <updated>2013-08-31T15:07:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/31/引っ越したい欲</id>
+    <content type="html"><![CDATA[<p>引っ越したい欲が高まっている。
+高円寺で1k風呂トイレ別ロフト付きの8万で住んでいるんだが神奈川とかで同じ値段で調べたら3DKとか普通に出てきてうらやましい。部屋数多いとこに住みたい。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[travisテスト]]></title>
@@ -363,21 +373,6 @@ GitHub pagesとoctopressね。結構前にはやってたけど、今はそん�
 <p>よつばと最新巻を人から借りて読みたい</p>
 
 <p>築地に行って卵焼きと寿司食ってきた</p>
-
-<hr />
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[3.8]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/03/10/10141753/"/>
-    <updated>2013-03-10T14:17:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/03/10/10141753</id>
-    <content type="html"><![CDATA[<p>メッセージが届くとスマホが香る 「ChatPerf」のパトロンになった。デバイス製造開始したら送ってもらうんだ。</p>
-
-<p>PHPする環境を作りたいがためにPHP選んでいるような気もしないでもない</p>
-
-<p>PHPする環境をちゃんと整備する時間の方がPHPしている時間よりも長い。</p>
 
 <hr />
 ]]></content>
