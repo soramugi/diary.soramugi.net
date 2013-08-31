@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: uptime | 全体的に千葉産です]]></title>
+  <link href="http://soramugi.github.io/diary/blog/categories/uptime/atom.xml" rel="self"/>
+  <link href="http://soramugi.github.io/diary/"/>
+  <updated>2013-08-31T12:52:14+09:00</updated>
+  <id>http://soramugi.github.io/diary/</id>
+  <author>
+    <name><![CDATA[soramugi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The problem with Pingdom]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2012/07/22/the-problem-with-pingdom/"/>
+    <updated>2012-07-22T19:13:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2012/07/22/the-problem-with-pingdom</id>
+    <content type="html"><![CDATA[<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Time to be Awesome &ndash; awesome.rb </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="no">Awesome</span><span class="o">!&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p><a href="http://www.pingdom.com%20Pingdom">The problem with pingdom.</a></p>
+
+<p>My money&rsquo;s in that office, right? If she start giving me some bullshit about it ain&rsquo;t there, and we got to go someplace else and get it, I&rsquo;m gonna shoot you in the head then and there. Then I&rsquo;m gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I&rsquo;m talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</p>
+
+<blockquote><p>Blockquote is what goes
+inside this block here
+would you believe that
+bullshit?</p></blockquote>
+
+<p>Well, the way they make shows is, they make one show. That show&rsquo;s called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they&rsquo;re going to make more shows. Some pilots get picked and become television programs. Some don&rsquo;t, become nothing. She starred in one of the ones that became nothing.</p>
+
+<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother&rsquo;s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
+
+<p>Your bones don&rsquo;t break, mine do. That&rsquo;s clear. Your cells react to bacteria and viruses differently than mine. You don&rsquo;t get sick, I do. That&rsquo;s also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We&rsquo;re on the same curve, just on opposite ends.</p>
+
+<p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that&rsquo;s what you see at a toy store. And you must think you&rsquo;re in a toy store, because you&rsquo;re here shopping for an infant named Jeb.</p>
+]]></content>
+  </entry>
+  
+</feed>

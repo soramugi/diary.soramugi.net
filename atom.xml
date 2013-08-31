@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[全体的に千葉産です]]></title>
+  <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
+  <link href="http://soramugi.github.io/diary/"/>
+  <updated>2013-08-31T12:52:14+09:00</updated>
+  <id>http://soramugi.github.io/diary/</id>
+  <author>
+    <name><![CDATA[soramugi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[にゃーん]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/25/%E3%81%AB%E3%82%83%E3%83%BC%E3%82%93/"/>
+    <updated>2013-08-25T14:56:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/25/にゃーん</id>
+    <content type="html"><![CDATA[<p>なにがにゃーんだ馬鹿野郎</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「桐島、部活やめるってよ」の面白さを伝えられなかった話]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/21/%E3%80%8C%E6%A1%90%E5%B3%B6%E3%80%81%E9%83%A8%E6%B4%BB%E3%82%84%E3%82%81%E3%82%8B%E3%81%A3%E3%81%A6%E3%82%88%E3%80%8D%E3%81%AE%E9%9D%A2%E7%99%BD%E3%81%95%E3%82%92%E4%BC%9D%E3%81%88%E3%82%89%E3%82%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E8%A9%B1/"/>
+    <updated>2013-08-21T17:15:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/21/「桐島、部活やめるってよ」の面白さを伝えられなかった話</id>
+    <content type="html"><![CDATA[<p>「桐島、部活やめるってよ」が話題に上がっていて、ちょくちょくと目にする機会があったのでiTunesストアで借りて見てみた。</p>
+
+<p>とても面白くてDVDも買って何度も見直した。映画を見終わった後にコーラをごくごくと飲んでいるシーンや、先生に止められても映画を取り続けようと決意してじゃれてるシーン。
+どれも印象深く、凄く面白い映画と思っていた。</p>
+
+<p>しかし、同じ映画、「桐島、部活やめるってよ」を見終わって「糞つまらなかった」と言う人が目の前に現れた時になぜつまらないと思ったのか意味が解らなかった。
+何を見たんだ？なぜそんな事を言っているんだ?</p>
+
+<p>全く訳が解らない時に気がついた。自分は何が面白さかったのかを伝える事が出来なかったのだ。ただただ唖然として言葉に詰まっていた。</p>
+
+<p>そもそも「糞つまらなかった」と言ってる人は「桐島って結局誰よ？」としか言わなかったのであんまり相手にしなくてもいい人だとは思うのだが、自分自身が面白さを伝える事が出来なかったのが悔しいのだ。</p>
+
+<p>そんなもやもやした中で読んだこの記事。
+<a href="http://matome.naver.jp/odai/2137564779420535801">http://matome.naver.jp/odai/2137564779420535801</a></p>
+
+<p>これは本当に解りやすくて、もやもやした気持ちを解消してくれる。無意識的に感じ取っていて、理解した後でも、ああ、やっぱりこの映画は面白いね。と腑に落ちた。</p>
+
+<p>スッゴイださい事言ってるね！この映画は！
+ださ過ぎて口に出す事をはばかれる事言ってるね！
+生きてる意味とか目的とかがんばってどうするとか、ゾンビシーンとか、すっげー良いじゃん。</p>
+
+<p>もっと、何十回と見て行きたいよ！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[電子工作]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/19/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/"/>
+    <updated>2013-08-19T13:02:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/19/電子工作</id>
+    <content type="html"><![CDATA[<p>最近は電子工作にハマっている。
+もともとはプログラム書いて物理的な動きを与えたくて調べてみるとGPIOを利用したサーボモーターの駆動が一般的だと知って色々と手を出していたら楽しくなって来た。</p>
+
+<p>最初はラズパイでやろうとしたんだけど何からやれば良いのか解らず挫折。あきらめずにArduinoを購入してお手本通りに作って行ったら何となく解るようになってきた。</p>
+
+<p>ラズパイの時は解らない事だらけだったのだけれど、とりあえず秋葉行ってそれっぽい店回って疲れて帰って来たのを覚えている。だけどArduinoとお手本書いてる本読んでからショップ調べて、秋月行って何個かセンサー買ってと解るようになって来た。それっぽい店を回っていたときより遥かに有用なパーツを売ってる店が解るようにもなって来た。</p>
+
+<p>だけど秋月とか魔境すぎて前提知識なかったらとてもじゃ無いけど楽しめないな。</p>
+
+<p>土日はどちらも秋葉に通っていた。
+土曜日にArduinoのキャラクタlcdシールドキット買ってはんだづけカフェではんだ付けてこようとしたけど人いっぱいで入れなかった。日曜に再チャレンジしてはんだつけて帰って来た。</p>
+
+<p>今はキャラクタlcd使って音のメーター表示したいので作ろうとしてるのと
+ラズパイでサーボ動かせるように試して、定期処理でサーボ動かせるようにしたり、ネットワーク経由でサーボ動かすトリガー取得したり、部屋の温度や明るさを収集してGrowthForecastでグラフ化させたりとか夢は広がる。</p>
+
+<p>マイコン使わないで電子ピアノの作成キットとかもあるのでそれ組み立てたいな。
+あと音楽の再生とかもしたいは</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ゆるやかに変化する]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/12/%E3%82%86%E3%82%8B%E3%82%84%E3%81%8B%E3%81%AB%E5%A4%89%E5%8C%96%E3%81%99%E3%82%8B/"/>
+    <updated>2013-08-12T22:21:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/12/ゆるやかに変化する</id>
+    <content type="html"><![CDATA[<p>ゆるやかに変化して緩やかすぎて何も変わっていないんじゃないかと錯覚する。</p>
+
+<p>何も変化していないのはとてつもなく不安になる。
+時間が経ち、衰え、死に行くイメージなのかと考えるがちょっと違う。</p>
+
+<p>ただただ不安なのだ。</p>
+
+<p>何も変化しないのが不安になる。意味のない不安。
+変化がない時に感じるのだから変化がない事に不安になるのだろう。</p>
+
+<p>少しの救いはゆるやかには変化しているという事。</p>
+
+<p>変化をしているという事を残して行かなければ気が狂いそうになる。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[第2図書係補佐を読んだ]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/11/%E7%AC%AC2%E5%9B%B3%E6%9B%B8%E4%BF%82%E8%A3%9C%E4%BD%90%E3%82%92%E8%AA%AD%E3%82%93%E3%81%9F%E3%82%99/"/>
+    <updated>2013-08-11T13:26:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/11/第2図書係補佐を読んだ</id>
+    <content type="html"><![CDATA[<p>面白かった。</p>
+
+<p>お笑い芸人のピースの暗い方、又吉が小説紹介する文章がまとまってる本なんだけど、その本と関係ありそうな又吉の経験を織り交ぜて紹介している。</p>
+
+<p>本自体の内容を直接紹介している訳ではないので、なんとなく面白い話だったら一緒に紹介されて関係ありそうなその本を読んでみたくなるって感じ。</p>
+
+<p>気になったものをAmazonの欲しいものリストにまとめたら11冊ぐらいになった。図書館で随時借りて行こう。</p>
+
+<p>小説を読む事はまれなんだけど、読む事に拒否反応とかはないので興味が出たら読むって感じ。つまり興味を持つのがまれなんですね。
+今まで面白かった本はパッと思いつくのだと伊坂幸太郎の「オーデュボンの祈り」とかだろうか。そのときも一時期カカシにハマっていたときで、いろんなカカシ作品をあさっていたので、カカシの小説という事で興味が出て読んでいた。</p>
+
+<p>小説は数が多くて、見ただけで面白いのか、興味が出るのかを判別しづらいので、他の娯楽ものに興味が移ってしまいますね。面白ければこれ以上頭の中にこびりついて自分自身の精神が変わる娯楽もないとは思うけれども。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[畳のにおい]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/09/%E7%95%B3%E3%81%AE%E3%81%AB%E3%81%8A%E3%81%84/"/>
+    <updated>2013-08-09T23:30:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/09/畳のにおい</id>
+    <content type="html"><![CDATA[<p>家に帰る途中の道に畳屋さんがあるので畳のにおいが漏れてくるときがある。
+良いにおいがするので気持ちがいい。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ビルド日時]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/08/%E3%83%92%E3%82%99%E3%83%AB%E3%83%88%E3%82%99%E6%97%A5%E6%99%82/"/>
+    <updated>2013-08-08T00:11:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/08/ビルド日時</id>
+    <content type="html"><![CDATA[<p>jenkinsでビルドしてoctopressブログを更新するようになると
+最新の成功ビルドで何日ブログ更新してないかわかる。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ポストイット]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E3%83%9B%E3%82%9A%E3%82%B9%E3%83%88%E3%82%A4%E3%83%83%E3%83%88/"/>
+    <updated>2013-08-03T21:34:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/03/ポストイット</id>
+    <content type="html"><![CDATA[<p>部屋の壁にホワイトボードシート貼ってポストイット貼付けてタスク管理のまねごとしてたんだけどタスク終わった後のポストイット捨てられなかったのでまとめて捨てようとしたけど折角だから文章に起こしてネットの海に放流しようという謎の高まる意識のもと書き出します。</p>
+
+<p>Automaticでツイート,
+引き出し購入,
+天気APIで晴れの日,
+muninの通知,
+ランダムフィルター,
+Macのバックアップ,
+テスト通す,
+tags,
+Tumblr OAuth,
+SinatraでOAuth,
+automatic天気プラグイン,
+Tumblrステッカーもらう,
+vimスクリプト,
+automatic nonetest,
+中野本,
+カプラあげる,
+AirMacの設定,
+automaticプラギン作成,
+feedから一つだけ取得,
+svnとgit svnコミットでgit反映,
+weather hacker test通す,
+automaticドキュメント作成,
+免許更新,
+automaticプラギン作る,
+automatic出力なし,
+神楽坂本,
+capistrano使用,
+chef-soloでgitlab構築,</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[nyan]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/03/nyan/"/>
+    <updated>2013-08-03T10:54:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/03/nyan</id>
+    <content type="html"><![CDATA[<p>octopress環境を整備したくて色々試しているので細かいつぶやきが多いにゃん</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ドクターペッパー]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E3%83%88%E3%82%99%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%98%E3%82%9A%E3%83%83%E3%83%8F%E3%82%9A%E3%83%BC/"/>
+    <updated>2013-08-03T01:43:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/03/ドクターペッパー</id>
+    <content type="html"><![CDATA[<p>たまに炭酸飲みたくなってくるときはコーラ買ってくるんだけど最近はドクターペッパー飲みたくなる事が多い。集中しやすい感じする。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[京大カード]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E4%BA%AC%E5%A4%A7%E3%82%AB%E3%83%BC%E3%83%88%E3%82%99/"/>
+    <updated>2013-08-03T01:21:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/03/京大カード</id>
+    <content type="html"><![CDATA[<p>京大カード買ってそこそこ便利だったのでケースや仕切り紙かったけどサイズがバラバラで悲しい</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ぼんやりの時間という本よんだ]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E3%81%BB%E3%82%99%E3%82%93%E3%82%84%E3%82%8A%E3%81%AE%E6%99%82%E9%96%93%E3%81%A8%E3%81%84%E3%81%86%E6%9C%AC%E3%82%88%E3%82%93%E3%81%9F%E3%82%99/"/>
+    <updated>2013-08-03T01:12:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/03/ぼんやりの時間という本よんだ</id>
+    <content type="html"><![CDATA[<p>他の作品や人物の話をひっきりなしに出してきていた。</p>
+
+<p>暇つぶしにはこういうゆっくりできるようなの読むと言いな。わりとどうでも良い事なんだけどたまに思い出したい的な</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[うんたらかんたら]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/02/%E3%81%86%E3%82%93%E3%81%9F%E3%82%89%E3%81%8B%E3%82%93%E3%81%9F%E3%82%89/"/>
+    <updated>2013-08-02T13:53:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/02/うんたらかんたら</id>
+    <content type="html"><![CDATA[<p>webサービス作りたいんだけどwebサーバーとか用意するの面倒くさいよねってことでs3使おうと模索中。</p>
+
+<p>あまりサーバーレスポンス使わないようなやつ。</p>
+
+<p>htmlファイルを作成してそれをs3でホスト、それを定期的に実行すればはい完成ってやつ。
+データベースとか使ったサイトは作れないけれど、そんなにデータベース使ったサイトは作る予定はないし、ある程度起動に乗って来たらサーバーサイドでプログラム走らせたもの作れば良いかなって。</p>
+
+<p>ブログ形式とかいけそうですね。</p>
+
+<p>定期的に情報を収集、それをもとに記事作成、記事をビルドしてhtml作成、s3にプッシュ</p>
+
+<p>ですね。その流れを簡単に出来るようなシステム作って行きたいですね。その後ユーザー登録型のを作りたい。じゅんぐりにやって行こう</p>
+
+<p><a href="https://github.com/glidenote/octoeditor.vim">glidenote/octoeditor.vim</a>
+使って記事書いたけど新規作成しやすくていい。あとは作成した記事をコミット出来るようななにかか。</p>
+
+<p>でも新規作成のときにもタスク叩いてるんだな。markdownを作成するだけで良いじゃまいのか？</p>
+
+<ul>
+<li>Dropboxにoctopressの記事ディレクトリの設置</li>
+<li>そのディレクトリにmarkdown作成</li>
+<li>記事作成</li>
+<li>コミット</li>
+</ul>
+
+
+<p>てのが出来れば良いな。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[jenkinsにoctopressのビルドまかしてみた]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/02/jenkinsnioctopressfalsebirudomakasitemita/"/>
+    <updated>2013-08-02T10:26:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/02/jenkinsnioctopressfalsebirudomakasitemita</id>
+    <content type="html"><![CDATA[<p>快適</p>
+
+<p>このブログはoctopressでやってるんだけども、毎回</p>
+
+<pre><code>rake gen_deploy
+</code></pre>
+
+<p>なんて面倒臭かったので、記事書いてコミットすれば勝手にデプロイできるようにした。</p>
+
+<p>githubにmasterとsourceブランチ作って設置。
+masterが実際にGitHubPagesで表示するファイルを置いて、sourceで記事をビルドしたりビルドする前の記事内容を保持。</p>
+
+<p>jenkinsでsourceのブランチチェックアウトしてrbenvプラグインを使用してビルドすれば良いので簡単。</p>
+
+<p>ビルド時のスクリプトはこんな感じ</p>
+
+<pre><code>bundle install --path vendor/bundle
+#git clone git@github.com:soramugi/soramugi.github.io.git _deploy
+bundle exec rake gen_deploy
+</code></pre>
+
+<p>初回だけcloneのコメントアウト外して実行する必要ある。</p>
+
+<p>後はgithubでsourceのブランチがpushされたら実行するようにすれば良いですね。
+git単体だとhook使えば出来そうだけどもGitHubのServiceHook使ってやるにはどうしよっかな。
+あとjenkinsではログインしないとアクセス出来ないようになってるからセキュリティ周りも見直してビルドだけでも出来るようにするとか。</p>
+
+<p>毎回記事作成するときにrakeタスク実行も面倒なので、メモする時の書式をJekyll形式に合わせるとか、octopressが合わせるようにでもいいし。</p>
+
+<p>GitHubPagesキャッシュ聞いてるから反映してもtopページの即時反映はされないようですね。archivesから記事ページにいけばすぐ見られるけど。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[foo]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/02/foo/"/>
+    <updated>2013-08-02T10:18:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/02/foo</id>
+    <content type="html"><![CDATA[<p>nyaaaaan</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wann]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/08/02/wann/"/>
+    <updated>2013-08-02T00:00:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/08/02/wann</id>
+    <content type="html"><![CDATA[<h1>title: wann</h1>
+
+<p>date: 2013-08-02 09:43
+tags: []
+categories: []</p>
+
+<hr />
+
+<p>わんわんお</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[インフラ周りを整備]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/07/29/inhurazhou-riwozheng-bei/"/>
+    <updated>2013-07-29T00:16:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/07/29/inhurazhou-riwozheng-bei</id>
+    <content type="html"><![CDATA[<p>インフラ周りを整備した。
+というか途中だが。</p>
+
+<p>ある程度業務でaws周りの知識を得て手探りで構築していた個人的なインフラ周りがごちゃついていて気持ち悪かったので整備した。というか途中だが。</p>
+
+<p>インフラ周りは
+&ndash; ロリポップ
+&ndash; さくらvps
+と使っていてブログやphpコードはロリポップ、rubyとかはさくらにしてたけど
+もっと簡単に設定できるようにとめんどくさい事を今やっているところ。</p>
+
+<p>さくらのvps開けてmuninやらjenkinsやらGrouthForecast入れたりとかしたいですね。
+ロリポップの方はphpアプリ動かす専用にしといて。
+適当に思いの丈を綴ってきたこのブログがロリポップの方のwordpressにあったんだけど、
+なんか思い切りがつかないというか、適当なブログくらいなら無料のもっと更新しやすいような、色々いじって楽しいようなのあると思ったので移行してみた。
+GitHub pagesとoctopressね。結構前にはやってたけど、今はそんなに人気無い感じかもね？</p>
+
+<p>適当に簡単にできれば何でも良いけどね。</p>
+
+<p>今はムームードメインのDNSをawsのroute53に変更して浸透待っているところ。
+ペラのhtmlはs3にいれたいんだ。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3.9]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/03/10/10141910/"/>
+    <updated>2013-03-10T14:19:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/03/10/10141910</id>
+    <content type="html"><![CDATA[<p>日本のトイレとか技術使いすぎだからそろそろインターネットも完備するのでは</p>
+
+<p>歩き疲れたのを癒すにはコーヒーとインターネットは丁度いい</p>
+
+<p>よつばと最新巻を人から借りて読みたい</p>
+
+<p>築地に行って卵焼きと寿司食ってきた</p>
+
+<hr />
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3.8]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/03/10/10141753/"/>
+    <updated>2013-03-10T14:17:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/03/10/10141753</id>
+    <content type="html"><![CDATA[<p>メッセージが届くとスマホが香る 「ChatPerf」のパトロンになった。デバイス製造開始したら送ってもらうんだ。</p>
+
+<p>PHPする環境を作りたいがためにPHP選んでいるような気もしないでもない</p>
+
+<p>PHPする環境をちゃんと整備する時間の方がPHPしている時間よりも長い。</p>
+
+<hr />
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3.7]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/03/10/10141608/"/>
+    <updated>2013-03-10T14:16:00+09:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/03/10/10141608</id>
+    <content type="html"><![CDATA[<p>qiitaにbashやらシェルの達人が２人ほど降臨していて非常に楽しい</p>
+
+<p>埼玉は何も無いところと存じ上げております</p>
+
+<p>過去の自分が良くわかりもしない設定をそのままぶち込んでいて意味解らん構造になっているのを許せれば世界平和になると思う</p>
+
+<p>記事投稿「<a href="http://qiita.com/items/846e6eac0ce1d3dc1e42" title="sshのhost名を自動補完させる #Bash - Qiita">sshのhost名を自動補完させる #Bash &ndash; Qiita</a>」</p>
+
+<p>日常にやりたい事を組み込む事を考えよう</p>
+
+<hr />
+]]></content>
+  </entry>
+  
+</feed>
