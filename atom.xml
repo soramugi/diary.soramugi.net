@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-09-09T01:07:41+00:00</updated>
+  <updated>2013-09-09T08:39:53+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[テストだよ]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/09/%E3%83%86%E3%82%B9%E3%83%88%E3%81%9F%E3%82%99%E3%82%88/"/>
+    <updated>2013-09-09T17:36:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/09/テストだよ</id>
+    <content type="html"><![CDATA[<p>てすとなんだよ</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ピュア過ぎる]]></title>
@@ -377,35 +386,6 @@ categories: []</p>
 <hr />
 
 <p>わんわんお</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[インフラ周りを整備]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/07/29/inhurazhou-riwozheng-bei/"/>
-    <updated>2013-07-29T00:16:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/07/29/inhurazhou-riwozheng-bei</id>
-    <content type="html"><![CDATA[<p>インフラ周りを整備した。
-というか途中だが。</p>
-
-<p>ある程度業務でaws周りの知識を得て手探りで構築していた個人的なインフラ周りがごちゃついていて気持ち悪かったので整備した。というか途中だが。</p>
-
-<p>インフラ周りは
-&ndash; ロリポップ
-&ndash; さくらvps
-と使っていてブログやphpコードはロリポップ、rubyとかはさくらにしてたけど
-もっと簡単に設定できるようにとめんどくさい事を今やっているところ。</p>
-
-<p>さくらのvps開けてmuninやらjenkinsやらGrouthForecast入れたりとかしたいですね。
-ロリポップの方はphpアプリ動かす専用にしといて。
-適当に思いの丈を綴ってきたこのブログがロリポップの方のwordpressにあったんだけど、
-なんか思い切りがつかないというか、適当なブログくらいなら無料のもっと更新しやすいような、色々いじって楽しいようなのあると思ったので移行してみた。
-GitHub pagesとoctopressね。結構前にはやってたけど、今はそんなに人気無い感じかもね？</p>
-
-<p>適当に簡単にできれば何でも良いけどね。</p>
-
-<p>今はムームードメインのDNSをawsのroute53に変更して浸透待っているところ。
-ペラのhtmlはs3にいれたいんだ。</p>
 ]]></content>
   </entry>
   
