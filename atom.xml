@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-09-09T08:39:53+00:00</updated>
+  <updated>2013-09-11T03:31:36+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[時間をかき集める]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/11/%E6%99%82%E9%96%93%E3%82%92%E3%81%8B%E3%81%8D%E9%9B%86%E3%82%81%E3%82%8B/"/>
+    <updated>2013-09-11T12:20:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/11/時間をかき集める</id>
+    <content type="html"><![CDATA[<p>毎日少しずつ何かを進めるのが定着しつつある。</p>
+
+<p>社会人になってから自分のために使える時間が少なくなっているのだが、何か覚えたい事ややってみたい事があったとしても、「時間が出来たら」と後回しにしていると忘れてしまったり覚えようとする情熱が無くなってしまう。</p>
+
+<p>情熱がなくなってしまうというのはせっかく出来たエネルギーを無駄にしてしまうのであまり良い事ではないし、「ああなんて自分はダメな人間なんだろう」と落ち込む事になる。</p>
+
+<p>毎日ちょっとだけでもいいから進める。3日坊主でもいいからちょっとずつ進める。3日坊主でも3回はやったことになるのでやらないよりはマシ。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[テストだよ]]></title>
@@ -369,23 +384,6 @@ git単体だとhook使えば出来そうだけどもGitHubのServiceHook使っ�
     <updated>2013-08-02T10:18:00+00:00</updated>
     <id>http://soramugi.github.io/diary/blog/2013/08/02/foo</id>
     <content type="html"><![CDATA[<p>nyaaaaan</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wann]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/02/wann/"/>
-    <updated>2013-08-02T00:00:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/02/wann</id>
-    <content type="html"><![CDATA[<h1>title: wann</h1>
-
-<p>date: 2013-08-02 09:43
-tags: []
-categories: []</p>
-
-<hr />
-
-<p>わんわんお</p>
 ]]></content>
   </entry>
   
