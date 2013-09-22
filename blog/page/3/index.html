@@ -9,8 +9,7 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="nyaaaaan
-">
+  <meta name="description" content="快適 このブログはoctopressでやってるんだけども、毎回 rake gen_deploy なんて面倒臭かったので、記事書いてコミットすれば勝手にデプロイできるようにした。 githubにmasterとsourceブランチ作って設置。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +62,69 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/02/jenkinsnioctopressfalsebirudomakasitemita/">Jenkinsにoctopressのビルドまかしてみた</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-02T10:26:00+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>快適</p>
+
+<p>このブログはoctopressでやってるんだけども、毎回</p>
+
+<pre><code>rake gen_deploy
+</code></pre>
+
+<p>なんて面倒臭かったので、記事書いてコミットすれば勝手にデプロイできるようにした。</p>
+
+<p>githubにmasterとsourceブランチ作って設置。
+masterが実際にGitHubPagesで表示するファイルを置いて、sourceで記事をビルドしたりビルドする前の記事内容を保持。</p>
+
+<p>jenkinsでsourceのブランチチェックアウトしてrbenvプラグインを使用してビルドすれば良いので簡単。</p>
+
+<p>ビルド時のスクリプトはこんな感じ</p>
+
+<pre><code>bundle install --path vendor/bundle
+#git clone git@github.com:soramugi/soramugi.github.io.git _deploy
+bundle exec rake gen_deploy
+</code></pre>
+
+<p>初回だけcloneのコメントアウト外して実行する必要ある。</p>
+
+<p>後はgithubでsourceのブランチがpushされたら実行するようにすれば良いですね。
+git単体だとhook使えば出来そうだけどもGitHubのServiceHook使ってやるにはどうしよっかな。
+あとjenkinsではログインしないとアクセス出来ないようになってるからセキュリティ周りも見直してビルドだけでも出来るようにするとか。</p>
+
+<p>毎回記事作成するときにrakeタスク実行も面倒なので、メモする時の書式をJekyll形式に合わせるとか、octopressが合わせるようにでもいいし。</p>
+
+<p>GitHubPagesキャッシュ聞いてるから反映してもtopページの即時反映はされないようですね。archivesから記事ページにいけばすぐ見られるけど。</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -428,42 +490,6 @@ GitHub pagesとoctopressね。結構前にはやってたけど、今はそん�
 
 
   <div class="entry-content"><p>12時間ぐらい寝てた。</p>
-
-<hr />
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/10/10141210/">3.3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-10T14:12:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>会社行ってファイルサーバー組み立ててた。</p>
 
 <hr />
 </div>
