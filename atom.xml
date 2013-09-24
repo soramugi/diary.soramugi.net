@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-09-23T05:10:47+00:00</updated>
+  <updated>2013-09-24T10:01:21+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[楽をするということ]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/24/%E6%A5%BD%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8/"/>
+    <updated>2013-09-24T18:56:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/24/楽をするということ</id>
+    <content type="html"><![CDATA[<p>効率的にできる用な事を、楽がしたいがために他とあわせて改善をしないでのんべんだらりと適当に行う仕事をするようになってきたら場を変えた方が良い。</p>
+
+<p>楽をするのが悪いのではなく、楽をするための努力が無駄と思える場と認識してしまう事がまずい。のかもしれない。</p>
+
+<p>楽をしよう。楽をするための努力が報われる場所で楽しく楽をする。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[花を飾る]]></title>
@@ -398,15 +411,6 @@ chef-soloでgitlab構築,</p>
     <updated>2013-08-03T01:43:00+00:00</updated>
     <id>http://soramugi.github.io/diary/blog/2013/08/03/ドクターペッパー</id>
     <content type="html"><![CDATA[<p>たまに炭酸飲みたくなってくるときはコーラ買ってくるんだけど最近はドクターペッパー飲みたくなる事が多い。集中しやすい感じする。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[京大カード]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E4%BA%AC%E5%A4%A7%E3%82%AB%E3%83%BC%E3%83%88%E3%82%99/"/>
-    <updated>2013-08-03T01:21:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/03/京大カード</id>
-    <content type="html"><![CDATA[<p>京大カード買ってそこそこ便利だったのでケースや仕切り紙かったけどサイズがバラバラで悲しい</p>
 ]]></content>
   </entry>
   
