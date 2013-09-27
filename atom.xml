@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-09-27T05:29:17+00:00</updated>
+  <updated>2013-09-27T06:16:20+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hi]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/27/hi/"/>
+    <updated>2013-09-27T15:14:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/27/hi</id>
+    <content type="html"><![CDATA[<p>testes</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[fooo]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/27/fooo/"/>
+    <updated>2013-09-27T15:14:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/27/fooo</id>
+    <content type="html"><![CDATA[<p>bar</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[失敗]]></title>
@@ -367,53 +385,6 @@ symfony2の使い方とかある程度理解したけどbundleで機能を切り
     <id>http://soramugi.github.io/diary/blog/2013/08/08/ビルド日時</id>
     <content type="html"><![CDATA[<p>jenkinsでビルドしてoctopressブログを更新するようになると
 最新の成功ビルドで何日ブログ更新してないかわかる。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ポストイット]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E3%83%9B%E3%82%9A%E3%82%B9%E3%83%88%E3%82%A4%E3%83%83%E3%83%88/"/>
-    <updated>2013-08-03T21:34:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/03/ポストイット</id>
-    <content type="html"><![CDATA[<p>部屋の壁にホワイトボードシート貼ってポストイット貼付けてタスク管理のまねごとしてたんだけどタスク終わった後のポストイット捨てられなかったのでまとめて捨てようとしたけど折角だから文章に起こしてネットの海に放流しようという謎の高まる意識のもと書き出します。</p>
-
-<p>Automaticでツイート,
-引き出し購入,
-天気APIで晴れの日,
-muninの通知,
-ランダムフィルター,
-Macのバックアップ,
-テスト通す,
-tags,
-Tumblr OAuth,
-SinatraでOAuth,
-automatic天気プラグイン,
-Tumblrステッカーもらう,
-vimスクリプト,
-automatic nonetest,
-中野本,
-カプラあげる,
-AirMacの設定,
-automaticプラギン作成,
-feedから一つだけ取得,
-svnとgit svnコミットでgit反映,
-weather hacker test通す,
-automaticドキュメント作成,
-免許更新,
-automaticプラギン作る,
-automatic出力なし,
-神楽坂本,
-capistrano使用,
-chef-soloでgitlab構築,</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[nyan]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/03/nyan/"/>
-    <updated>2013-08-03T10:54:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/03/nyan</id>
-    <content type="html"><![CDATA[<p>octopress環境を整備したくて色々試しているので細かいつぶやきが多いにゃん</p>
 ]]></content>
   </entry>
   
