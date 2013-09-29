@@ -9,7 +9,10 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="メッセージが届くとスマホが香る 「ChatPerf」のパトロンになった。デバイス製造開始したら送ってもらうんだ。 PHPする環境を作りたいがためにPHP選んでいるような気もしないでもない PHPする環境をちゃんと整備する時間の方がPHPしている時間よりも長い。 ">
+  <meta name="description" content="インフラ周りを整備した。
+というか途中だが。 ある程度業務でaws周りの知識を得て手探りで構築していた個人的なインフラ周りがごちゃついていて気持ち悪かったので整備した。というか途中だが。 インフラ周りは
+&ndash; ロリポップ
+&ndash; さくらvps &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +66,106 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/29/inhurazhou-riwozheng-bei/">インフラ周りを整備</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-29T00:16:00+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>インフラ周りを整備した。
+というか途中だが。</p>
+
+<p>ある程度業務でaws周りの知識を得て手探りで構築していた個人的なインフラ周りがごちゃついていて気持ち悪かったので整備した。というか途中だが。</p>
+
+<p>インフラ周りは
+&ndash; ロリポップ
+&ndash; さくらvps
+と使っていてブログやphpコードはロリポップ、rubyとかはさくらにしてたけど
+もっと簡単に設定できるようにとめんどくさい事を今やっているところ。</p>
+
+<p>さくらのvps開けてmuninやらjenkinsやらGrouthForecast入れたりとかしたいですね。
+ロリポップの方はphpアプリ動かす専用にしといて。
+適当に思いの丈を綴ってきたこのブログがロリポップの方のwordpressにあったんだけど、
+なんか思い切りがつかないというか、適当なブログくらいなら無料のもっと更新しやすいような、色々いじって楽しいようなのあると思ったので移行してみた。
+GitHub pagesとoctopressね。結構前にはやってたけど、今はそんなに人気無い感じかもね？</p>
+
+<p>適当に簡単にできれば何でも良いけどね。</p>
+
+<p>今はムームードメインのDNSをawsのroute53に変更して浸透待っているところ。
+ペラのhtmlはs3にいれたいんだ。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/10/10141910/">3.9</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-10T14:19:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>日本のトイレとか技術使いすぎだからそろそろインターネットも完備するのでは</p>
+
+<p>歩き疲れたのを癒すにはコーヒーとインターネットは丁度いい</p>
+
+<p>よつばと最新巻を人から借りて読みたい</p>
+
+<p>築地に行って卵焼きと寿司食ってきた</p>
+
+<hr />
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -396,86 +499,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/10/10140734/">2.28</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-10T14:07:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>コーヒーはミルクたっぷりにすれば大抵美味くなる</p>
-
-<p>&nbsp;</p>
-
-<hr />
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/10/10133707/">2.27</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-10T13:37:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>AWSは省略形の名前が多いので初学の時に解らなすぎてビビる</p>
-
-<p>風呂場で考えたことは大抵忘れる</p>
-
-<hr />
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -493,7 +516,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/09/29/%E3%81%A6%E3%82%93%E3%81%A6%E3%82%93%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A6%E3%83%BC%E3%82%93/">てんてんところてーん</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/09/27/hi/">hi</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/27/fooo/">fooo</a>
       </li>
     
       <li class="post">
@@ -502,14 +533,6 @@
     
       <li class="post">
         <a href="/blog/2013/09/24/%E6%A5%BD%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8/">楽をするということ</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/09/23/%E8%8A%B1%E3%82%92%E9%A3%BE%E3%82%8B/">花を飾る</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/09/23/%E5%AE%B6%E3%81%AE%E8%A9%B1/">家の話</a>
       </li>
     
   </ul>

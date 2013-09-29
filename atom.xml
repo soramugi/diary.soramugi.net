@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-09-27T06:16:30+00:00</updated>
+  <updated>2013-09-29T08:38:52+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -14,11 +14,29 @@
 
   
   <entry>
+    <title type="html"><![CDATA[てんてんところてーん]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/29/%E3%81%A6%E3%82%93%E3%81%A6%E3%82%93%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A6%E3%83%BC%E3%82%93/"/>
+    <updated>2013-09-29T17:33:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/29/てんてんところてーん</id>
+    <content type="html"><![CDATA[<p>中野ブロードウェイ地下の乾物屋で80円のところてんを売ってる時に店員が「てんてんところてーん」って呼び込みしてたのが今日一</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[hi]]></title>
     <link href="http://soramugi.github.io/diary/blog/2013/09/27/hi/"/>
     <updated>2013-09-27T15:14:00+00:00</updated>
     <id>http://soramugi.github.io/diary/blog/2013/09/27/hi</id>
     <content type="html"><![CDATA[<p>testes</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[fooo]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/09/27/fooo/"/>
+    <updated>2013-09-27T15:14:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/09/27/fooo</id>
+    <content type="html"><![CDATA[<p>bar</p>
 ]]></content>
   </entry>
   
@@ -366,54 +384,6 @@ symfony2の使い方とかある程度理解したけどbundleで機能を切り
     <id>http://soramugi.github.io/diary/blog/2013/08/09/畳のにおい</id>
     <content type="html"><![CDATA[<p>家に帰る途中の道に畳屋さんがあるので畳のにおいが漏れてくるときがある。
 良いにおいがするので気持ちがいい。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ビルド日時]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/08/%E3%83%92%E3%82%99%E3%83%AB%E3%83%88%E3%82%99%E6%97%A5%E6%99%82/"/>
-    <updated>2013-08-08T00:11:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/08/ビルド日時</id>
-    <content type="html"><![CDATA[<p>jenkinsでビルドしてoctopressブログを更新するようになると
-最新の成功ビルドで何日ブログ更新してないかわかる。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ポストイット]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/03/%E3%83%9B%E3%82%9A%E3%82%B9%E3%83%88%E3%82%A4%E3%83%83%E3%83%88/"/>
-    <updated>2013-08-03T21:34:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/03/ポストイット</id>
-    <content type="html"><![CDATA[<p>部屋の壁にホワイトボードシート貼ってポストイット貼付けてタスク管理のまねごとしてたんだけどタスク終わった後のポストイット捨てられなかったのでまとめて捨てようとしたけど折角だから文章に起こしてネットの海に放流しようという謎の高まる意識のもと書き出します。</p>
-
-<p>Automaticでツイート,
-引き出し購入,
-天気APIで晴れの日,
-muninの通知,
-ランダムフィルター,
-Macのバックアップ,
-テスト通す,
-tags,
-Tumblr OAuth,
-SinatraでOAuth,
-automatic天気プラグイン,
-Tumblrステッカーもらう,
-vimスクリプト,
-automatic nonetest,
-中野本,
-カプラあげる,
-AirMacの設定,
-automaticプラギン作成,
-feedから一つだけ取得,
-svnとgit svnコミットでgit反映,
-weather hacker test通す,
-automaticドキュメント作成,
-免許更新,
-automaticプラギン作る,
-automatic出力なし,
-神楽坂本,
-capistrano使用,
-chef-soloでgitlab構築,</p>
 ]]></content>
   </entry>
   
