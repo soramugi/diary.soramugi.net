@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-10-15T02:23:51+00:00</updated>
+  <updated>2013-10-18T02:16:09+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[soramugi.netのサーバー移動したり見た目変えたり]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/10/18/soramugi.net%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%8F%E3%82%99%E3%83%BC%E7%A7%BB%E5%8B%95%E3%81%97%E3%81%9F%E3%82%8A%E8%A6%8B%E3%81%9F%E7%9B%AE%E5%A4%89%E3%81%88%E3%81%9F%E3%82%8A/"/>
+    <updated>2013-10-18T11:05:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/10/18/soramugi.netのサーバー移動したり見た目変えたり</id>
+    <content type="html"><![CDATA[<p><a href="http://soramugi.net">http://soramugi.net</a></p>
+
+<p>個人のログというものに最近は興味が移っていて、ネット上に一個人が残したログを閲覧してその人の人間性だったりを表現したりとか読み取ったりとか擬似的な会話したりとかとか。</p>
+
+<p>ログが大量に残っていればその時の人が見えて来て面白いよねってことである程度まとめてみた。</p>
+
+<p>登録したサービスのユーザーページとか作成したサービスとかざっくばらんに。リンクだけあっても解りづらいと思うので簡単に説明が出来るようにタグ付けもした。</p>
+
+<p>あとから更新しやすくする為にs3でホスティングしていたのをgithubpagesに移行した。jekyllで表示している。最近はoctopressやjekyll弄ってること多いっすかね。サーバースペックを必要としないのは運用の手間が省けて便利</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ヌクマムを食べた]]></title>
@@ -401,15 +418,6 @@ symfony2の使い方とかある程度理解したけどbundleで機能を切り
     <id>http://soramugi.github.io/diary/blog/2013/08/31/引っ越したい欲</id>
     <content type="html"><![CDATA[<p>引っ越したい欲が高まっている。
 高円寺で1k風呂トイレ別ロフト付きの8万で住んでいるんだが神奈川とかで同じ値段で調べたら3DKとか普通に出てきてうらやましい。部屋数多いとこに住みたい。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[travisテスト]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/08/31/travis%E3%83%86%E3%82%B9%E3%83%88/"/>
-    <updated>2013-08-31T14:31:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/08/31/travisテスト</id>
-    <content type="html"><![CDATA[<p>travis-ciでビルドできるかのテスト</p>
 ]]></content>
   </entry>
   
