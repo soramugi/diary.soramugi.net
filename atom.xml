@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-10-20T16:02:00+00:00</updated>
+  <updated>2013-10-28T00:19:57+00:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[休日]]></title>
+    <link href="http://soramugi.github.io/diary/blog/2013/10/28/%E4%BC%91%E6%97%A5/"/>
+    <updated>2013-10-28T09:18:00+00:00</updated>
+    <id>http://soramugi.github.io/diary/blog/2013/10/28/休日</id>
+    <content type="html"><![CDATA[<p>休日は結婚式に参加して祝ってきて、二次会に出席したりして疲れた。結婚式のイベントとか１日仕事ですね。スーツ姿も疲れるし。</p>
+
+<p>結婚式が土曜日で日曜日が吉祥寺で動物園にいったりしていた。</p>
+
+<p>モレスキンのノートを買っていたので、折角だからと吉祥寺の店を回ってマスキングテープとペンとポストカードを購入。ノートにぺたぺた張ってみた。結構楽しい。webでこれ表現できれば楽しそうではある。</p>
+
+<p>ノートに何か一日の出来事書き込んだりその日の写真やものを貼付けたりして後から見返すのは楽しいね。ブログとかはテンプレート形式である程度の配置決まってるから好き勝手に書ける紙は最強ってことですね。モレスキンのノート、使いこなして行きたい。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[私は仕事が大好きだ]]></title>
@@ -406,15 +421,6 @@ symfony2の使い方とかある程度理解したけどbundleで機能を切り
 <p>情熱がなくなってしまうというのはせっかく出来たエネルギーを無駄にしてしまうのであまり良い事ではないし、「ああなんて自分はダメな人間なんだろう」と落ち込む事になる。</p>
 
 <p>毎日ちょっとだけでもいいから進める。3日坊主でもいいからちょっとずつ進める。3日坊主でも3回はやったことになるのでやらないよりはマシ。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[テストだよ]]></title>
-    <link href="http://soramugi.github.io/diary/blog/2013/09/09/%E3%83%86%E3%82%B9%E3%83%88%E3%81%9F%E3%82%99%E3%82%88/"/>
-    <updated>2013-09-09T17:36:00+00:00</updated>
-    <id>http://soramugi.github.io/diary/blog/2013/09/09/テストだよ</id>
-    <content type="html"><![CDATA[<p>てすとなんだよ</p>
 ]]></content>
   </entry>
   
