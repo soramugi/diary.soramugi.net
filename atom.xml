@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://soramugi.github.io/diary/atom.xml" rel="self"/>
   <link href="http://soramugi.github.io/diary/"/>
-  <updated>2013-11-15T12:46:09+09:00</updated>
+  <updated>2013-11-15T12:52:24+09:00</updated>
   <id>http://soramugi.github.io/diary/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -18,7 +18,8 @@
     <link href="http://soramugi.github.io/diary/blog/2013/11/15/travis-ci%E3%81%A6%E3%82%99%E3%83%92%E3%82%99%E3%83%AB%E3%83%88%E3%82%99%E3%81%97%E3%81%A6github%E3%81%ABpush/"/>
     <updated>2013-11-15T12:09:00+09:00</updated>
     <id>http://soramugi.github.io/diary/blog/2013/11/15/travis-ciでビルドしてgithubにpush</id>
-    <content type="html"><![CDATA[<p>travis-ciでビルドしてgithubにpushしてgithub-pagesで公開しているブログなんですが鍵ファイルの行データをsecureで作成してpushするのやだなー、なんかスマートな方法ないかなーと思っていたのだけれどGitHubのトークン使用すれば行けるらしいのでそのテスト</p>
+    <content type="html"><![CDATA[<p>travis-ciでビルドしてgithubにpushしてgithub-pagesで公開しているブログなんですが鍵ファイルの行データをsecureで作成してpushするのやだなー、なんかスマートな方法ないかなーと思っていたのだけれどGitHubのトークン使用すれば行けるらしいのでそのテスト
+です</p>
 ]]></content>
   </entry>
   
