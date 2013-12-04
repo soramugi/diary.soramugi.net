@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: self | 全体的に千葉産です]]></title>
-  <link href="http://diary.soramugi.net//blog/categories/self/atom.xml" rel="self"/>
-  <link href="http://diary.soramugi.net//"/>
-  <updated>2013-12-04T15:29:44+00:00</updated>
-  <id>http://diary.soramugi.net//</id>
+  <link href="http://diary.soramugi.net/blog/categories/self/atom.xml" rel="self"/>
+  <link href="http://diary.soramugi.net/"/>
+  <updated>2013-12-04T15:30:46+00:00</updated>
+  <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Intro]]></title>
-    <link href="http://diary.soramugi.net//blog/2012/07/22/intro/"/>
+    <link href="http://diary.soramugi.net/blog/2012/07/22/intro/"/>
     <updated>2012-07-22T08:23:00+00:00</updated>
-    <id>http://diary.soramugi.net//blog/2012/07/22/intro</id>
+    <id>http://diary.soramugi.net/blog/2012/07/22/intro</id>
     <content type="html"><![CDATA[<p>Testing!</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin, massa eu vestibulum laoreet, nibh ante vulputate lorem, ac lobortis ante tellus eu mi. Duis sem nisi, luctus at feugiat eget, fringilla ut tellus. Nam a molestie justo. Sed pulvinar est vitae tellus semper tincidunt. Fusce euismod luctus lacus nec placerat. Mauris rutrum scelerisque nulla ut tempor. Nunc porttitor posuere mi, aliquet vehicula lorem feugiat in. Ut ut fermentum risus. Aliquam tincidunt ultricies ante sit amet bibendum. Cras nec sapien odio. Duis posuere congue sem, at congue massa faucibus at.</p>

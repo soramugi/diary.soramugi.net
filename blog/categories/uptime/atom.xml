@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: uptime | 全体的に千葉産です]]></title>
-  <link href="http://diary.soramugi.net//blog/categories/uptime/atom.xml" rel="self"/>
-  <link href="http://diary.soramugi.net//"/>
-  <updated>2013-12-04T15:29:44+00:00</updated>
-  <id>http://diary.soramugi.net//</id>
+  <link href="http://diary.soramugi.net/blog/categories/uptime/atom.xml" rel="self"/>
+  <link href="http://diary.soramugi.net/"/>
+  <updated>2013-12-04T15:30:46+00:00</updated>
+  <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The problem with Pingdom]]></title>
-    <link href="http://diary.soramugi.net//blog/2012/07/22/the-problem-with-pingdom/"/>
+    <link href="http://diary.soramugi.net/blog/2012/07/22/the-problem-with-pingdom/"/>
     <updated>2012-07-22T19:13:00+00:00</updated>
-    <id>http://diary.soramugi.net//blog/2012/07/22/the-problem-with-pingdom</id>
+    <id>http://diary.soramugi.net/blog/2012/07/22/the-problem-with-pingdom</id>
     <content type="html"><![CDATA[<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Time to be Awesome &ndash; awesome.rb </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="no">Awesome</span><span class="o">!&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="k">unless</span> <span class="n">lame</span>
