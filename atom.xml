@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2013-12-05T05:21:39+00:00</updated>
+  <updated>2013-12-08T02:07:55+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ブログ環境を使いやすくする]]></title>
+    <link href="http://diary.soramugi.net/blog/2013/12/08/%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%BF%E3%81%84%E3%82%84%E3%81%99%E3%81%8F%E3%81%99%E3%82%8B/"/>
+    <updated>2013-12-08T10:57:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2013/12/08/ブログ環境を使いやすくする</id>
+    <content type="html"><![CDATA[<p>はてなブログとoctopressのブログをあっち行ったりこっち行ったりで更新するのどっちにしようかなと毎回思っていて、</p>
+
+<p>octopressで更新する場合はmarkdownで記事が書けるし、vimのoctopressプラグインのおかげで更新がしやすくなっている。
+はてなブログの方は画像の設置が簡単だし、はてなのサービスとの連携が標準でついている。はてなキーワードとかが何もしないでも拾ってくれてそのワードに興味がある人にちゃんと届く感じが良かったりする。</p>
+
+<p>文章書くのはうまくはないけど苦ではないので書けるには書けるけども更新するちょっとした手間を減らしたいがために最近はoctopressで更新をしているのが多いかな。画像アップをしたい時にはてなブログとかそんな感じ。</p>
+
+<p>で、画像アップするのも面倒くさいなと思い立ったのでvimのoctopressプラグインにパッチを送って画像アップしやすい環境作りをしてみた。
+これでoctopressだけあれば良いやもしれない。</p>
+
+<p><img src="http://diary.soramugi.net/images/2013/12/08/5b6cfe558cdf82227c08c563c1438dfa.png" alt="5b6cfe558cdf82227c08c563c1438dfa.png" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[改善をしようと思わなくなる]]></title>
@@ -549,15 +568,6 @@ A4の用紙でもタスク管理はできるのでA4最強説か。</p>
     <updated>2013-09-29T17:33:00+00:00</updated>
     <id>http://diary.soramugi.net/blog/2013/09/29/てんてんところてーん</id>
     <content type="html"><![CDATA[<p>中野ブロードウェイ地下の乾物屋で80円のところてんを売ってる時に店員が「てんてんところてーん」って呼び込みしてたのが今日一</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hi]]></title>
-    <link href="http://diary.soramugi.net/blog/2013/09/27/hi/"/>
-    <updated>2013-09-27T15:14:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2013/09/27/hi</id>
-    <content type="html"><![CDATA[<p>testes</p>
 ]]></content>
   </entry>
   
