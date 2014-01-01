@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2013-12-31T05:07:58+00:00</updated>
+  <updated>2014-01-01T03:14:42+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[賀正新年]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/01/01/%E8%B3%80%E6%AD%A3%E6%96%B0%E5%B9%B4/"/>
+    <updated>2014-01-01T12:10:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/01/01/賀正新年</id>
+    <content type="html"><![CDATA[<p>あけましておめでとうございます。</p>
+
+<p>去年を振り返ると「停滞」が似合っていると思う。もんもんとして特に何もできていなかった。
+しかし、それをふまえての今年から変化を起こすための種まきはできた。</p>
+
+<p>今年は「何かを求めるのではなく、何かを作る」という感じで行きたい。
+自分はもっとコード書いた方が良い。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ちゃんと歳を取っている]]></title>
@@ -558,16 +573,6 @@
 <p>求めている形にならないと解っていると行動する事が出来ない。</p>
 
 <p>とにかく、朝から気分が良くなるように朝食を食べてみたくなったので、気分が良くなるような朝食を準備出来る環境を作りたい。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[travis-ciでビルドしてgithubにpush]]></title>
-    <link href="http://diary.soramugi.net/blog/2013/11/15/travis-ci%E3%81%A6%E3%82%99%E3%83%92%E3%82%99%E3%83%AB%E3%83%88%E3%82%99%E3%81%97%E3%81%A6github%E3%81%ABpush/"/>
-    <updated>2013-11-15T12:09:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2013/11/15/travis-ciでビルドしてgithubにpush</id>
-    <content type="html"><![CDATA[<p>travis-ciでビルドしてgithubにpushしてgithub-pagesで公開しているブログなんですが鍵ファイルの行データをsecureで作成してpushするのやだなー、なんかスマートな方法ないかなーと思っていたのだけれどGitHubのトークン使用すれば行けるらしいのでそのテスト
-ですよ</p>
 ]]></content>
   </entry>
   
