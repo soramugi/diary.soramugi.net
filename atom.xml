@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-01-28T03:56:46+00:00</updated>
+  <updated>2014-02-02T03:54:15+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitterの1日をまとめてタグに変換する「TWordTag」作った]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/02/02/twitter%E3%81%AE1%E6%97%A5%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%82%BF%E3%82%AF%E3%82%99%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B%E3%80%8Ctwordtag%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
+    <updated>2014-02-02T12:20:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/02/02/twitterの1日をまとめてタグに変換する「twordtag」作った</id>
+    <content type="html"><![CDATA[<p>TWordTag
+<a href="http://www.twordtag.com">http://www.twordtag.com</a></p>
+
+<p>GitHub
+<a href="https://github.com/soramugi/twordtag">https://github.com/soramugi/twordtag</a></p>
+
+<p>Travis CI
+<a href="https://travis-ci.org/soramugi/twordtag">https://travis-ci.org/soramugi/twordtag</a></p>
+
+<p>Coveralls
+<a href="https://coveralls.io/r/soramugi/twordtag?branch=master">https://coveralls.io/r/soramugi/twordtag?branch=master</a></p>
+
+<p>Source Documentation
+<a href="http://soramugi.github.io/twordtag/">http://soramugi.github.io/twordtag/</a></p>
+
+<h2>概要</h2>
+
+<p>Twitterの1日分のツイートを取得、ツイートから名詞を抜き出してtagとして保存。1日を単語で振り返る事が出来るサービスです。</p>
+
+<p>heroku上で稼働しています。ソースコードはGitHubのパブリックリポジトリ。セキュリティとかまずいコードがある時はプルリクとか送って欲しいな(願望)</p>
+
+<h2>なんで作ったか</h2>
+
+<p>1日のまとめを作りたかった。
+圧縮新聞的な。</p>
+
+<p>その日一日の単語を抜き出して並べたり出現回数を表示してみれば、その日一日の興味を見返せると思って作ってみたけど、まだまだ精度が高くないかな。</p>
+
+<p>抜き出した単語(tag)を検索して、他の人との繋がりや共通点が解れば良いなとtag形式にしてみた。</p>
+
+<h2>今後</h2>
+
+<p>定期的にtagの作成タスクをjenkinsで仕込んだので
+<a href="http://qiita.com/soramugi/items/1873eda8bd3aa0e0e6ef">http://qiita.com/soramugi/items/1873eda8bd3aa0e0e6ef</a></p>
+
+<p>基本放置運用。</p>
+
+<p>tagが作成されたらTwitterで通知されるのでじんわりと何となく広まって行けば良いと思ってる。</p>
+
+<p>見向きもされなかったらそれまでだったということでこれまた放置。</p>
+
+<p>herokuの無料プランで動かしているのでDBの行数制限あるので、人気でたらherokuに課金してDBの行数増やしたりとかかな。やる価値あると思えればやろう。</p>
+
+<p>タグ表示のUIがもうちょっと良い表示方法あるかなと思ったのだけれど、あんまり良いアイデアないし、適材適所として「いい方法がある人、やりたいと思っている人」が改修できるようにオープンソースとして公開している</p>
+
+<p><a href="https://github.com/soramugi/twordtag">https://github.com/soramugi/twordtag</a></p>
+
+<p>「このアプリ凄い楽しい！」って思っている人がコード書いた方がパフォーマンス上がるし、楽しいと思う。
+それに、そういう人が居ると解ると自分自身も楽しい。</p>
+
+<p>ソースコードがオープンになっているのでセキュリティ的にデメリットかもしれないけど、メリットの方が大きいと感じたのでやってみる事にした。(そもそもプライベートリポジトリで作るとTravisCIが無料で使えないってのがデカい)</p>
+
+<p>知り合いにセキュリティ面での指摘をしてもらったりとかもしておこう。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[布団を焦がしたときの対処法]]></title>
@@ -501,31 +562,6 @@
 もし、出来たとしたら人とコンピューターの境目はどのぐらい無くなっているのか。</p>
 
 <p>記憶思い出すってのはTumblrで昔のテキストや画像に巡り会う時に似てるかもね。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[バブルへGOを見直した]]></title>
-    <link href="http://diary.soramugi.net/blog/2013/12/16/%E3%83%8F%E3%82%99%E3%83%95%E3%82%99%E3%83%AB%E3%81%B8go%E3%82%92%E8%A6%8B%E7%9B%B4%E3%81%97%E3%81%9F/"/>
-    <updated>2013-12-16T19:48:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2013/12/16/バブルへgoを見直した</id>
-    <content type="html"><![CDATA[<blockquote class="twitter-tweet" lang="ja"><p>バブルへGOのラストを思い出すこと多くなってきたので見直したい</p>&mdash; そらむぎ (@soramugi) <a href="https://twitter.com/soramugi/statuses/412101442816589824">2013, 12月 15</a></blockquote>
-
-
-<script async src="http://diary.soramugi.net//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>見直した。</p>
-
-<p>バブルへGOの説明を軽くすると偶然出来たタイムマシンで過去に言ってバブル崩壊の直接的な法案の改訂前に行って辞めさせてバブル崩壊を止めるって話。</p>
-
-<p>見直してみるとラストのニュアンスが記憶とは少し違いましたね。記憶では「早く家に帰りましょう」って感じだったけど、
-本編では「仕事をして、終わったら家族の元へ帰るだけです」って言ってた。</p>
-
-<p>結局は家族大事にって話なんだけど「家族の元へ帰るだけです」って行って未来、現代に戻ってきた時にバブルは崩壊していなくて、好景気が続いているってラストだった。
-仕事をして早く帰りましょう、そして家族を大事にしましょうって話で、凄く前向きにとらえてて好きだなーこういうの。</p>
-
-<p>仕事をして、帰って、家族大事にする。凄くシンプルだ。</p>
 ]]></content>
   </entry>
   
