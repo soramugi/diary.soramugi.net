@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-02-07T17:04:45+00:00</updated>
+  <updated>2014-02-12T12:45:39+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitterの検索表示を好きにレイアウト出来るwebアプリケーション作った]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/02/12/twitter%E3%81%AE%E6%A4%9C%E7%B4%A2%E8%A1%A8%E7%A4%BA%E3%82%92%E5%A5%BD%E3%81%8D%E3%81%AB%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E5%87%BA%E6%9D%A5%E3%82%8Bweb%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
+    <updated>2014-02-12T21:40:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/02/12/twitterの検索表示を好きにレイアウト出来るwebアプリケーション作った</id>
+    <content type="html"><![CDATA[<p><img src="http://diary.soramugi.net/images/2014/02/12/1392208871.png" alt="1392208871.png" /></p>
+
+<p><a href="http://health-searche.herokuapp.com">http://health-searche.herokuapp.com</a></p>
+
+<p><a href="https://github.com/soramugi/twitter_search">https://github.com/soramugi/twitter_search</a></p>
+
+<p>健康になりたい≠健康になる</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[gyazo-serverクローン「gyazo-s3」作った]]></title>
@@ -695,23 +710,6 @@ vi gistfile1.rb
 <p>正直会話が成り立っていない</p>
 
 <p>この場合はどうすべきか。。。改善の必要がある。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[指の傷に良いフィルム]]></title>
-    <link href="http://diary.soramugi.net/blog/2013/12/29/%E6%8C%87%E3%81%AE%E5%82%B7%E3%81%AB%E8%89%AF%E3%81%84%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0/"/>
-    <updated>2013-12-29T13:38:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2013/12/29/指の傷に良いフィルム</id>
-    <content type="html"><![CDATA[<p>今年の冬はエアコンの暖房で乗り切ろうかと思ったけど乾燥がひどくて指があかぎれしてしまった。しょうがなく加湿器を購入してくるの待ち。
-去年は電気ヒーターだったけど電気代高かったのよね。あんまり変わらんかもだけど。</p>
-
-<p>指先があかぎれしてしまうと気になってしょうがないので良いもの無いかと薬局に行ったら良いものあった。</p>
-
-<p><img src="http://diary.soramugi.net/images/2013/12/29/IMG_1722.jpg" alt="IMG_1722.jpg" /></p>
-
-<p>うっすいフィルムを指に巻き付けるだけなので気にならず、傷を物理的に保護してくれる。雑菌とか入らないから傷の部分が感覚無くなってしまったり妙に痛くなったりしなくなるし。
-実際に指に貼付けてるけどどこまでフィルムかよくわからんね。</p>
 ]]></content>
   </entry>
   
