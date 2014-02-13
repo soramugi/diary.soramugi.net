@@ -9,8 +9,7 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content=" http://health-searche.herokuapp.com https://github.com/soramugi/twitter_search 健康になりたい≠健康になる
-">
+  <meta name="description" content="個人で使っているさくらのVPSにdebian入れてjenkins入れて定期実行処理させてるんだけどメールの設定が面倒臭かったし前に設定してて失敗してOS潰した経験あったし、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +62,66 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/13/%E9%80%9A%E7%9F%A5/">通知</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-13T23:59:00+00:00" pubdate data-updated="true">Feb 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>個人で使っているさくらのVPSにdebian入れてjenkins入れて定期実行処理させてるんだけどメールの設定が面倒臭かったし前に設定してて失敗してOS潰した経験あったし、メールのプロトコルの知識あまり無くてやってなかったらjenkinsでビルド失敗時に通知されないの不便だったので気合い入れて設定して「メールこないな」と思いながらSMTPの原理とかSMTP-AUTHの認証とか読んでたけどメール届かなかったのは迷惑メールに分類されてたからで一気に削られたので通知の事を考える。テストメールの文面からしてapt-getでpostfix入れてエンターエンターしただでメール疎通してたっぽい。</p>
+
+<p>通知を受け取る時にはメールがデフォだけど、上記のような事にならないために、メールが多過ぎて埋もれないために、メール以外で通知を受け取る方法。</p>
+
+<p>macとかPCで外部サーバーからメール以外で通知受け取るの面倒そう、Growlや通知センターで表示するの実装するよりもiPhoneで通知受け取る方が便利なのでiPhoneで通知受け取る前提</p>
+
+<p>通知されるだけだと何時ぐらいとか解らないのでログをさかのぼれるもの。</p>
+
+<ul>
+<li>Twitter副アカウントでリプライ、DM</li>
+<li>im.kayac.com</li>
+<li>HipChat</li>
+<li>IRC (ikachan使う)</li>
+<li>ChatWork</li>
+<li>Idobata</li>
+</ul>
+
+
+<p>IdobataやChatWorkはグループで使う時には良いけど個人では多機能すぎるし、いまさらIRCってのもどうなんだろ。でもIRC使った事ないからこの機会に使っても良いかもしれないけど。</p>
+
+<p>im.kayac.comはcurlで送れるのでとりあえずの通知にはぴったり。Twitterアカウント使うのも簡単に設置出来る、でも通常の会話とかと混ざって気づくのが遅れる？
+HipChatは使った事無いけど良さそう。</p>
+
+<p>im.kayac.comやTwitterの通知は簡単だけど複数個通知の設定をすると混ざる。
+HipChatだとそこら辺分けられるのかな。</p>
+
+<p>とりあえずim.kayac.comでその場しのぎしておいてHipChatを試してみるとかですかね。</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -633,44 +692,6 @@ vi gistfile1.rb
 物件安くて広いってのが良いな。</p>
 
 <p>今季はズヴィズダーとのうりんだな</p>
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/22/%E3%82%84%E3%82%8B%E6%B0%97/">やる気</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-22T19:32:00+00:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>やる気だすためにやる気を促す積極的な原因の単語を無限に出現させるページ作った</p>
-
-<p><a href="http://soramugi.net/%E3%82%84%E3%82%8B%E6%B0%97/">http://soramugi.net/%E3%82%84%E3%82%8B%E6%B0%97/</a></p>
-
-<p><img src="/images/2014/01/22/3c931e0462504387f192e000cc949535.gif" alt="3c931e0462504387f192e000cc949535.gif" /></p>
 </div>
   
   
