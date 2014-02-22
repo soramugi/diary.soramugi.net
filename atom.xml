@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-02-17T15:29:03+00:00</updated>
+  <updated>2014-02-22T02:06:41+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pocketの操作をvimでする]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/02/22/pocket%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%92vim%E3%81%A6%E3%82%99%E3%81%99%E3%82%8B/"/>
+    <updated>2014-02-22T10:50:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/02/22/pocketの操作をvimでする</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/soramugi/pocket.vim">https://github.com/soramugi/pocket.vim</a></p>
+
+<p><img src="http://diary.soramugi.net/images/2014/02/22/1392974936.png" alt="1392974936.png" /></p>
+
+<p><a href="http://getpocket.com">Pocket</a>のwebページの閲覧がもどかしい事この上ないのでvimで閲覧出来るようにプラグインを作りました。</p>
+
+<p>元々はInstapaperのようなリンクとタイトルだけがずらっとあってキーバインドが効くのがいいんだけど、じゃあなんでInstapaper使ってないかって言うとiPhoneのInstapaperにURL追加する手間が多いからってだけでPocketなら他のアプリケーションでもデファクトスタンダーになってるようで追加するボタン付いてるところ多いのでPocket使っていて、でもPocketのUIで画像が出てくるのなんか嫌だし、記事読みたいだけだし読みたいから登録してるのに画像なんて表示しなくても勝手に読むし、画像表示することによって表示領域狭まってより多くの登録したリストを閲覧する事出来ないよね、なんでそんなに使いにくい事するのかな。それに記事のリンク先に飛びたいのにデフォルトPocket内のテキスト抜き出したページだし、オリジナルのパーマリンクに飛びたいだけなのに2ステップ必要になってるし設定変えられないしでこの前はwebページの調子悪くなってたようで記事のアーカイブしてもリストページに戻らないし戻れないしブラウザのリロード毎回しないと行けないしで何なのこれマジ使いづらいんだけど、iPhoneアプリは使いやすいのにPCのwebページだけがストレス貯まるし何の本当にもう。</p>
+
+<p>ってので作った。
+vimなら操作しやすい。</p>
+
+<p>どうぞお使い下さい。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[初めてのvim]]></title>
@@ -716,21 +736,6 @@ vi gistfile1.rb
 <p>問題は言うべきではなかったということか。ただ衝撃的だっただけ。気が変わったが為に、気に残るほどの衝撃が、衝撃になるほどのタイミングでおこっただけ。</p>
 
 <p>そんだけ</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[賀正新年]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/01/01/%E8%B3%80%E6%AD%A3%E6%96%B0%E5%B9%B4/"/>
-    <updated>2014-01-01T12:10:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/01/01/賀正新年</id>
-    <content type="html"><![CDATA[<p>あけましておめでとうございます。</p>
-
-<p>去年を振り返ると「停滞」が似合っていると思う。もんもんとして特に何もできていなかった。
-しかし、それをふまえての今年から変化を起こすための種まきはできた。</p>
-
-<p>今年は「何かを求めるのではなく、何かを作る」という感じで行きたい。
-自分はもっとコード書いた方が良い。</p>
 ]]></content>
   </entry>
   
