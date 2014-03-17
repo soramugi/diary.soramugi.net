@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-03-16T12:36:49+00:00</updated>
+  <updated>2014-03-17T07:24:47+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[「FavMedia - Twitterのfavツイート画像閲覧」を作った]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/03/17/%E3%80%8Cfavmedia--twitter%E3%81%AEfav%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E7%94%BB%E5%83%8F%E9%96%B2%E8%A6%A7%E3%80%8D%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
+    <updated>2014-03-17T15:39:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/03/17/「favmedia&#8211;twitterのfavツイート画像閲覧」を作った</id>
+    <content type="html"><![CDATA[<blockquote class="twitter-tweet" lang="ja"><p>人がふぁぼった&amp;Retweetしたツイートの画像見るの面白い</p>&mdash; そらむぎ (@soramugi) <a href="https://twitter.com/soramugi/statuses/444076391844155393">2014, 3月 13</a></blockquote>
+
+
+<script async src="http://diary.soramugi.net//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p><a href='http://www.favmedia.me/'>FavMedia &ndash; Twitterのfavツイート画像閲覧</a></p>
+
+<p><img src="http://diary.soramugi.net/images/2014/03/17/1395031175.png" alt="1395031175.png" /></p>
+
+<p><img src="http://diary.soramugi.net/images/2014/03/17/1395031143.png" alt="1395031143.png" /></p>
+
+<p>13日の深夜回ったぐらい、だから14日か、に作ろうと思い立ってsinatraでテストアプリ作ってそのままRailsに作り直してで4時ぐらいであらかた出来てherokuに公開、ドメインも取ったけど名前どうしようかなと考えたのが30分ぐらいで面倒になったので直感的な奴にした。その日はそのまま寝て、翌日に最初は作ってたログイン機能いらないなと思い立ったりbootstrapのテーマ変えたり表示整えたり、画像の再取得出来るようにとかして「いいんじゃね」と思ってツイッタで宣伝、DMで修正点とかフィードバックもらえて修正、反映、拡散。エラーページの設定したり画像収集のタスク設定したりTOPに最新ユーザーの表示したりである程度作業終了、平日の金であんまり作業出来なかったけど金曜深夜、sinatraのテストアプリの段階でイメージ出来てたから早かった。土曜日で最終調整してるときはもう飽きた感出てきて公開したら結構使ってくれたのでモチベーション上がっていい感じにした。15日の23:30が最終コミット。普通に料理したりスーパーに買い物しに行ったりしてたのでそこまで集中してコード書いてた感じではなかった。あんまり機能多くないしね。実働12時間未満ぐらいかな？</p>
+
+<p>Railsのアプリ名変えたり表示する画像をimageテーブルにしてたけど画像以外も表示出来れば良いな(将来的に)とmediaのテーブル名に変更したり、migrationの勝手にいい感じにgenerateしてくれる作成コマンド名調べ直したりjqueryの設定とかbootstrapのいい感じのテーマ無いかとか調べ直してて時間食った気もする。jsとかcssとかの知見がそこそこぐらいだったので、jsでの画像揃えで知らない奴使ってみたらページのオートリロードうまくいかなくて前に使った奴に乗り換えたりしたり、パパッと作りたかったからテストはある程度無視しちゃっててコア部分の画像収集の部分をテスト書いた感じ。表示系と名前変更の手戻りでだるい時間してたと思う。Railsである程度の時間短縮が出来るようになってるけどまだ自分の中のテンプレ的なの毎回設定してて省略しきれてないから、あとは自分の環境構築しといてアイデアからそのままアプリ作って公開ってフローをまだ短く出来るので最短で出来るようにして行きたいと思います。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[開発環境を凝るのには意味がある]]></title>
@@ -804,23 +827,6 @@ vi gistfile1.rb
 <p>改善という考えを持たせるか、改善という考えを持たないでもより良い明日が得られるようにしていくのか。</p>
 
 <p>どっちが良いのかな。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[立川銘菓うどパイ]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/01/28/%E7%AB%8B%E5%B7%9D%E9%8A%98%E8%8F%93%E3%81%86%E3%81%A8%E3%82%99%E3%83%8F%E3%82%9A%E3%82%A4/"/>
-    <updated>2014-01-28T09:39:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/01/28/立川銘菓うどパイ</id>
-    <content type="html"><![CDATA[<p><img src="http://diary.soramugi.net/images/2014/01/28/IMG_1787.jpg" alt="IMG_1787.jpg" /></p>
-
-<p>今季のアニメ、世界征服ズヴィズダーの「銘菓ウド饅頭！？」の言葉でウド饅頭が食べたかったので探したけど無かったのでしょうがなくうどパイを食べてみたら美味しかった</p>
-
-<p>ズヴィズダーの要所要所で立川の町並みが出てくるので風景を見ているだけでも面白い。
-立川周辺の物件安いし新宿まで40分弱だから結構住みやすいと思う。
-物件安くて広いってのが良いな。</p>
-
-<p>今季はズヴィズダーとのうりんだな</p>
 ]]></content>
   </entry>
   
