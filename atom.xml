@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-03-26T04:27:00+00:00</updated>
+  <updated>2014-03-26T04:38:58+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[食べる事が楽しい]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/03/26/%E9%A3%9F%E3%81%B8%E3%82%99%E3%82%8B%E4%BA%8B%E3%81%8B%E3%82%99%E6%A5%BD%E3%81%97%E3%81%84/"/>
+    <updated>2014-03-26T13:29:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/03/26/食べる事が楽しい</id>
+    <content type="html"><![CDATA[<p>最近の刺激的な出来事ってのは特になくて、生きるためのエネルギー源として刺激を欲していると思われる人がつまらなそうにしていて、じゃあ自分はなにか生きるためのエネルギー源として何が必要かなと考えてみると日々の食べる事を楽しんでるのがデカいなと感じました。</p>
+
+<p>生きてくうちでどうしようもなくつまらなくなるってのが最近は無くて、つまんないなと感じたらプログラムしてサイト作ったり何か今までやってなかった事を挑戦したりして楽しむんだけど、あまり大きな、そういう時間がかかりそうな事をやっていると確かに飽きてくる。
+飽きてくるとやらなくなって、やらなくなると生きるためのエネルギー源が枯渇して死にたくなってくるのだけど、飽きた時の逃げ道というかとりあえず別の事で楽しむために食べる事、料理をして自分で食べるということをしている。</p>
+
+<p>食べるだけで楽しくなってくるのが凄く革命的だし30分とかそこらで料理も終わる。2時間あれば結構豪華な料理が出来るし食べ終わる。1000円分の食材買ってくれば豪華な物作れる。どうせ食べないと生きて行けないし、その食べる事を楽しむ事が出来れば効率的。しかも無駄な消費に走らなくても良くなるので経済的でもある。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[中野と高円寺]]></title>
@@ -799,23 +813,6 @@ vi gistfile1.rb
 <p>ソースコードがオープンになっているのでセキュリティ的にデメリットかもしれないけど、メリットの方が大きいと感じたのでやってみる事にした。(そもそもプライベートリポジトリで作るとTravisCIが無料で使えないってのがデカい)</p>
 
 <p>知り合いにセキュリティ面での指摘をしてもらったりとかもしておこう。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[布団を焦がしたときの対処法]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/01/28/%E5%B8%83%E5%9B%A3%E3%82%92%E7%84%A6%E3%81%8B%E3%82%99%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E5%AF%BE%E5%87%A6%E6%B3%95/"/>
-    <updated>2014-01-28T12:51:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/01/28/布団を焦がしたときの対処法</id>
-    <content type="html"><![CDATA[<p><img src="http://diary.soramugi.net/images/2014/01/28/IMG_1797.jpg" alt="IMG_1797.jpg" /></p>
-
-<ul>
-<li>火災報知器がなっているだろうから回して取り外し、報知器の音を止める</li>
-<li>窓を開けて部屋の換気</li>
-<li>布団丸ごとを風呂桶に入れて水に浸す(最悪焦がした部分だけでもよし)</li>
-<li>リセッシュ等の消臭スプレーを撒く</li>
-</ul>
-
 ]]></content>
   </entry>
   
