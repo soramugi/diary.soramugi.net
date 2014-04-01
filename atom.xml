@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-03-27T12:48:55+00:00</updated>
+  <updated>2014-04-01T16:32:54+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CをBにする]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/04/02/c%E3%82%92b%E3%81%AB%E3%81%99%E3%82%8B/"/>
+    <updated>2014-04-02T00:49:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/04/02/cをbにする</id>
+    <content type="html"><![CDATA[<p>インターネット企業での業界用語としてCtoBとかBtoBサービスって言い方があって、Cが個人、Bが企業として区別されて、個人が個人と関係するサービスとか企業が個人に関係するサービスとかの切り分け方がある。</p>
+
+<p>そのC=個人を、B=企業として扱うサービスが出来ないかなぁともんもんとしている。</p>
+
+<p>きっかけは一つの本を読み終わって、次の日に仕事の休憩時間の何気ない雑談の中で構想が膨らんで行った。というか自分の中で考え続けていた事が確かにあって、それが言語化できるまではっきりしてきた。それを文章でまとめて社内のチャットに投下、割と自分の考えを素直に表現出来たので他の名も知れぬ誰かに見せびらかすためにここにコピペする。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>そういえば最近流行のサービスとかの話なんですが思いついたので書き記しておきます。
+</span><span class='line'>
+</span><span class='line'>田舎のパン屋が見つけた「腐る経済」
+</span><span class='line'>&lt;http://booklog.jp/users/soramugimugi/archives/1/4062183897&gt;
+</span><span class='line'>
+</span><span class='line'>を読んだのですが、これ結構人気らしくて、それで読んでみて面白かったんですが
+</span><span class='line'>書いてある思想的な物がマルクスの「資本論」をベースにして考えて実践してる本なんです。
+</span><span class='line'>
+</span><span class='line'>内容は置いといて、マルクスは『生産手段」をもたない「労働者」が自分の「労働力」を「資本者」に売るしかない構造から「矛盾」が生まれる』って言ってて、労働者が金を得る時に資本者(経営者)に労働力を売らないと設備とか商品が作れる備品とか流通手段とかを使った上でもらえるお金がもらえないってのを問題視してるんです。資本者(経営者)が設備とか流通手段を握っているので。
+</span><span class='line'>
+</span><span class='line'>その労働者の弱みにつけ込んで、不当な賃金とか労働時間にしょうがなく従わないと行けない図になっちゃうってので、あまり物言わない日本人は鬱とか自殺とかしちゃうんですね。
+</span><span class='line'>
+</span><span class='line'>解決策としてマルクスは「備品や流通を共有する共産主義にするべきだ」とか言ってるんですが、上記の本ではそうじゃなくて、個人でも生産手段を持つ、安価で生産手段(パン屋とかだと焼き釜とか、流通はインターネットとか実店舗)が手に入る田舎にいって生活すればいいって言ってる本なんです。
+</span><span class='line'>
+</span><span class='line'>で、思いついたサービスはその流通とか生産手段を手助けするサービス作れば良いんじゃないかと。
+</span><span class='line'>
+</span><span class='line'>今あるのだとペパボとかのカラミーショップとかBASE(ベイス)とかの個人が商品を作って売れるプラットフォームな感じ。あとは3Dプリンタで売れるデザインを納品してもらって現物作ったりとか、田舎や地方に行っても個人の技術を使ってお金が得られるようなサービスとか良いんじゃないかと思いました。</span></code></pre></td></tr></table></div></figure>
+
+
+<p>個人を個人としてとらえるのではなく、1企業として、ブランディングだったり商品を売る人だったりとしてとらえる事が出来るサービス。</p>
+
+<p>「俺の時給いくらだと思ってるんだ」って言ってプライベートでの小銭の節約だったりをしなかったり、手間のかかる作業とかを金で解決したりとかが、まぁ効率的だしお金の有用な使い方だったりするのだけれど、節約の本とかだとそれがいい方法だとは書いてなくて、「時給分の給料」ってのがいつでももらえる訳ではないんですよ。</p>
+
+<p>月で25万稼いでる人が平日20日だとして1日に稼ぐ金額が12,500円になって、8時間労働だと1時間あたり1562円ぐらい。
+その当人の価値1時間は1562円になるかー、といったらそうではなくて。企業の持ってる生産手段の道具だったり権利や流通手段をふまえての価値とかがプラスされてその値段になってると思うのですよ。パン屋で例えると焼き釜と販売するための実店舗。それが無いとその人の技術とか能力はお金に変えることができないんですね。</p>
+
+<p>その焼き釜とか実店舗を、提供できるような、サービスとか、出来たらいいなぁ〜
+小売店とかだけじゃなくて、その人の能力にあった適切で、妥当な値段が付くようなもの。</p>
+
+<p>「ちょっと暇だから一稼ぎするか」「旅行行きたいから稼いどこう」的なのが仲介業者が限りなく少なくなるような世界とか、ならないかなぁ〜</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[食べる事が楽しい]]></title>
@@ -752,67 +813,6 @@ vi gistfile1.rb
 風味を楽しむという選択肢を忘れていた。</p>
 
 <p>ごまや大葉を入れれば風味がつくし、コーヒーの味だけでなく匂いとかも楽しむ。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitterの1日をまとめてタグに変換する「TWordTag」作った]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/02/02/twitter%E3%81%AE1%E6%97%A5%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%82%BF%E3%82%AF%E3%82%99%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B%E3%80%8Ctwordtag%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
-    <updated>2014-02-02T12:20:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/02/02/twitterの1日をまとめてタグに変換する「twordtag」作った</id>
-    <content type="html"><![CDATA[<p>TWordTag
-<a href="http://www.twordtag.com">http://www.twordtag.com</a></p>
-
-<p>GitHub
-<a href="https://github.com/soramugi/twordtag">https://github.com/soramugi/twordtag</a></p>
-
-<p>Travis CI
-<a href="https://travis-ci.org/soramugi/twordtag">https://travis-ci.org/soramugi/twordtag</a></p>
-
-<p>Coveralls
-<a href="https://coveralls.io/r/soramugi/twordtag?branch=master">https://coveralls.io/r/soramugi/twordtag?branch=master</a></p>
-
-<p>Source Documentation
-<a href="http://soramugi.github.io/twordtag/">http://soramugi.github.io/twordtag/</a></p>
-
-<h2>概要</h2>
-
-<p>Twitterの1日分のツイートを取得、ツイートから名詞を抜き出してtagとして保存。1日を単語で振り返る事が出来るサービスです。</p>
-
-<p>heroku上で稼働しています。ソースコードはGitHubのパブリックリポジトリ。セキュリティとかまずいコードがある時はプルリクとか送って欲しいな(願望)</p>
-
-<h2>なんで作ったか</h2>
-
-<p>1日のまとめを作りたかった。
-圧縮新聞的な。</p>
-
-<p>その日一日の単語を抜き出して並べたり出現回数を表示してみれば、その日一日の興味を見返せると思って作ってみたけど、まだまだ精度が高くないかな。</p>
-
-<p>抜き出した単語(tag)を検索して、他の人との繋がりや共通点が解れば良いなとtag形式にしてみた。</p>
-
-<h2>今後</h2>
-
-<p>定期的にtagの作成タスクをjenkinsで仕込んだので
-<a href="http://qiita.com/soramugi/items/1873eda8bd3aa0e0e6ef">http://qiita.com/soramugi/items/1873eda8bd3aa0e0e6ef</a></p>
-
-<p>基本放置運用。</p>
-
-<p>tagが作成されたらTwitterで通知されるのでじんわりと何となく広まって行けば良いと思ってる。</p>
-
-<p>見向きもされなかったらそれまでだったということでこれまた放置。</p>
-
-<p>herokuの無料プランで動かしているのでDBの行数制限あるので、人気でたらherokuに課金してDBの行数増やしたりとかかな。やる価値あると思えればやろう。</p>
-
-<p>タグ表示のUIがもうちょっと良い表示方法あるかなと思ったのだけれど、あんまり良いアイデアないし、適材適所として「いい方法がある人、やりたいと思っている人」が改修できるようにオープンソースとして公開している</p>
-
-<p><a href="https://github.com/soramugi/twordtag">https://github.com/soramugi/twordtag</a></p>
-
-<p>「このアプリ凄い楽しい！」って思っている人がコード書いた方がパフォーマンス上がるし、楽しいと思う。
-それに、そういう人が居ると解ると自分自身も楽しい。</p>
-
-<p>ソースコードがオープンになっているのでセキュリティ的にデメリットかもしれないけど、メリットの方が大きいと感じたのでやってみる事にした。(そもそもプライベートリポジトリで作るとTravisCIが無料で使えないってのがデカい)</p>
-
-<p>知り合いにセキュリティ面での指摘をしてもらったりとかもしておこう。</p>
 ]]></content>
   </entry>
   
