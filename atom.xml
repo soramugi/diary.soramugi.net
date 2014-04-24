@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-04-24T16:41:19+00:00</updated>
+  <updated>2014-04-24T16:48:18+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[集中する効率]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/04/25/%E9%9B%86%E4%B8%AD%E3%81%99%E3%82%8B%E5%8A%B9%E7%8E%87/"/>
+    <updated>2014-04-25T01:28:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/04/25/集中する効率</id>
+    <content type="html"><![CDATA[<p>エンジニア文化では効率を重要視しててより素晴らしい仕事をするためには効率やフロー状態を効率的に出すために〜を重視して質の高いものを増やす努力をしている文化だと思っているんだけど、住宅とか住むところは職場から近いとか駅から近いとかだけで、部屋での集中力が維持出来るかとか、素晴らしい質を出すための環境ってのをあんまり重視してないように感じるな。</p>
+
+<p>会社から近ければ狭い部屋でも良いってのは、効率的にはどうなんですかね。より多くの時間を費やせるように近くに住むってことなんですかね。より多くの時間を費やせばコードの書く量が増える訳ではないんだから、部屋とか物件でも同じ事が言えると思うな。</p>
+
+<p>結局はみんな、立川に住んだ方がいいよねぇって話。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[トレーディングカードが通貨として機能している学校]]></title>
@@ -664,85 +677,6 @@ HipChatだとそこら辺分けられるのかな。</p>
 <p><a href="https://github.com/soramugi/twitter_search">https://github.com/soramugi/twitter_search</a></p>
 
 <p>健康になりたい≠健康になる</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gyazo-serverクローン「gyazo-s3」作った]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/02/08/gyazo-server%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%80%8Cgyazo-s3%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
-    <updated>2014-02-08T01:26:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/02/08/gyazo-serverクローン「gyazo-s3」作った</id>
-    <content type="html"><![CDATA[<p>みんな大好き車輪の再発明</p>
-
-<p><a href="http://twitter.com/mitukiii">@mitukiii</a>さんが作成したRailsのGyazoサーバー</p>
-
-<p><a href="https://github.com/mitukiii/gyazo-server">https://github.com/mitukiii/gyazo-server</a></p>
-
-<p>が「何これ最高じゃん」と使っていたんだけど、仕様上サーバーのファイルシステムそのままを使うので
-heroku使えないなーって思い新しく作ってみました。</p>
-
-<p>リポジトリ</p>
-
-<p><a href="https://github.com/soramugi/gyazo-s3">https://github.com/soramugi/gyazo-s3</a></p>
-
-<p>サンプル</p>
-
-<p><a href="http://pic.soramugi.net">http://pic.soramugi.net</a></p>
-
-<p>herokuで使う目的なのでS3で画像のホスト、設定ファイルはENV指定でオッケーです。
-以下の手順で環境の構築が出来ます。</p>
-
-<pre><code>git clone git@github.com:soramugi/gyazo-s3.git
-cd gyazo-s3
-heroku create
-heroku config:set SECRET_KEY_BASE=$(rake secret)
-heroku config:set S3_BUCKET=S3_BUCKET
-heroku config:set AWS_ACCESS_KEY_ID=AWS_ACCESS_KEY_ID
-heroku config:set AWS_SECRET_ACCESS_KEY=AWS_SECRET_ACCESS_KEY
-heroku config:set GYAZO_ID=$(cat ~/Library/Gyazo/id)
-heroku config:set TITLE=GyazoS3
-git push heroku master
-heroku run rake db:migrate
-heroku open
-</code></pre>
-
-<p>アップロードしたファイルの削除はcurlで</p>
-
-<pre><code>curl -X DELETE -d "id=$(cat ~/Library/Gyazo/id)" http://localhost:3000/20131020031935f52.jpg
-</code></pre>
-
-<p>既存のgyazoクライアントの設定ファイル、定数値を変更するだけでそのまま画像のキャプチャーが出来ます。</p>
-
-<pre><code>vi /Applications/Gyazo.app/Contents/Resources/script
-</code></pre>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>HOST = 'hugehgue.herokuapp.com'
-</span><span class='line'>CGI = '/items'</span></code></pre></td></tr></table></div></figure>
-
-
-<p>ローカルに存在するファイルをアップロードする時はgistにあげてあるスクリプトを使います。</p>
-
-<pre><code>git clone https://gist.github.com/7821435.git
-cd 7821435
-vi gistfile1.rb
-</code></pre>
-
-<p>以下の値を設定</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ID   = 'YOUR GYAZO ID'
-</span><span class='line'>HOST = 'YOUR HOST'
-</span><span class='line'>CGI  = '/items'</span></code></pre></td></tr></table></div></figure>
-
-
-<pre><code>ruby gistfile1.rb ~/Downloads/hugehuge.png
-</code></pre>
-
-<p>ほとんど<a href="http://twitter.com/mitukiii">@mitukiii</a>のコードを応用しているので足を向けて寝られません。</p>
 ]]></content>
   </entry>
   
