@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2014-04-24T16:48:18+00:00</updated>
+  <updated>2014-04-29T10:29:40+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[無理と言わない罪]]></title>
+    <link href="http://diary.soramugi.net/blog/2014/04/29/%E7%84%A1%E7%90%86%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%AA%E3%81%84%E7%BD%AA/"/>
+    <updated>2014-04-29T19:24:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2014/04/29/無理と言わない罪</id>
+    <content type="html"><![CDATA[<p>「それは無理ですね」と言わないで渋々引き受けてギャーギャー言いながら人のせいにして努力してなんとか間に合わせようとして無理をする。</p>
+
+<p>何かを人質に取られてるのか、それともプライドが高いのか、何なのか。</p>
+
+<p>無理だと解るのなら無理だと言って落としどころを探した方が良い。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[集中する効率]]></title>
@@ -662,21 +675,6 @@ HipChatは使った事無いけど良さそう。</p>
 HipChatだとそこら辺分けられるのかな。</p>
 
 <p>とりあえずim.kayac.comでその場しのぎしておいてHipChatを試してみるとかですかね。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitterの検索表示を好きにレイアウト出来るwebアプリケーション作った]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/02/12/twitter%E3%81%AE%E6%A4%9C%E7%B4%A2%E8%A1%A8%E7%A4%BA%E3%82%92%E5%A5%BD%E3%81%8D%E3%81%AB%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E5%87%BA%E6%9D%A5%E3%82%8Bweb%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
-    <updated>2014-02-12T21:40:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/02/12/twitterの検索表示を好きにレイアウト出来るwebアプリケーション作った</id>
-    <content type="html"><![CDATA[<p><img src="http://diary.soramugi.net/images/2014/02/12/1392208871.png" alt="1392208871.png" /></p>
-
-<p><a href="http://health-searche.herokuapp.com">http://health-searche.herokuapp.com</a></p>
-
-<p><a href="https://github.com/soramugi/twitter_search">https://github.com/soramugi/twitter_search</a></p>
-
-<p>健康になりたい≠健康になる</p>
 ]]></content>
   </entry>
   
