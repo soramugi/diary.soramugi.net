@@ -9,7 +9,7 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="webサービスを作ろうとアイデアを貯めているが溜まる一方でなかなか消化出来ていない。 下半身に力が入るようなアイデアではないというか、本当にやるべきだと思うアイデアでは無いのではないかと思う事はあるが、そんなものは形になってみないと本当に素晴らしいアイデアだったのかが解らないので、 &hellip;">
+  <meta name="description" content="amazon api叩いて本のランキング400位までを表示するサイト作った。 http://amazon-rank-book.herokuapp.com amazon api叩いて遊んでいたんだけど、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,57 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/07/amazon%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%AF%E3%82%99%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7/">Amazonランキング商品一覧</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-07T13:28:00+00:00" pubdate data-updated="true">May 7<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>amazon api叩いて本のランキング400位までを表示するサイト作った。</p>
+
+<p><a href="http://amazon-rank-book.herokuapp.com">http://amazon-rank-book.herokuapp.com</a></p>
+
+<p>amazon api叩いて遊んでいたんだけど、すっごい昔にもphpで叩いてた時があってそのときのコードだったりドキュメントの読み間違いとか同じところ引っかかってたなそういえばとあとから思っていたりした。
+資産として残しておくことが出来ていなかった。</p>
+
+<p>ということで何か資産として残しておけるように簡単なwebサービス作ろうと作った奴。</p>
+
+<p>kindle版書籍は除外してamazonの本ランキングを保存して1日に1回クロールして保存しなおしている。ちなみにjson形式でレスポンスを返してくれるようにもしている。</p>
+
+<p>通常のAmazonランキングは100位以降は見れないので400位まで見れるようにしている。</p>
+
+<p>本当は10000位(herokuのdb上限)まで保存してやろうと思ったんだけどamazon apiが通常は100位までしか取得出来なくて小細工して今まで取得したアイテム群を除外してapi叩くようにしたんだけど、get形式で取得するapiなもんだからapi叩くurlがむっちゃ長過ぎてapiたたき切れなくなってたのでとりあえずの区切りで400位まで取得が出来るようにした。</p>
+
+<p>こういうカジュアルハックを乱発していくのもいいやねぇ</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -515,56 +566,6 @@ webサービスだから現実世界よりも相当早く出来るけども、�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/17/%E3%80%8Cfavmedia--twitter%E3%81%AEfav%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E7%94%BB%E5%83%8F%E9%96%B2%E8%A6%A7%E3%80%8D%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/">「FavMedia - Twitterのfavツイート画像閲覧」を作った</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-17T15:39:00+00:00" pubdate data-updated="true">Mar 17<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote class="twitter-tweet" lang="ja"><p>人がふぁぼった&amp;Retweetしたツイートの画像見るの面白い</p>&mdash; そらむぎ (@soramugi) <a href="https://twitter.com/soramugi/statuses/444076391844155393">2014, 3月 13</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p><a href='http://www.favmedia.me/'>FavMedia &ndash; Twitterのfavツイート画像閲覧</a></p>
-
-<p><img src="/images/2014/03/17/1395031175.png" alt="1395031175.png" /></p>
-
-<p><img src="/images/2014/03/17/1395031143.png" alt="1395031143.png" /></p>
-
-<p>13日の午後8時に思いついてツイート、探してもそういうアプリ無かったので、13日の深夜回ったぐらい、だから14日か、に作ろうと思い立ってsinatraでテストアプリ作ってそのままRailsに作り直してで4時ぐらいであらかた出来てherokuに公開、ドメインも取ったけど名前どうしようかなと考えたのが30分ぐらいで面倒になったので直感的な奴にした。その日はそのまま寝て、翌日に最初は作ってたログイン機能いらないなと思い立ったりbootstrapのテーマ変えたり表示整えたり、画像の再取得出来るようにとかして「いいんじゃね」と思ってツイッタで宣伝、DMで修正点とかフィードバックもらえて修正、反映、拡散。エラーページの設定したり画像収集のタスク設定したりTOPに最新ユーザーの表示したりである程度作業終了、平日の金であんまり作業出来なかったけど、sinatraのテストアプリの段階でイメージ出来てたから早かった。土曜日で最終調整してるときはもう飽きた感出てきて公開したら結構使ってくれたのでモチベーション上がっていい感じにした。15日の23:30が最終コミット。普通に料理したりスーパーに買い物しに行ったりしてたのでそこまで集中してコード書いてた感じではなかった。あんまり機能多くないしね。実働12時間未満ぐらいかな？</p>
-
-<p>Railsのアプリ名変えたり表示する画像をimageテーブルにしてたけど画像以外も表示出来れば良いな(将来的に)とmediaのテーブル名に変更したり、migrationの勝手にいい感じにgenerateしてくれる作成コマンド名調べ直したりjqueryの設定とかbootstrapのいい感じのテーマ無いかとか調べ直してて時間食った気もする。jsとかcssとかの知見がそこそこぐらいだったので、jsでの画像揃えで知らない奴使ってみたらページのオートリロードうまくいかなくて前に使った奴に乗り換えたりしたり、パパッと作りたかったからテストはある程度無視しちゃっててコア部分の画像収集の部分をテスト書いた感じ。表示系と名前変更の手戻りでだるい時間してたと思う。Railsである程度の時間短縮が出来るようになってるけどまだ自分の中のテンプレ的なの毎回設定してて省略しきれてないから、あとは自分の環境構築しといてアイデアからそのままアプリ作って公開ってフローをまだ短く出来るので最短で出来るようにして行きたいと思います。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -580,6 +581,10 @@ webサービスだから現実世界よりも相当早く出来るけども、�
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/05/07/amazon%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%AF%E3%82%99%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7/">amazonランキング商品一覧</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/05/07/%E3%81%93%E3%81%A4%E3%81%93%E3%81%A4%E3%81%A8/">こつこつと</a>
       </li>
     
@@ -593,10 +598,6 @@ webサービスだから現実世界よりも相当早く出来るけども、�
     
       <li class="post">
         <a href="/blog/2014/04/25/%E3%83%88%E3%83%AC%E3%83%BC%E3%83%86%E3%82%99%E3%82%A3%E3%83%B3%E3%82%AF%E3%82%99%E3%82%AB%E3%83%BC%E3%83%88%E3%82%99%E3%81%8B%E3%82%99%E9%80%9A%E8%B2%A8%E3%81%A8%E3%81%97%E3%81%A6%E6%A9%9F%E8%83%BD%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E5%AD%A6%E6%A0%A1/">トレーディングカードが通貨として機能している学校</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/25/%E5%8F%8E%E5%85%A5%E3%81%AE%E5%B9%85/">収入の幅</a>
       </li>
     
   </ul>
