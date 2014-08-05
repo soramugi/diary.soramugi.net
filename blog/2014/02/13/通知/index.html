@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>通知 - 全体的に千葉産です</title>
+  <meta name="author" content="soramugi">
+
+  
+  <meta name="description" content="個人で使っているさくらのVPSにdebian入れてjenkins入れて定期実行処理させてるんだけどメールの設定が面倒臭かったし前に設定してて失敗してOS潰した経験あったし、 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="pocket-site-verification" content="2d02688e9a85ce662bc31a066d97bd" />
+
+  
+  <link rel="canonical" href="http://diary.soramugi.net/blog/2014/02/13/%E9%80%9A%E7%9F%A5/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="全体的に千葉産です" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43044942-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">全体的に千葉産です</a></h1>
+</hgroup>
+
+</header>
+<div class="navi">
+<ul>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/aboutme/">Author</a></li>
+</ul>
+</div>
+
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">通知</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-13T23:59:00+00:00" pubdate data-updated="true">Feb 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>個人で使っているさくらのVPSにdebian入れてjenkins入れて定期実行処理させてるんだけどメールの設定が面倒臭かったし前に設定してて失敗してOS潰した経験あったし、メールのプロトコルの知識あまり無くてやってなかったらjenkinsでビルド失敗時に通知されないの不便だったので気合い入れて設定して「メールこないな」と思いながらSMTPの原理とかSMTP-AUTHの認証とか読んでたけどメール届かなかったのは迷惑メールに分類されてたからで一気に削られたので通知の事を考える。テストメールの文面からしてapt-getでpostfix入れてエンターエンターしただでメール疎通してたっぽい。</p>
+
+<p>通知を受け取る時にはメールがデフォだけど、上記のような事にならないために、メールが多過ぎて埋もれないために、メール以外で通知を受け取る方法。</p>
+
+<p>macとかPCで外部サーバーからメール以外で通知受け取るの面倒そう、Growlや通知センターで表示するの実装するよりもiPhoneで通知受け取る方が便利なのでiPhoneで通知受け取る前提</p>
+
+<p>通知されるだけだと何時ぐらいとか解らないのでログをさかのぼれるもの。</p>
+
+<ul>
+<li>Twitter副アカウントでリプライ、DM</li>
+<li>im.kayac.com</li>
+<li>HipChat</li>
+<li>IRC (ikachan使う)</li>
+<li>ChatWork</li>
+<li>Idobata</li>
+</ul>
+
+
+<p>IdobataやChatWorkはグループで使う時には良いけど個人では多機能すぎるし、いまさらIRCってのもどうなんだろ。でもIRC使った事ないからこの機会に使っても良いかもしれないけど。</p>
+
+<p>im.kayac.comはcurlで送れるのでとりあえずの通知にはぴったり。Twitterアカウント使うのも簡単に設置出来る、でも通常の会話とかと混ざって気づくのが遅れる？
+HipChatは使った事無いけど良さそう。</p>
+
+<p>im.kayac.comやTwitterの通知は簡単だけど複数個通知の設定をすると混ざる。
+HipChatだとそこら辺分けられるのかな。</p>
+
+<p>とりあえずim.kayac.comでその場しのぎしておいてHipChatを試してみるとかですかね。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/12/twitter%E3%81%AE%E6%A4%9C%E7%B4%A2%E8%A1%A8%E7%A4%BA%E3%82%92%E5%A5%BD%E3%81%8D%E3%81%AB%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E5%87%BA%E6%9D%A5%E3%82%8Bweb%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%BD%9C%E3%81%A3%E3%81%9F/" title="Previous Post: Twitterの検索表示を好きにレイアウト出来るwebアプリケーション作った">&laquo; Twitterの検索表示を好きにレイアウト出来るwebアプリケーション作った</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/02/17/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AEvim/" title="Next Post: 初めてのvim">初めてのvim &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/08/05/%E5%9B%BD%E7%AB%8B%E9%A7%85%E5%BC%81%E5%BD%93900%E5%86%86/">国立駅弁当900円</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/05/%E8%B3%AA/">質</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/03/%E5%A5%BD%E3%81%8D%E3%81%AA%E9%A3%9F%E3%81%B8%E3%82%99%E7%89%A9%E3%81%AF%E5%A0%B4%E5%90%88%E3%81%AB%E3%82%88%E3%82%8B/">好きな食べ物は場合による</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/31/%E5%83%95%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/">僕のインターネット</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/31/%E5%A4%8F%E3%81%AF%E5%AB%8C%E3%81%84%E3%81%9F%E3%82%99/">夏は嫌いだ</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/soramugi">@soramugi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'soramugi',
+            count: 3,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - soramugi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
