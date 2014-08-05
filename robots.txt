@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://diary.soramugi.net/sitemap.xml 
