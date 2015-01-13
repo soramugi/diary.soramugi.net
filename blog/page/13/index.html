@@ -9,7 +9,8 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="快適 このブログはoctopressでやってるんだけども、毎回 rake gen_deploy なんて面倒臭かったので、記事書いてコミットすれば勝手にデプロイできるようにした。 githubにmasterとsourceブランチ作って設置。 &hellip;">
+  <meta name="description" content="webサービス作りたいんだけどwebサーバーとか用意するの面倒くさいよねってことでs3使おうと模索中。 あまりサーバーレスポンス使わないようなやつ。 htmlファイルを作成してそれをs3でホスト、それを定期的に実行すればはい完成ってやつ。
+データベースとか使ったサイトは作れないけれど、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +64,66 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/02/%E3%81%86%E3%82%93%E3%81%9F%E3%82%89%E3%81%8B%E3%82%93%E3%81%9F%E3%82%89/">うんたらかんたら</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-02T13:53:00+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>webサービス作りたいんだけどwebサーバーとか用意するの面倒くさいよねってことでs3使おうと模索中。</p>
+
+<p>あまりサーバーレスポンス使わないようなやつ。</p>
+
+<p>htmlファイルを作成してそれをs3でホスト、それを定期的に実行すればはい完成ってやつ。
+データベースとか使ったサイトは作れないけれど、そんなにデータベース使ったサイトは作る予定はないし、ある程度起動に乗って来たらサーバーサイドでプログラム走らせたもの作れば良いかなって。</p>
+
+<p>ブログ形式とかいけそうですね。</p>
+
+<p>定期的に情報を収集、それをもとに記事作成、記事をビルドしてhtml作成、s3にプッシュ</p>
+
+<p>ですね。その流れを簡単に出来るようなシステム作って行きたいですね。その後ユーザー登録型のを作りたい。じゅんぐりにやって行こう</p>
+
+<p><a href="https://github.com/glidenote/octoeditor.vim">glidenote/octoeditor.vim</a>
+使って記事書いたけど新規作成しやすくていい。あとは作成した記事をコミット出来るようななにかか。</p>
+
+<p>でも新規作成のときにもタスク叩いてるんだな。markdownを作成するだけで良いじゃまいのか？</p>
+
+<ul>
+<li>Dropboxにoctopressの記事ディレクトリの設置</li>
+<li>そのディレクトリにmarkdown作成</li>
+<li>記事作成</li>
+<li>コミット</li>
+</ul>
+
+
+<p>てのが出来れば良いな。</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -463,42 +524,6 @@ GitHub pagesとoctopressね。結構前にはやってたけど、今はそん�
 
 </article>
 
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/10/10141245/">3.4</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-10T14:12:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>12時間ぐらい寝てた。</p>
-
-<hr />
-</div>
-  
-  
-
-</article>
-
 <nav id="pagenavi">
     
         <a href="/blog/page/12/" class="prev">Prev</a>
@@ -511,7 +536,7 @@ GitHub pagesとoctopressね。結構前にはやってたけど、今はそん�
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - soramugi -
+  Copyright &copy; 2015 - soramugi -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
