@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2015-01-20T05:18:06+00:00</updated>
+  <updated>2015-01-23T05:16:57+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[マックの袋の知見]]></title>
+    <link href="http://diary.soramugi.net/blog/2015/01/23/%E3%83%9E%E3%83%83%E3%82%AF%E3%81%AE%E8%A2%8B%E3%81%AE%E7%9F%A5%E8%A6%8B/"/>
+    <updated>2015-01-23T14:07:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2015/01/23/マックの袋の知見</id>
+    <content type="html"><![CDATA[<p>マックで持ち帰りでチーズバーガー単品とドリンクSのコーラを頼むのがマイブームなんだけど
+「袋入れますか？」と聞かれて「お願いします」って頼むんだけど紙袋をチーズバーガーとドリンクそれぞれに入れられて紙袋2つに透明なビニール袋にまとめられてでてくる。
+流石に袋多すぎてかさばるので紙袋一つに入れて欲しいから「まとめてでお願いします」って言うと紙袋2つとビニール袋に入れられてでてくる。</p>
+
+<p>この時には「袋入れますか？」「紙袋1つにまとめて入れてください」って頼むようにすると紙袋にまとめられてでてくる。会話が噛み合ってないように見えるけどそうしないといけない。</p>
+
+<p>「紙袋1つにまとめてください」って言うと裏で(というか目の前でだけど)店員同士が「袋一つにまとめてで」ってやりとりしてて紙袋という単語なしでやりとりできてるのに自分だけ紙袋って単語出さないと通じなくてコミュニケーションとるの大変だなって思う。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[タンブラ]]></title>
@@ -598,43 +613,6 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
 <p>ゲーム作らなくなったのは就職して時間無くなったのと、9leapというコミュニティがそこそこ巨大になっていて、だけど制作者寄りだったから作り手として使う側の事をあまり見ていない気がしててあんまり投稿しなくなっていって、て感じかな。制作者のエンジニア達のコミュニティを尊重してくれてたのは非常に良かったんだけど自分が求めてる目線とかは違うかなと思ってた。</p>
 
 <p>9leap、非常に良いサイトだし良いコミュニティを作り出してたし良い場所だったけど最近は勢いが無くなって割と寂しい感じしている。enchantMoonでエネルギー使い果たしたか。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pocketに登録したニコニコ動画を連続再生する「poolcket」作った]]></title>
-    <link href="http://diary.soramugi.net/blog/2014/08/12/pocket%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%9F%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E3%82%92%E9%80%A3%E7%B6%9A%E5%86%8D%E7%94%9F%E3%81%99%E3%82%8B%E3%80%8Cpoolcket%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/"/>
-    <updated>2014-08-12T18:21:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2014/08/12/pocketに登録したニコニコ動画を連続再生する「poolcket」作った</id>
-    <content type="html"><![CDATA[<p><img src="http://diary.soramugi.net/images/2014/08/12/preview.png" alt="preview.png" /></p>
-
-<p><a href="https://github.com/soramugi/poolcket">https://github.com/soramugi/poolcket</a></p>
-
-<p>なんか、作った。</p>
-
-<p>ニコニコ動画、なんかランキングとかマイリストとかに入ってるのは連続再生とかあって良い感じなんですけど、流行の動画とか別に追いかけたくなくて、なんとなく耳が寂しいって時にミクさんの近況とか知りたくなるんだけど能動的に動くほどではないので流動的に来る感じが望ましいんですね。
-なんか何言ってるのか解らなくなったけど聞きたい時に良い感じの奴がすぐ聞ける状態で連続再生して欲しいんですね。</p>
-
-<p>そういう用途の時に連続再生に対応しているマイリストとかタグ検索とかだと要望が満たせなくて、ある程度最小限の労力で良い感じのミクさん動画を探してどこかにストックさせておいてもらって、聞きたくなったら連続で再生して「あー聞いたわー」ってなって全部ストック解除とかしたいんですよ。</p>
-
-<p>ストックするのはマイリストはあんまり良くなくて、マイリストに入ってるの忘れちゃうし、なんか忘れちゃうし。
-んで自分の普段のフロー的にはPocketが最適だったんで以下のサイト群のRSSを購読して</p>
-
-<p>ボカヒト日報
-<a href="http://cobachica.hateblo.jp">http://cobachica.hateblo.jp</a>
-smile中毒
-<a href="http://blog.livedoor.jp/nicotwi/">http://blog.livedoor.jp/nicotwi/</a></p>
-
-<p>Pocketに個別記事を追加すると記事内に含まれるニコニコ動画をPocketに登録して記事URLはPocketからアーカイブってするスクリプトをjenkinsで回しておく。</p>
-
-<p>コード
-<a href="https://gist.github.com/soramugi/10797920">https://gist.github.com/soramugi/10797920</a></p>
-
-<p>んでPocketに溜まったニコニコ動画のURLを上記のpoolcketをローカルで起動してPocket認証、アプリにアクセスで勝手に動画が再生されるようになる。</p>
-
-<p>ちょこちょこと弄ってきたんだけど割と安定してきたので記事におこした。</p>
-
-<p>本当はherokuにホストさせたかったんだけどニコニコ動画の自動再生するためにしてるjs内の変数値書き換え時にアプリから1回アクセスさせてるんだけど、それが良くないのかニコニコ側で弾かれてるみたいで外部サーバからの実行は出来ない現状でした。ip偽装とかすれば行けるんじゃね?とか思ってるけど別にそこまでやりたくないしそんな事をやるのであれば横になってぐったりしていたいので、なんか横になってぐったりしていたいので誰か出来るんだったらやってpull requestとか送ってください。</p>
 ]]></content>
   </entry>
   
