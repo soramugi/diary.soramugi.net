@@ -9,7 +9,8 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="ハトムギ、玄米、月見草 ギークハウスに住んでた時の連中と久々に遊んで、めっちゃ楽しかったのだのだけれど、本当に自分は二重人格だなと感じる。 親からはAB型のふたご座だから二重人格としてふさわしい肩書きを持っていると言われた自分なのだが、 &hellip;">
+  <meta name="description" content="ハトムギ、玄米、月見草 結構前に作った
+http://diary.soramugi.net/blog/2014/08/12/pocket%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%9F%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +65,56 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/03/%E3%83%8B%E3%82%B3%E5%8B%95mp3%E3%81%AB%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4/">ニコ動mp3にするやつ</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-03T14:54:00+00:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://soramugi.tumblr.com/post/6803685750/szymon-pillow-puzzle-by-gry-fager#_=_"><img src="http://41.media.tumblr.com/tumblr_lmnjpagq3c1qz4s3wo1_500.png" alt="Tumblr lmnjpagq3c1qz4s3wo1 500" /><br />ハトムギ、玄米、月見草</a></p>
+
+<script src="https://gist.github.com/soramugi/52f885e08a58864b6b7e.js"></script>
+
+
+<p>結構前に作った
+<a href="http://diary.soramugi.net/blog/2014/08/12/pocket%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%9F%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E3%82%92%E9%80%A3%E7%B6%9A%E5%86%8D%E7%94%9F%E3%81%99%E3%82%8B%E3%80%8Cpoolcket%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/">http://diary.soramugi.net/blog/2014/08/12/pocket%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%9F%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E3%82%92%E9%80%A3%E7%B6%9A%E5%86%8D%E7%94%9F%E3%81%99%E3%82%8B%E3%80%8Cpoolcket%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/</a>
+なんだけど、pocketに登録したニコ動を流して作業BGMにしてたんだけど、動画は見ないのに流しっぱなしにするとcpuガシガシ使われてて作業自体が滞るようになって意味ない感じだったのでmp3抜き出しして音だけ聴くようにした。</p>
+
+<p>pocketに保存したニコ動urlからmp3にしてdropboxに入れる。これをjenkinsで定期的に回して聞きたいときに以下のコマンドで再生とかしてる。</p>
+
+<pre><code>find /Users/mugi/Dropbox\ \(個人\)/アプリ/mugi_jenkins/nico -maxdepth 1 -mindepth 1 -exec echo {} \; -exec afplay -q 1 -v 0.5 {} \;
+</code></pre>
+
+<p>聞いてて気に入ったときにマイリス突っ込めるように別ディレクトリに移動して勝手にマイリスするとかした方が使い勝手いいかも</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -495,48 +546,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/17/%E6%94%B9%E5%96%84%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E7%89%A9/">改善をするときに必要な物</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-17T09:42:00+00:00" pubdate data-updated="true">Jan 17<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>なんか最近おかしいなって考えてたのだけれど、改善をするときには目的や目標、問題設定に、実際に何をすればいいのかってのを決めないで行動すると無駄な行動になるって結論に行き着いた。</p>
-
-<p>自分がそういう考えで、改善を丸投げされたらその思考を辿って、足りないところがあったりすれば自分なりに付け加えて、問題と思えないところであればやらないとか、そういう傾向がある。</p>
-
-<p>問題とは感じているが目的や目標が見えないのでちょっとこれは置いとくとか。どうしたいのとか聞かれてもどうしたいんでしょうねとしか答えられないし、答えられれば何とかなってますね。</p>
-
-<p>なにかしら問題は見えてくるもので、その問題と感じているのは結局は人で、問題を丸投げされても困ってしまって、問題と思ってないんだからそのまま放置ですねって感じです。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -552,6 +561,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/02/03/%E3%83%8B%E3%82%B3%E5%8B%95mp3%E3%81%AB%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4/">ニコ動mp3にするやつ</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/02/02/%E4%BA%8C%E9%87%8D%E4%BA%BA%E6%A0%BC/">二重人格</a>
       </li>
     
@@ -565,10 +578,6 @@
     
       <li class="post">
         <a href="/blog/2015/01/27/%E7%84%A6%E3%82%8A/">焦り</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/23/%E3%83%9E%E3%83%83%E3%82%AF%E3%81%AE%E8%A2%8B%E3%81%AE%E7%9F%A5%E8%A6%8B/">マックの袋の知見</a>
       </li>
     
   </ul>
