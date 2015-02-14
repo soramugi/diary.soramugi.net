@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>作業用BGM環境 - 全体的に千葉産です</title>
+  <meta name="author" content="soramugi">
+
+  
+  <meta name="description" content="家の音楽環境が乏しくてラジオに手を出しつつあるのだけれど、それまでに試行錯誤していて、スピーカーというものが存在していなかったのでまずはAppleTVのAirplayで試してみていた。Macからとかじゃなくて、Mac触ってなくても音欲しかったので常時稼働するRaspberry &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="pocket-site-verification" content="2d02688e9a85ce662bc31a066d97bd" />
+
+  
+  <link rel="canonical" href="http://diary.soramugi.net/blog/2015/02/14/%E4%BD%9C%E6%A5%AD%E7%94%A8bgm%E7%92%B0%E5%A2%83/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="全体的に千葉産です" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43044942-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">全体的に千葉産です</a></h1>
+</hgroup>
+
+</header>
+<div class="navi">
+<ul>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/aboutme/">Author</a></li>
+</ul>
+</div>
+
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">作業用BGM環境</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-14T21:11:00+00:00" pubdate data-updated="true">Feb 14<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>家の音楽環境が乏しくてラジオに手を出しつつあるのだけれど、それまでに試行錯誤していて、スピーカーというものが存在していなかったのでまずはAppleTVのAirplayで試してみていた。Macからとかじゃなくて、Mac触ってなくても音欲しかったので常時稼働するRaspberry Piでなんとかならんかと。</p>
+
+<p><a href="https://github.com/Tomohiro/airplayer">https://github.com/Tomohiro/airplayer</a></p>
+
+<p><a href="https://github.com/Tomohiro/airplayer">airplayer</a>って便利gemがあって(他にもairstreamがあるけどairplayerの方がよい)、試してみてたんだけど、映像にしか対応してなくてmp3とかの再生には対応してなかった。AirPlayはmp3対応してるけどgemが対応してなかった。プルリクしてもよかったんだけど、そもそもでAppleTVで再生するためにはテレビを起動して入力切り替えする必要が出てくる。</p>
+
+<p>AppleTVで音だけをスピーカーに接続する方法もあるにはあるけど、スピーカーもないのに接続機器も購入する必要があって、再生元の機械がRaspberry PiなんだからRaspberry Piに接続すればいいなと思い返す。</p>
+
+<p>じゃあスピーカーだけ購入してmp3再生したりとか溜めておいて再生するスクリプト書くのもいいけど、なんでもいい時に聞きたいときの為にラジオの環境も作ろうって作ったのを<a href="http://blog.muchuu.net/post/110867859055/raspberry-pi-radiko">記事にした</a></p>
+
+<p>AppleTV起動してテレビ起動できるようになればいいのにな、WiiUとかも起動してテレビも起動して入力切り替えの受付をするまでちょっとまって切り替えて表示して、ってのがものすごく面倒くさくて、なんとかならんかとも考えていた。</p>
+
+<p>その点、Chromecastは優秀で、買ってきて遊んでた時にテレビ起動してなかったのにcastしちゃったときに瞬時にテレビ起動してまじビビってた。それどうなってるのかと調べてみるとちゃんとHDMI-CECって規格でテレビの操作出来たりテレビのリモコンで操作出来たりするものがあるみたい。</p>
+
+<ul>
+<li><a href="http://love-guava.com/chromecast-tv-power-on/">http://love-guava.com/chromecast-tv-power-on/</a></li>
+<li><a href="http://bibouroku.net/apple-tv-chromecast.html">http://bibouroku.net/apple-tv-chromecast.html</a></li>
+</ul>
+
+
+<p>んでAppleTVは対応してないと。すげぇなChromecast。だけどChromecastはもう使ってなくて引き出しにしまってある。AppleTVは常にテレビのHDMIに刺さってる。専用のリモコンがあるってのが決め手でしたかね。</p>
+
+<p>じゃあChromecast使って音楽再生とかすればいいんじゃねって思ったけど念のためRaspberry PiがそのHDMI-CECに対応してるか調べてみたら対応していた。</p>
+
+<ul>
+<li><a href="https://github.com/olajep/rpi-cecd">https://github.com/olajep/rpi-cecd</a></li>
+<li><a href="http://robo.mydns.jp/Lecture/index.php?Raspberry%20Pi%2FRaspbmc">http://robo.mydns.jp/Lecture/index.php?Raspberry%20Pi%2FRaspbmc</a></li>
+</ul>
+
+
+<p>えーほんとにー(ニヤリ)って感じで喜んでた。じゃあRaspberry Pi使ってSONYのブラビアのメニューからnasneの録画再生するための操作とか自動化できたり、WiiU繋げてる入力に切り替えて起動とか、Raspberry Piの入力に切り替えてテレビの電源つけてテレビのリモコンからRaspberry Pi操作して照明を消したり風呂沸かす手順を設定しておいて実行したりとかめっちゃ簡単に出来るってことなんじゃないの!?(想像)</p>
+
+<p>とか考えてワクワクしていた。出来るのだろうか、HDMI経由で操作できるのであれば出来そうではあるけども。</p>
+
+<p>だけどそんな便利そうなの商品で売ってないのか、と調べてみたらいろいろと不満を書いているブログに行き当たった。</p>
+
+<p><a href="http://e-nikki.blogspot.jp/2014/01/hdmi-cec-with-pc.html">http://e-nikki.blogspot.jp/2014/01/hdmi-cec-with-pc.html</a></p>
+
+<p>「日本のソフト開発者よりも、数段レベルの高い世界のソフト開発者が」って部分がやっぱり日本のソフト技術者って下に見られてるんだなぁと感慨深いものを感じられた。</p>
+
+<p>HDMIから機器を操作出来るって言っても、あらゆる機器が繋がるので対応が面倒なんだろうなって感じ。おおむねそうなんだろうなって感じで共感できた。対応ドライバとか使いやすいラッパー的なのが求められてるのかな。</p>
+
+<p>でも単体のアプリケーションに対応したコードを書けば済むような、Raspberry Pi使った操作になると、そこまで複雑化はしないのだろうか。</p>
+
+<p>楽しそうだな。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/02/13/%E3%83%A9%E3%82%B7%E3%82%99%E3%82%AA%E3%81%AE%E3%81%93%E3%81%A8/" title="Previous Post: ラジオのこと">&laquo; ラジオのこと</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/02/14/%E4%BD%9C%E6%A5%AD%E7%94%A8bgm%E7%92%B0%E5%A2%83/">作業用BGM環境</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/13/%E3%83%A9%E3%82%B7%E3%82%99%E3%82%AA%E3%81%AE%E3%81%93%E3%81%A8/">ラジオのこと</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/07/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%95%E3%82%99%E3%83%AC%E3%83%83%E3%83%88%E3%82%99/">ショートブレッド</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/06/%E5%86%AC%E3%81%AF%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%8B%E3%82%99%E3%82%8B/">冬はテンション上がる</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/03/%E3%83%8B%E3%82%B3%E5%8B%95mp3%E3%81%AB%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4/">ニコ動mp3にするやつ</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/soramugi">@soramugi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'soramugi',
+            count: 3,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - soramugi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
