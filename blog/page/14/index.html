@@ -9,7 +9,8 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="面白かった。 お笑い芸人のピースの暗い方、又吉が小説紹介する文章がまとまってる本なんだけど、その本と関係ありそうな又吉の経験を織り交ぜて紹介している。 本自体の内容を直接紹介している訳ではないので、なんとなく面白い話だったら一緒に紹介されて関係ありそうなその本を読んでみたくなるって感じ。 &hellip;">
+  <meta name="description" content="ゆるやかに変化して緩やかすぎて何も変わっていないんじゃないかと錯覚する。 何も変化していないのはとてつもなく不安になる。
+時間が経ち、衰え、死に行くイメージなのかと考えるがちょっと違う。 ただただ不安なのだ。 何も変化しないのが不安になる。意味のない不安。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +64,52 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/12/%E3%82%86%E3%82%8B%E3%82%84%E3%81%8B%E3%81%AB%E5%A4%89%E5%8C%96%E3%81%99%E3%82%8B/">ゆるやかに変化する</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-12T22:21:00+00:00" pubdate data-updated="true">Aug 12<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>ゆるやかに変化して緩やかすぎて何も変わっていないんじゃないかと錯覚する。</p>
+
+<p>何も変化していないのはとてつもなく不安になる。
+時間が経ち、衰え、死に行くイメージなのかと考えるがちょっと違う。</p>
+
+<p>ただただ不安なのだ。</p>
+
+<p>何も変化しないのが不安になる。意味のない不安。
+変化がない時に感じるのだから変化がない事に不安になるのだろう。</p>
+
+<p>少しの救いはゆるやかには変化しているという事。</p>
+
+<p>変化をしているという事を残して行かなければ気が狂いそうになる。</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -434,69 +481,6 @@ chef-soloでgitlab構築,</p>
 
 
 <p>てのが出来れば良いな。</p>
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/08/02/jenkinsnioctopressfalsebirudomakasitemita/">Jenkinsにoctopressのビルドまかしてみた</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-08-02T10:26:00+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>快適</p>
-
-<p>このブログはoctopressでやってるんだけども、毎回</p>
-
-<pre><code>rake gen_deploy
-</code></pre>
-
-<p>なんて面倒臭かったので、記事書いてコミットすれば勝手にデプロイできるようにした。</p>
-
-<p>githubにmasterとsourceブランチ作って設置。
-masterが実際にGitHubPagesで表示するファイルを置いて、sourceで記事をビルドしたりビルドする前の記事内容を保持。</p>
-
-<p>jenkinsでsourceのブランチチェックアウトしてrbenvプラグインを使用してビルドすれば良いので簡単。</p>
-
-<p>ビルド時のスクリプトはこんな感じ</p>
-
-<pre><code>bundle install --path vendor/bundle
-#git clone git@github.com:soramugi/soramugi.github.io.git _deploy
-bundle exec rake gen_deploy
-</code></pre>
-
-<p>初回だけcloneのコメントアウト外して実行する必要ある。</p>
-
-<p>後はgithubでsourceのブランチがpushされたら実行するようにすれば良いですね。
-git単体だとhook使えば出来そうだけどもGitHubのServiceHook使ってやるにはどうしよっかな。
-あとjenkinsではログインしないとアクセス出来ないようになってるからセキュリティ周りも見直してビルドだけでも出来るようにするとか。</p>
-
-<p>毎回記事作成するときにrakeタスク実行も面倒なので、メモする時の書式をJekyll形式に合わせるとか、octopressが合わせるようにでもいいし。</p>
-
-<p>GitHubPagesキャッシュ聞いてるから反映してもtopページの即時反映はされないようですね。archivesから記事ページにいけばすぐ見られるけど。</p>
 </div>
   
   
