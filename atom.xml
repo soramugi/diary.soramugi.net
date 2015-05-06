@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2015-05-01T05:32:14+00:00</updated>
+  <updated>2015-05-06T17:38:38+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ゴールデンウィーク]]></title>
+    <link href="http://diary.soramugi.net/blog/2015/05/07/%E3%82%B3%E3%82%99%E3%83%BC%E3%83%AB%E3%83%86%E3%82%99%E3%83%B3%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF/"/>
+    <updated>2015-05-07T01:51:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2015/05/07/ゴールデンウィーク</id>
+    <content type="html"><![CDATA[<p>GWは家に引きこもってサービス開発をしていました。</p>
+
+<blockquote><p>GWは「なにかサービス作るぞ！」って意気込みはあるけど結局やらないでいるっての何年も続けている気がする。</p></blockquote>
+
+<p>最近弊社で日報を書く文化を頑張って根付かせようとしていて、業務のことを書き綴っているのですが、GW前の金曜日、5/1に書いた雑な書き綴りがこれ。</p>
+
+<p>本当にGWはなんかいっつもサービスとか何か作ろうって毎回思っているんだけど、案外ゴールデンウィークはすぐに終わってしまって、そこまでちゃんとしたもの作れないってのがいつものパターン。</p>
+
+<p>だけど今回はちょっと頑張っていて、まだまだ途中だけどサービスの雛形までは作ることができた。まぁこんなもんでしょう。</p>
+
+<p>本当はGWを5日間で見て2日間で機能開発、1日デザイン整えるのに使って1日サーバー構築、あとは予備日として考えていた。実際は案出しがちゃんと固まっていなかったので1日が潰れて、考えた機能が明らかに2日では足りない量にしてしまったり、中だるみ用に1日何もしない日が必要だったとか、作ってる途中で同じようなサービスの相違点が見つけられなくてテンションガタ落ちってのが起きて作業止まったりとか(お腹空きすぎて元気なくなった時に考えちゃったからよくなかったんだと思う)、ちょうどsteamで購入した<a href="http://store.steampowered.com/app/204530">Infested Planet</a>をめちゃめちゃやりながらだったので(28時間ぐらい)そこまでコード書けてないとか、あったので当初の計画通りGW中にサービス作成して公開ってまでは行かなかったけど結構充実していたので良いだろう。deviseの事考える時間多かったのでdeviseちゃんと理解してればそこまで時間かからなかっただろうなと思う。deviseちゃんと使えるようにしたら将来捗りそうだな。</p>
+
+<p>機能面はほぼほぼできているので、あとはデザイン整えればいい感じですかね。ちゃんと公開したい。</p>
+
+<p>あとはこどもの日に鯉のぼりの押し寿司作ったり
+(oisixでキット食材で届いたやつ)</p>
+
+<p><img src="http://diary.soramugi.net/images/2015/05/07/IMG_3494.jpg" alt="IMG_3494.jpg" /></p>
+
+<p>ブックオフでぷらぷらして気になった本8冊買ったりしてました。</p>
+
+<p><img src="http://diary.soramugi.net/images/2015/05/07/IMG_3496.jpg" alt="IMG_3496.jpg" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[モレスキン買った]]></title>
@@ -433,29 +463,6 @@
 <p>herokuに上げたアプリ経由でhttpアクセスしてタグ作成するようにしてるんだけど必要なかったかもな。vimスクリプトだけでタグ生成するのだるかったんだけどherokuアプリ落ちてる時に起動するための時間かかるの使い勝手良くなかったな。</p>
 
 <p>しかし画像適当に貼れるのは雑感出て良い。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[焦り]]></title>
-    <link href="http://diary.soramugi.net/blog/2015/01/27/%E7%84%A6%E3%82%8A/"/>
-    <updated>2015-01-27T01:15:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2015/01/27/焦り</id>
-    <content type="html"><![CDATA[<p><img src="http://36.media.tumblr.com/19d535d2301524b9a4090b5bbdb44bd7/tumblr_n7j0nrW02Q1terqk8o1_500.jpg" alt="" />
-<a href="http://soramugi.tumblr.com/post/99528551843">http://soramugi.tumblr.com/post/99528551843</a></p>
-
-<p>朝起きて、家事をして、散歩をして、本を読んで、満たされる気持ちになるのが理想的。</p>
-
-<p>なぜか不安になることが多くて、何もしていないんじゃないかと思うのだが、案外何かをしていて、案外何かを続けられている。何かを続けられているのだからそれを上手く活用していけば何かよくなりそうなきがしている。物は使いようで、あとはいいタイミングが来た時に飛び付けるように準備をしていればいい。準備だけでなく飛びつく機会も作るための積み立てる何かをしていくように組み立てていかなければだけど、しているのだけれど。</p>
-
-<p>不安になる気持ちだけが敵で、邪魔で、何か精神的な余裕というか、未熟さだったりが目に見えて出てきていたり、まだまだ子供だなと思える。</p>
-
-<p>焦る必要はなくて、待つことができれば人生楽しくなる。みたいな画像をTumblrで見てリブログしたはずなんだけど見つからなかった。しょうがないからランダムで出てきた画像を貼り付ける。関係なくてもそれっぽくは見える。</p>
-
-<p>あとsoundcloudで昔つけたlikeの曲聴いてたら良さしかなかった。</p>
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/91567634&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
 ]]></content>
   </entry>
   
