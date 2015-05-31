@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2015-05-31T10:44:02+00:00</updated>
+  <updated>2015-05-31T10:53:01+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[地震]]></title>
+    <link href="http://diary.soramugi.net/blog/2015/05/31/%E5%9C%B0%E9%9C%87/"/>
+    <updated>2015-05-31T19:41:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2015/05/31/地震</id>
+    <content type="html"><![CDATA[<p>東京に出てきたばっかりのころ、荻窪のゲストハウスに働きもせずにブラウザーゲーム作りまくってたときに、秋葉原の高層マンションの1室でハッカソンする集まりに行ったことがある。</p>
+
+<p>ハッカソンの時間は24時間、その中で新機能としてリリースされる機能を使ってゲームを作るってのをやってたんだけど、24時間起きっぱなしでコード書いていた時に地震が起きた。</p>
+
+<p>高層マンションなので揺れが長く、「おお、おお」みたいな感じになってたんだけど、主催者の人が仮眠をとっていたはずだったが「地震だ！」と言いながら飛び起きて安否を確認したり状況把握に努めていた。</p>
+
+<p>そのときは大げさすぎる反応で、ちょっとオーバーすぎるなと感じていたのだが、自分の反応が冷めすぎてるというか、大変な事なんだ、人間にはどうすることも出来ないことなんだよと態度で示していたその2周り以上も歳をいっているであろう人に教えてもらった。あの人が断然正しい反応だったなと思う。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[やりたいこと]]></title>
@@ -425,31 +440,6 @@
 <p>冬は割とテンション上がって、1年の中でもっとも躍動的になるのだけれど、他の人と話したりしてる時に冬は寒くてテンション下がる話聞くとこっちまでテンション下がってきて自分のテンションの平均値が低いだけかなって気持ちになってくるのだけれど、テンションなんて曖昧なものを基準つけするのなんてできないなって話。</p>
 
 <p>冬の室内で窓ガラスから入ってくる日差し好きですよ。暑いけど。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ニコ動mp3にするやつ]]></title>
-    <link href="http://diary.soramugi.net/blog/2015/02/03/%E3%83%8B%E3%82%B3%E5%8B%95mp3%E3%81%AB%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4/"/>
-    <updated>2015-02-03T14:54:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2015/02/03/ニコ動mp3にするやつ</id>
-    <content type="html"><![CDATA[<p><a href="http://soramugi.tumblr.com/post/6803685750/szymon-pillow-puzzle-by-gry-fager#_=_"><img src="http://41.media.tumblr.com/tumblr_lmnjpagq3c1qz4s3wo1_500.png" alt="Tumblr lmnjpagq3c1qz4s3wo1 500" /><br />ハトムギ、玄米、月見草</a></p>
-
-<script src="https://gist.github.com/soramugi/52f885e08a58864b6b7e.js"></script>
-
-
-<p>結構前に作った
-<a href="http://diary.soramugi.net/blog/2014/08/12/pocket%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%9F%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E3%82%92%E9%80%A3%E7%B6%9A%E5%86%8D%E7%94%9F%E3%81%99%E3%82%8B%E3%80%8Cpoolcket%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/">http://diary.soramugi.net/blog/2014/08/12/pocket%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%97%E3%81%9F%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E3%82%92%E9%80%A3%E7%B6%9A%E5%86%8D%E7%94%9F%E3%81%99%E3%82%8B%E3%80%8Cpoolcket%E3%80%8D%E4%BD%9C%E3%81%A3%E3%81%9F/</a>
-なんだけど、pocketに登録したニコ動を流して作業BGMにしてたんだけど、動画は見ないのに流しっぱなしにするとcpuガシガシ使われてて作業自体が滞るようになって意味ない感じだったのでmp3抜き出しして音だけ聴くようにした。</p>
-
-<p>pocketに保存したニコ動urlからmp3にしてdropboxに入れる。これをjenkinsで定期的に回して聞きたいときに以下のコマンドで再生とかしてる。</p>
-
-<pre><code>find /Users/mugi/Dropbox\ \(個人\)/アプリ/mugi_jenkins/nico -maxdepth 1 -mindepth 1 -exec echo {} \; -exec afplay -q 1 -v 0.5 {} \;
-</code></pre>
-
-<p>聞いてて気に入ったときにマイリス突っ込めるように別ディレクトリに移動して勝手にマイリスするとかした方が使い勝手いいかも</p>
-
-<p>追記: マイリスできるようにしたわー</p>
 ]]></content>
   </entry>
   
