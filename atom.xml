@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2015-08-15T05:29:31+00:00</updated>
+  <updated>2015-08-28T04:47:38+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[脳をだます]]></title>
+    <link href="http://diary.soramugi.net/blog/2015/08/28/%E8%84%B3%E3%82%92%E3%81%9F%E3%82%99%E3%81%BE%E3%81%99/"/>
+    <updated>2015-08-28T13:28:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2015/08/28/脳をだます</id>
+    <content type="html"><![CDATA[<p>「&lt;香り>はなぜ脳に効くのか―アロマセラピーと先端医療 (NHK出版新書 385)」
+<a href="http://bookmeter.com/cmt/49731989">http://bookmeter.com/cmt/49731989</a></p>
+
+<p>って本を読みまして。</p>
+
+<p>医療として研究が進められてこなかった「香り」が最近見直されて、外科とか解りやすい部分が解明されてきて今度は脳とかあんまりいじれない部分を解明していきましょうって順番になってきたらしく、香りの医療的側面の効果が研究されてきてますね。って本。昔から精油とか使われて来たけど根拠とか別に無くて、科学的根拠が徐々に解明されてきたみたいですね。</p>
+
+<p>香りはほとんどダイレクトに脳に伝わるので痛み止めの必要とか無くなったり(極端な例です)、脳を刺激して認知症患者にも効果あるみたい。ボケたらなんかいい匂いのするもので脳を刺激しましょう。</p>
+
+<p>自分はホコリアレルギー持ちなのでその点も書いてあったのがちょっと良かった。ユーカリの匂いを嗅ぐと結構緩和されてくるらしい。で試した。なんか緩和されるような微妙なような。。うーんちょっと楽かも?ぐらいでした。</p>
+
+<p>香りで脳を刺激して誤魔化す的なものなので「いいかも?」ぐらいで正解なんだと思う。</p>
+
+<p>自分の性格なのかなんなのか香りがやたらと気になって、webサービスとかだけで香りが表現できたらいいなとか漠然とした実現できるかわからない事を考えてるので、なんかもうちょっと香り系の知識欲しいなと思っているしだい。我ながら漠然としすぎている。</p>
+
+<p>香りで脳をだますって知識は得た。なんか気分とかで左右されるんだったら香りで気分を左右するのも良いのかも知れない。脳をだませるのよさそう。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[近況]]></title>
@@ -415,59 +439,6 @@
 
 <script async src="http://assets.tumblr.com/post.js"></script>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[作業用BGM環境]]></title>
-    <link href="http://diary.soramugi.net/blog/2015/02/14/%E4%BD%9C%E6%A5%AD%E7%94%A8bgm%E7%92%B0%E5%A2%83/"/>
-    <updated>2015-02-14T21:11:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2015/02/14/作業用bgm環境</id>
-    <content type="html"><![CDATA[<p>家の音楽環境が乏しくてラジオに手を出しつつあるのだけれど、それまでに試行錯誤していて、スピーカーというものが存在していなかったのでまずはAppleTVのAirplayで試してみていた。Macからとかじゃなくて、Mac触ってなくても音欲しかったので常時稼働するRaspberry Piでなんとかならんかと。</p>
-
-<p><a href="https://github.com/Tomohiro/airplayer">https://github.com/Tomohiro/airplayer</a></p>
-
-<p><a href="https://github.com/Tomohiro/airplayer">airplayer</a>って便利gemがあって(他にもairstreamがあるけどairplayerの方がよい)、試してみてたんだけど、映像にしか対応してなくてmp3とかの再生には対応してなかった。AirPlayはmp3対応してるけどgemが対応してなかった。プルリクしてもよかったんだけど、そもそもでAppleTVで再生するためにはテレビを起動して入力切り替えする必要が出てくる。</p>
-
-<p>AppleTVで音だけをスピーカーに接続する方法もあるにはあるけど、スピーカーもないのに接続機器も購入する必要があって、再生元の機械がRaspberry PiなんだからRaspberry Piに接続すればいいなと思い返す。</p>
-
-<p>じゃあスピーカーだけ購入してmp3再生したりとか溜めておいて再生するスクリプト書くのもいいけど、なんでもいい時に聞きたいときの為にラジオの環境も作ろうって作ったのを<a href="http://blog.muchuu.net/post/110867859055/raspberry-pi-radiko">記事にした</a></p>
-
-<p>AppleTV起動してテレビ起動できるようになればいいのにな、WiiUとかも起動してテレビも起動して入力切り替えの受付をするまでちょっとまって切り替えて表示して、ってのがものすごく面倒くさくて、なんとかならんかとも考えていた。</p>
-
-<p>その点、Chromecastは優秀で、買ってきて遊んでた時にテレビ起動してなかったのにcastしちゃったときに瞬時にテレビ起動してまじビビってた。それどうなってるのかと調べてみるとちゃんとHDMI-CECって規格でテレビの操作出来たりテレビのリモコンで操作出来たりするものがあるみたい。</p>
-
-<ul>
-<li><a href="http://love-guava.com/chromecast-tv-power-on/">http://love-guava.com/chromecast-tv-power-on/</a></li>
-<li><a href="http://bibouroku.net/apple-tv-chromecast.html">http://bibouroku.net/apple-tv-chromecast.html</a></li>
-</ul>
-
-
-<p>んでAppleTVは対応してないと。すげぇなChromecast。だけどChromecastはもう使ってなくて引き出しにしまってある。AppleTVは常にテレビのHDMIに刺さってる。専用のリモコンがあるってのが決め手でしたかね。</p>
-
-<p>じゃあChromecast使って音楽再生とかすればいいんじゃねって思ったけど念のためRaspberry PiがそのHDMI-CECに対応してるか調べてみたら対応していた。</p>
-
-<ul>
-<li><a href="https://github.com/olajep/rpi-cecd">https://github.com/olajep/rpi-cecd</a></li>
-<li><a href="http://robo.mydns.jp/Lecture/index.php?Raspberry%20Pi%2FRaspbmc">http://robo.mydns.jp/Lecture/index.php?Raspberry%20Pi%2FRaspbmc</a></li>
-</ul>
-
-
-<p>えーほんとにー(ニヤリ)って感じで喜んでた。じゃあRaspberry Pi使ってSONYのブラビアのメニューからnasneの録画再生するための操作とか自動化できたり、WiiU繋げてる入力に切り替えて起動とか、Raspberry Piの入力に切り替えてテレビの電源つけてテレビのリモコンからRaspberry Pi操作して照明を消したり風呂沸かす手順を設定しておいて実行したりとかめっちゃ簡単に出来るってことなんじゃないの!?(想像)</p>
-
-<p>とか考えてワクワクしていた。出来るのだろうか、HDMI経由で操作できるのであれば出来そうではあるけども。</p>
-
-<p>だけどそんな便利そうなの商品で売ってないのか、と調べてみたらいろいろと不満を書いているブログに行き当たった。</p>
-
-<p><a href="http://e-nikki.blogspot.jp/2014/01/hdmi-cec-with-pc.html">http://e-nikki.blogspot.jp/2014/01/hdmi-cec-with-pc.html</a></p>
-
-<p>「日本のソフト開発者よりも、数段レベルの高い世界のソフト開発者が」って部分がやっぱり日本のソフト技術者って下に見られてるんだなぁと感慨深いものを感じられた。</p>
-
-<p>HDMIから機器を操作出来るって言っても、あらゆる機器が繋がるので対応が面倒なんだろうなって感じ。おおむねそうなんだろうなって感じで共感できた。対応ドライバとか使いやすいラッパー的なのが求められてるのかな。</p>
-
-<p>でも単体のアプリケーションに対応したコードを書けば済むような、Raspberry Pi使った操作になると、そこまで複雑化はしないのだろうか。</p>
-
-<p>楽しそうだな。</p>
 ]]></content>
   </entry>
   
