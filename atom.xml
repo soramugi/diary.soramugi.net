@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2015-10-28T01:43:14+00:00</updated>
+  <updated>2016-01-05T14:29:39+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[年末とラジオと佐倉綾音]]></title>
+    <link href="http://diary.soramugi.net/blog/2016/01/05/%E5%B9%B4%E6%9C%AB%E3%81%A8%E3%83%A9%E3%82%B7%E3%82%99%E3%82%AA%E3%81%A8%E4%BD%90%E5%80%89%E7%B6%BE%E9%9F%B3/"/>
+    <updated>2016-01-05T22:55:00+00:00</updated>
+    <id>http://diary.soramugi.net/blog/2016/01/05/年末とラジオと佐倉綾音</id>
+    <content type="html"><![CDATA[<p>年末は彼女がクリスマス終了後の休みに入ったと同時ぐらいに帰省したので1週間程度の完全に自由な時間を堪能していた。</p>
+
+<p>クリスマスが結構気合いを入れていたのとちょうど生き生きしていたタイミングのピークにクリスマスを当てはめてちょっとしたランナーズハイになっていて、彼女が帰省するのを見届けて一気に脱力して2~3日ぐらいは皿洗いもせず何もしないでぐだぐだとゴロゴロしていた。</p>
+
+<p>12月ぐらいからは何故か0時前には寝て7時には起きる生活を平日も休日も意味も無く続けていたので布団の中でゴロゴロしていたわけでは無いのだが、テレビの前で適当なアニメを見たりゲームをしたりYoutubeで女性声優の佐倉綾音の動画を見まくっていた。</p>
+
+<p>佐倉綾音の動画はちょろい、シャーロットラジオ、スワイプ、あやねるDK、もじゃさく、とかですね。主にちょろいの動画を見まくって佐倉さんキャーキャーしててまじかわいいっすねーって見ていました。
+見ていると佐倉綾音は出演している人達でキャラを使い分けていて、もじゃさくのが割と素が出ていて男勝りでプライドが高めで百合漫画が好きだけどオタ要素は薄め、アニメは見ないでお笑い好きの可愛い子ぶるのが苦手でああなんだめっちゃ普通な女子だなと一気に目が冷めた。声優に夢を持っていた時の思い出のまま感情移入していると何かを失う。</p>
+
+<p>佐倉綾音よりも内田真礼が可愛いですね。内田可愛いぞ内田。
+佐倉綾音は近所の妹というか過去の姉ちゃんって感じがする。</p>
+
+<p>で色々探しててラジオやっぱりいいなってなって、ラジオを聴きたいときに付けて聴くのもしてたけどやっぱり昼とか付けると別に面白くない氷川きよしのラジオとか(本当に面白くない、氷川きよしという人のしゃべりが本当に面白くない)が聞こえてきたりするので深夜とか土日のラジオが聴きたいわってなって録画環境を整えまくりました。</p>
+
+<p>録画はこれでやってます <a href="https://github.com/yayugu/net-radio-archive">https://github.com/yayugu/net-radio-archive</a></p>
+
+<p>一時期動かしてて止めてたんだけどまた初めてみました。なんで一回やめちゃってたんだったかな。</p>
+
+<p>年末はそんな感じでやってたかな。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ニューバランスを植木鉢にする]]></title>
@@ -497,21 +524,6 @@
     <updated>2015-04-03T14:22:00+00:00</updated>
     <id>http://diary.soramugi.net/blog/2015/04/03/桜</id>
     <content type="html"><![CDATA[<p>桜、気づいたら咲いて、咲いたら「見に行かなきゃ!」って人がごった返すの良くないから区画毎に順番に咲いてって欲しいって考えたけど沖縄は1月下旬で北海道は5月頃だからすでに順番に咲いてた。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IKEA FOOD]]></title>
-    <link href="http://diary.soramugi.net/blog/2015/03/21/ikea-food/"/>
-    <updated>2015-03-21T18:09:00+00:00</updated>
-    <id>http://diary.soramugi.net/blog/2015/03/21/ikea-food</id>
-    <content type="html"><![CDATA[<p>IKEAで買い物したら「ふー疲れた」って行ってさっさと帰る人が多いだろうけど(私が最初はそうだった)、割と頻繁にIKEAレストラン目当てで通っていた時には家具とかの買い物はしないで帰るので、その時には折角だしって感じでレジを通った後のIKEA FOODコーナーを回ったりしてた。</p>
-
-<p>IKEA FOOD、冷凍ものとか長期保存を考えられてるものがあるから常備するのに向いてる感じ。冷凍のパンケーキとイチゴジャム、エルダーフラワー(?)の水に薄めて飲む凝縮ジュースがお気に入り。(写真のジャムはいちご以外のジャムをお試し中)あと乾燥パンとかもあると朝のちょっとだけお腹満たすのにいい感じ。</p>
-
-<p><img src="http://diary.soramugi.net/images/2015/03/21/IMG_3396.jpg" alt="IMG_3396.jpg" /></p>
-
-<p><img src="http://diary.soramugi.net/images/2015/03/21/IMG_3395.jpg" alt="IMG_3395.jpg" /></p>
 ]]></content>
   </entry>
   
