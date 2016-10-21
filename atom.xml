@@ -4,7 +4,7 @@
   <title><![CDATA[全体的に千葉産です]]></title>
   <link href="http://diary.soramugi.net/atom.xml" rel="self"/>
   <link href="http://diary.soramugi.net/"/>
-  <updated>2016-10-21T06:19:53+00:00</updated>
+  <updated>2016-10-21T06:30:08+00:00</updated>
   <id>http://diary.soramugi.net/</id>
   <author>
     <name><![CDATA[soramugi]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[wordpressのセキュリティチェックから考える対策]]></title>
+    <title type="html"><![CDATA[wordpressのセキュリティチェックから考えるwebアプリのセキュリティ対策]]></title>
     <link href="http://diary.soramugi.net/blog/2016/10/21/wordpress%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E5%AF%BE%E7%AD%96/"/>
     <updated>2016-10-21T12:59:00+00:00</updated>
     <id>http://diary.soramugi.net/blog/2016/10/21/wordpressのセキュリティから考える対策</id>
@@ -78,7 +78,7 @@ wordpressのセキュリティチェックツールは存在していて、
 
 <p>ユーザー名一覧は知られたくないからそのページを潰すとかの対応すれば良さそうとかとか。(試しては無い)</p>
 
-<p>wordpressのバージョン番号は取得できないサイトを見つけたりもしたので、バージョンを解らせない設定とかも出来るみたいなので引き続き調べていきたい。(<meta name="generator"> の情報を消すだけでは不十分みたい)</p>
+<p>wordpressのバージョン番号は取得できないサイトを見つけたりもしたので、バージョンを解らせない設定とかも出来るみたいなので引き続き調べていきたい。(<code>&lt;meta name="generator"&gt;</code> の情報を消すだけでは不十分みたい)</p>
 
 <h3>危険性の閲覧</h3>
 
