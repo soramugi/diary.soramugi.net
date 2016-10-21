@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>wordpressのセキュリティチェックから考える対策 - 全体的に千葉産です</title>
+  <meta name="author" content="soramugi">
+
+  
+  <meta name="description" content="huluで「トゥルーマンショー」を見まして。 1998年に公開された映画ですが、見たことが無く。初めて見たんですが面白い映画でしたね。 最後の場面で正確なセリフは忘れてしまったのですが
+「君は恐れてるんだ。だから、だからそこから出られない。それでいいんだ。」( &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="pocket-site-verification" content="2d02688e9a85ce662bc31a066d97bd" />
+
+  
+  <link rel="canonical" href="http://diary.soramugi.net/blog/2016/10/21/wordpress%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E5%AF%BE%E7%AD%96/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="全体的に千葉産です" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43044942-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">全体的に千葉産です</a></h1>
+</hgroup>
+
+</header>
+<div class="navi">
+<ul>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/aboutme/">Author</a></li>
+</ul>
+</div>
+
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Wordpressのセキュリティチェックから考える対策</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-10-21T12:59:00+00:00" pubdate data-updated="true">Oct 21<span>st</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>huluで「トゥルーマンショー」を見まして。</p>
+
+<p>1998年に公開された映画ですが、見たことが無く。初めて見たんですが面白い映画でしたね。</p>
+
+<p>最後の場面で正確なセリフは忘れてしまったのですが
+「君は恐れてるんだ。だから、だからそこから出られない。それでいいんだ。」(完全に忘れたので結局ググって出てきたそれっぽい言葉を引用)</p>
+
+<p>の言葉。話の流れとか言葉の意味で解釈すると、想定外の世界にさらされるよりも想定可能な世界にとどまった方がいい、この世界も作られたモノだが作られた真実であり、必ずしも悪いモノでは無い。と受け止めた。それが現実世界で暮らす自分にとっては選択するべき方向かとか自分に当てはめてどんな感想を持ったかは置いて置いて、今回はwordpressに当てはめてのお話。</p>
+
+<h2>wordpressの市場シェア</h2>
+
+<p>全世界のサイトの4分の1はWordPressで作られている
+<a href="http://gigazine.net/news/20151109-wordpress-make-quarter-web/">http://gigazine.net/news/20151109-wordpress-make-quarter-web/</a></p>
+
+<p>2015年11月当時、存在するインターネットのurlの4分の1はwordpressによって生成されたurlらしい。
+(K氏へ。対面で話してるときに「全世界の半分のurlはwordpress」だと言ったがあれはウソだ。それはCMSで限定したらの話だった)</p>
+
+<p>めちゃくちゃ使われてる。そして割合が年を重ねる毎に増加している。</p>
+
+<p>故に取り込まれた機能はwebの標準に限りなく近い機能になるし、取り込まれるのが早い。(AMPとかね)
+故に習得する利点は多々あると考える。</p>
+
+<p>そして多い故にセキュリティ的に狙われやすい。</p>
+
+<h2>セキュリティ</h2>
+
+<p>さっくり書こうとしたのに風呂敷広げすぎてる気がしてきたので本題に入る。(ここは私のサイトであり私の自由だ)</p>
+
+<p>セキュリティ的に狙われやすいが、
+wordpressのセキュリティチェックツールは存在していて、
+<a href="https://wpscan.org">https://wpscan.org</a></p>
+
+<p>httpアクセス出来る状態であればそのwordpressサイトをセキュリティチェック出来て、安全を確認出来るんだが</p>
+
+<ul>
+<li>安全かどうか</li>
+<li>どのようにクリティカルな情報を取得可能か</li>
+<li>過去のバージョンではこのような危険性があります、の情報によっての攻撃方法</li>
+</ul>
+
+
+<p>などが知ることが出来る。
+下2つを詳しく取り扱いたい。</p>
+
+<h3>クリティカルな情報</h3>
+
+<p>クリティカルな情報とはwordpressのバージョン番号やファイルパスを出力する危険性とかdbアクセス情報とかファイル権限とかログインユーザ名とか度合いは違えどそのような情報が取得出来る。それらが取得出来る方法をコードから読み取ることが出来る。wpscan実行時のアクセスログとかでも解る。</p>
+
+<p>例えばログインユーザ名の件を詳しく書くと</p>
+
+<p>ログインユーザーID &amp; 表示ユーザー名は簡単に取得可能で、指定したURLにアクセスしたらリダイレクトしてくれてユーザー名が解るとからしい。</p>
+
+<p>&lt;wordpressサイトURL/?author=1> でユーザーページが解るので、その中の表示ユーザー名やcssにあるログインユーザーIDで解るらしい。</p>
+
+<p>この記事が詳しい
+<a href="http://d.hatena.ne.jp/ozuma/20130820/1376927068">http://d.hatena.ne.jp/ozuma/20130820/1376927068</a>
+<a href="http://d.hatena.ne.jp/ozuma/20130830/1377868474">http://d.hatena.ne.jp/ozuma/20130830/1377868474</a></p>
+
+<p>ユーザー名一覧は知られたくないからそのページを潰すとかの対応すれば良さそうとかとか。(試しては無い)</p>
+
+<p>wordpressのバージョン番号は取得できないサイトを見つけたりもしたので、バージョンを解らせない設定とかも出来るみたいなので引き続き調べていきたい。(<meta name="generator"> の情報を消すだけでは不十分みたい)</p>
+
+<h3>危険性の閲覧</h3>
+
+<p>「過去にこんな危険性があった」のアーカイブが半端なく多いです。</p>
+
+<p>だからといってプロダクトとして良くない訳では無くて、それだけ使われているしプラガブルでオープンソースによって早くから上がってくる問題のおかげでより安全になっただけでありこの積み立てた知見の塊を数人のチームによって作成したアプリケーションが超えられるとはとうてい思えない。</p>
+
+<p>私情が挟まっている文章になった気がするが、過去の危険性が閲覧出来ればアタックするorされる方法が解るので、個人で作成する場合の注意すべき点が解るので見ていて楽しい。</p>
+
+<p>セキュリティへの知見が溜まる</p>
+
+<h2>まとめ</h2>
+
+<p>いきなりまとめますが私はセキュリティが万全なのかいつも恐れている。</p>
+
+<p>「君は恐れてるんだ。だから、だからそこから出られない。それでいいんだ。」</p>
+
+<p>私はプログラマーでありコードを書いてwebサイトを作っているしこれからも作る気でいるが、
+wordpressを使う利点は「みんな使ってる」「セキュリティに問題がある所を誰かが直してくれる」「webの標準を知ることが出来る」「(格安で手間が掛からない)レンタルサーバーで動く」「お決まりの管理機能を作らなくて良い」</p>
+
+<p>等があると思っている。あと自動アップデートでコードの管理が要らないとか。(動いてる環境を自動アップデートなんて出来ないよって意見もありますが、バックアップと死活監視をすれば良い話とは思うがしない理由も分からなくは無い気持ちもまたある)</p>
+
+<p>セキュリティ面からwordpressを使う自分の考えとして当てはまるのは恐れているんです。何が起こるか解らないこの世界に(トゥルーマンショー的に表現)。セキュリティの改善が保証されている、便利に自動アップデートしてくれる、ある程度予測可能な世界に浸るのも悪くは無いと思います。</p>
+
+<p>ですが「それでいいんだ」と言われたトゥルーマンは最後には外に出て行きます(ネタバレ)
+ある程度予測可能な世界に浸りながらいつでも外に出て行ける状態を作っていこうと対策していこうと思います。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/07/08/%E9%9B%91/" title="Previous Post: 雑">&laquo; 雑</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/10/21/wordpress%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E5%AF%BE%E7%AD%96/">wordpressのセキュリティチェックから考える対策</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/08/%E9%9B%91/">雑</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/03/%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC/">マネーモンスター</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/23/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%AB%E3%81%AFdsp%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%8C%E8%89%AF%E3%81%84/">最初のラジオにはDSPラジオが良い</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/23/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%A9%E3%82%B7%E3%82%99%E3%82%AA%E3%81%AB%E3%81%AFdsp%E3%83%A9%E3%82%B7%E3%82%99%E3%82%AA%E3%81%8B%E3%82%99%E8%89%AF%E3%81%84/">最初のラジオにはDSPラジオが良い</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/soramugi">@soramugi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'soramugi',
+            count: 3,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - soramugi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
