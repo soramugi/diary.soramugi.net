@@ -9,7 +9,7 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="別のブログでラジオのことかいてラジオって何度かチャレンジしてる(?)けどあんまり続いてないなって感じ。 結局専用のデバイス購入してない(案外高い)からなんか時間経つと飽きて設定しておいたやつを起動したりするのが面倒になってラジオを聞く環境が無くなっていく感じですね。 んで、 &hellip;">
+  <meta name="description" content="家の音楽環境が乏しくてラジオに手を出しつつあるのだけれど、それまでに試行錯誤していて、スピーカーというものが存在していなかったのでまずはAppleTVのAirplayで試してみていた。Macからとかじゃなくて、Mac触ってなくても音欲しかったので常時稼働するRaspberry &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -62,10 +62,92 @@
 
   <div id="main">
     <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
       
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/14/%E4%BD%9C%E6%A5%AD%E7%94%A8bgm%E7%92%B0%E5%A2%83/">作業用BGM環境</a></h1>
+    
+    
+      <p class="meta">
+        
 
 
-    <article class="post">
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-14T21:11:00+00:00" pubdate data-updated="true">Feb 14<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>家の音楽環境が乏しくてラジオに手を出しつつあるのだけれど、それまでに試行錯誤していて、スピーカーというものが存在していなかったのでまずはAppleTVのAirplayで試してみていた。Macからとかじゃなくて、Mac触ってなくても音欲しかったので常時稼働するRaspberry Piでなんとかならんかと。</p>
+
+<p><a href="https://github.com/Tomohiro/airplayer">https://github.com/Tomohiro/airplayer</a></p>
+
+<p><a href="https://github.com/Tomohiro/airplayer">airplayer</a>って便利gemがあって(他にもairstreamがあるけどairplayerの方がよい)、試してみてたんだけど、映像にしか対応してなくてmp3とかの再生には対応してなかった。AirPlayはmp3対応してるけどgemが対応してなかった。プルリクしてもよかったんだけど、そもそもでAppleTVで再生するためにはテレビを起動して入力切り替えする必要が出てくる。</p>
+
+<p>AppleTVで音だけをスピーカーに接続する方法もあるにはあるけど、スピーカーもないのに接続機器も購入する必要があって、再生元の機械がRaspberry PiなんだからRaspberry Piに接続すればいいなと思い返す。</p>
+
+<p>じゃあスピーカーだけ購入してmp3再生したりとか溜めておいて再生するスクリプト書くのもいいけど、なんでもいい時に聞きたいときの為にラジオの環境も作ろうって作ったのを<a href="http://blog.muchuu.net/post/110867859055/raspberry-pi-radiko">記事にした</a></p>
+
+<p>AppleTV起動してテレビ起動できるようになればいいのにな、WiiUとかも起動してテレビも起動して入力切り替えの受付をするまでちょっとまって切り替えて表示して、ってのがものすごく面倒くさくて、なんとかならんかとも考えていた。</p>
+
+<p>その点、Chromecastは優秀で、買ってきて遊んでた時にテレビ起動してなかったのにcastしちゃったときに瞬時にテレビ起動してまじビビってた。それどうなってるのかと調べてみるとちゃんとHDMI-CECって規格でテレビの操作出来たりテレビのリモコンで操作出来たりするものがあるみたい。</p>
+
+<ul>
+<li><a href="http://love-guava.com/chromecast-tv-power-on/">http://love-guava.com/chromecast-tv-power-on/</a></li>
+<li><a href="http://bibouroku.net/apple-tv-chromecast.html">http://bibouroku.net/apple-tv-chromecast.html</a></li>
+</ul>
+
+
+<p>んでAppleTVは対応してないと。すげぇなChromecast。だけどChromecastはもう使ってなくて引き出しにしまってある。AppleTVは常にテレビのHDMIに刺さってる。専用のリモコンがあるってのが決め手でしたかね。</p>
+
+<p>じゃあChromecast使って音楽再生とかすればいいんじゃねって思ったけど念のためRaspberry PiがそのHDMI-CECに対応してるか調べてみたら対応していた。</p>
+
+<ul>
+<li><a href="https://github.com/olajep/rpi-cecd">https://github.com/olajep/rpi-cecd</a></li>
+<li><a href="http://robo.mydns.jp/Lecture/index.php?Raspberry%20Pi%2FRaspbmc">http://robo.mydns.jp/Lecture/index.php?Raspberry%20Pi%2FRaspbmc</a></li>
+</ul>
+
+
+<p>えーほんとにー(ニヤリ)って感じで喜んでた。じゃあRaspberry Pi使ってSONYのブラビアのメニューからnasneの録画再生するための操作とか自動化できたり、WiiU繋げてる入力に切り替えて起動とか、Raspberry Piの入力に切り替えてテレビの電源つけてテレビのリモコンからRaspberry Pi操作して照明を消したり風呂沸かす手順を設定しておいて実行したりとかめっちゃ簡単に出来るってことなんじゃないの!?(想像)</p>
+
+<p>とか考えてワクワクしていた。出来るのだろうか、HDMI経由で操作できるのであれば出来そうではあるけども。</p>
+
+<p>だけどそんな便利そうなの商品で売ってないのか、と調べてみたらいろいろと不満を書いているブログに行き当たった。</p>
+
+<p><a href="http://e-nikki.blogspot.jp/2014/01/hdmi-cec-with-pc.html">http://e-nikki.blogspot.jp/2014/01/hdmi-cec-with-pc.html</a></p>
+
+<p>「日本のソフト開発者よりも、数段レベルの高い世界のソフト開発者が」って部分がやっぱり日本のソフト技術者って下に見られてるんだなぁと感慨深いものを感じられた。</p>
+
+<p>HDMIから機器を操作出来るって言っても、あらゆる機器が繋がるので対応が面倒なんだろうなって感じ。おおむねそうなんだろうなって感じで共感できた。対応ドライバとか使いやすいラッパー的なのが求められてるのかな。</p>
+
+<p>でも単体のアプリケーションに対応したコードを書けば済むような、Raspberry Pi使った操作になると、そこまで複雑化はしないのだろうか。</p>
+
+<p>楽しそうだな。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/13/%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%AE%E3%81%93%E3%81%A8/">ラジオのこと</a></h1>
@@ -134,10 +216,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/13/%E3%83%A9%E3%82%B7%E3%82%99%E3%82%AA%E3%81%AE%E3%81%93%E3%81%A8/">ラジオのこと</a></h1>
@@ -206,10 +290,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/07/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%96%E3%83%AC%E3%83%83%E3%83%89/">ショートブレッド</a></h1>
@@ -246,10 +332,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/07/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%95%E3%82%99%E3%83%AC%E3%83%83%E3%83%88%E3%82%99/">ショートブレッド</a></h1>
@@ -286,10 +374,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/06/%E5%86%AC%E3%81%AF%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%8C%E3%82%8B/">冬はテンション上がる</a></h1>
@@ -324,10 +414,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/06/%E5%86%AC%E3%81%AF%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%8B%E3%82%99%E3%82%8B/">冬はテンション上がる</a></h1>
@@ -362,10 +454,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/03/%E3%83%8B%E3%82%B3%E5%8B%95mp3%E3%81%AB%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4/">ニコ動mp3にするやつ</a></h1>
@@ -412,10 +506,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/02/02/%E4%BA%8C%E9%87%8D%E4%BA%BA%E6%A0%BC/">二重人格</a></h1>
@@ -454,10 +550,12 @@
   
   
 
-</article>
 
-
-    <article class="post">
+    </article>
+  
+  
+    <article>
+      
   <header>
     
       <h1 class="entry-title"><a href="/blog/2015/01/30/%E5%92%B3%E3%81%8C%E5%87%BA%E3%82%8B/">咳が出る</a></h1>
@@ -514,81 +612,88 @@
   
   
 
-</article>
 
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/30/%E5%92%B3%E3%81%8B%E3%82%99%E5%87%BA%E3%82%8B/">咳が出る</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
+    </article>
   
-
-
-<time datetime="2015-01-30T14:54:00+00:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
-        
-      </p>
+  <div class="pagination">
     
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://soramugi.tumblr.com/post/9448604535/uinyan#_=_"><img src="http://40.media.tumblr.com/tumblr_lqkomvLZOX1qaww6ho1_500.jpg" alt="Tumblr lqkomvlzox1qaww6ho1 500" /><br />ハトムギ、玄米、月見草</a></p>
-
-<p>去年9月から夜中に咳が出るようになって病院に何度か通ったのだがどうも要領を得ない。</p>
-
-<p>まず何科に行けばいいのかわからなかったので10月にとりあえず近場の大きめな病院に「夜中咳が出るのですが」と伝えると内科へと案内される。</p>
-
-<p>受診してみるも「とりあえずレントゲンを」「異常はないようです」「咳が出る要因は様々で検討がつかない」「とりあえずアレルギーの薬だしておきますね」てなもんでアレルギーってそんな万能薬みたいなのあるのかねと飲んでみるもなかなか治らず。検討つかないのに行ってもなぁってので放置。なにより病院の先生のやる気のなさがにじみ出ている感じがなにやら申し訳ないようなもうちょっと具体的な症状を言わないといけないのかと疑心暗鬼になりずるずると行けずじまい。</p>
-
-<p>今年1月初めに流石に咳が辛くなってきて、そして咳が出るときには息を吸うとヒューヒューと音がなり、痰が出ると咳が収まるため、鼻水が喉に溜まって咳が出るのかもしれないと仮定付けて耳鼻科に行ってみた。</p>
-
-<p>家の近く、前回の大きめな病院よりも近い病院に行ったのだが人の数が多い。聞くところによると4時間待つのもザラだとか言っていた。花粉症の患者とかで多くなるんだとか。予約はあるが初診はできず、とりあえず待ってみると1時間半程度で順番になった。</p>
-
-<p>自分はホコリアレルギーで鼻水は常時出る。夜中寝るとき、起きる時に咳が出る、咳が出て目がさめる、布団から出てしばらくすると収まる、鼻水が喉に行くのが原因かもしれないので見て欲しい。との旨を話してみた。まずはアレルギーがあるのかを見てみるということで見てもらい、アレルギーですね、お薬出しておきますね、次のかたー、みたいな。こんこんと間に説明をしてくれているのだが咳の原因である鼻水を止めようとしてくれているのだが、鼻水は前から出ていて、咳が出ているのは最近なので、鼻水を止めればいいのだろうけどもそうではないよね、って思うのだがそれは素人考えだし医者的にはちゃんと切り分けしないと判断できないのかなとか、まぁ忙しそうだしちゃんと見れないのかなとか。そもそも鼻水が原因の咳なのかとかまだわからんって事なのかなとか。</p>
-
-<p>色々と考えてみるがとりあえず考えるのをやめて、指示通りに薬を飲んでみて、布団とかちゃんとメンテして掃除もちゃんとしてみたらわりかしまともになってきた。だがまだ咳は出る。薬がなくなってまた行こうと予約の電話をするも予約がいっぱいだと音声連絡のみで終わる。当日予約しか受け付けないで7時から予約開始、10分程度で予約は埋まってしまうようだった。</p>
-
-<p>ということで毎回待っていられないので別の病院で受診し、強めの薬をもらって一週間後に経過を見るという今。またもらったお薬は鼻水の薬なので堂々巡り感が強い。</p>
-
-<p>ここまでが自分の最近の記録で、無駄な時間を浪費した記録。</p>
-
-<p>ここからは知識と思考のかき乱し。</p>
-
-<p>というか口頭だけで症状を正確に伝えるのは無理がありそうってのと曖昧な症状で専門医に診察してもらうシステムがよくない。と最近読んだ本に書いてあったのを思い出した。「<a href='http://bookmeter.com/cmt/44321783'>教養としての経済学 &mdash; 生き抜く力を培うために そらむぎさんの感想 &ndash; 読書メーター</a>」この本の中で日本の病院は<a href="http://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%8C%BB%E7%99%82#.E7.B7.8F.E5.90.88.E8.A8.BA.E7.99.82.E5.8C.BB.E3.81.AE.E6.95.B4.E5.82.99">総合診療医</a>の存在が無いので、不必要な専門医受診が発生していると。</p>
-
-<p>どの専門医に受ければいいのか判断してくれる存在がいない。1次受けの存在がないので専門医に直接人が集まり専門医の手が足りなくなる。こんなんでちゃんと診断できるわけないっすねぇって感じですね。診察受ける人も無駄な時間がかかるし、専門医も不必要な診断をしなければならなくなるし、不満な金の使い方しないといけなくなるし、不幸な人を生み出すシステムなんですなーって思う次第。</p>
-
-<p>咳が出る。</p>
+      <a class="prev" href="/blog/page/7/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/5/">Newer &rarr;</a>
+    
+  </div>
 </div>
+<aside class="sidebar">
   
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/02/14/2%2F13/">2/13</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/10/21/wordpress%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E5%AF%BE%E7%AD%96/">wordpressのセキュリティチェックから考えるwebアプリのセキュリティ対策</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/08/%E9%9B%91/">雑</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/03/%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC/">マネーモンスター</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/23/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%AB%E3%81%AFdsp%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%8C%E8%89%AF%E3%81%84/">最初のラジオにはDSPラジオが良い</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
   
+  <a href="https://github.com/soramugi">@soramugi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
-</article>
+        github.showRepos({
+            user: 'soramugi',
+            count: 3,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
-<nav id="pagenavi">
-    
-        <a href="/blog/page/5/" class="prev">Prev</a>
-    
-    
-        <a href="/blog/page/7/" class="next">Next</a>
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav>
+
+
+
+
+  
+</aside>
+
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2016 - soramugi -
+  Copyright &copy; 2017 - soramugi -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
