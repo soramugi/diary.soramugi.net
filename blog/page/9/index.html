@@ -9,8 +9,7 @@
   <meta name="author" content="soramugi">
 
   
-  <meta name="description" content="寝るときに咳が凄く出るようになって困ったなーってしてたんだけど枕まるごと洗ってみたら収まったので枕とか布団とか定期的に洗った方がいい
-">
+  <meta name="description" content="heroku大好きなので「アプリ作ろう」ってなったらまずheroku上げられる構成になるかを考えるんだけど大抵は画像の保存先がネックになっている。herokuはそのまま画像保存すると消えちゃうしね。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,12 +62,81 @@
 
   <div id="main">
     <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/11/25/%E7%94%BB%E5%83%8F%E3%82%B5%E3%83%BC%E3%83%8F%E3%82%99%E3%83%BC%E3%81%AE%E5%88%86%E9%9B%A2/">画像サーバーの分離</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-11-25T19:12:00+00:00" pubdate data-updated="true">Nov 25<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>heroku大好きなので「アプリ作ろう」ってなったらまずheroku上げられる構成になるかを考えるんだけど大抵は画像の保存先がネックになっている。herokuはそのまま画像保存すると消えちゃうしね。</p>
+
+<p>何も考えずにs3に上げるってのが良いんだけど重たい画像や量が多くなると通信費がかかってしようがなくなる。よくある話。</p>
+
+<p>過去にoctopressで画像ブログを作ってjenkinsで回して保存先をs3にしてたんだけど月2千円かかるようになってしまったのでvps借りてそっちに移行、翌月からは200円とかに戻ってめでたしめでたしって時があった。
+その時は静的サイトだからぶっちゃけどうとでもなったんだけど、それからrailsのアプリとかを作って画像結構保存するようなの(gifなので相当通信料かかるなと予想できる)を作るときはoctopressで借りたvpsにデプロイして動くようにとかをした。</p>
+
+<p>そのためにchefのレシピをレポジトリに含めたりchefレシピの検証にVagrantファイル追加したりとかcapistranoの設定とかciで自動でデプロイしたいからその時に使ってたwerckerでデプロイするのどうすんだとか調べたり等々していた。画像サーバーのために3~4つの作業が増えた。あぁあと監視とかも増えるから5つとかそれぐらいか。というか個数で判別できないしアプリやら環境やらによって作業量は増えたり運良ければ減るのでなるべく作業すべきor考えるべき項目を早めに外部に切り出すor自分の作業をもっと大切な部分に注げるようにしておくべきなので減らしたい。
+s3に保存するんだったらpaperclipのstorageをfileからs3に変えてawsのキーを設定してやれば完成だ。簡単だ。</p>
+
+<p>chefの設定やらをしてアプリサーバーと画像サーバーを一緒に出来るようにしたけど運良くアプリがヒットしてアプリ層の増強が必要になって増やす必要が出てきた場合はどうするんだよ〜。とかあるので理想で言えばs3でやりたいのだけれどs3通信料とかお金かけたくないのでどうにかしたいなってのが今回の記事の議題。</p>
+
+<p>そこらへんどうすればいいのかなぁとかぼんやりしてたんだけど</p>
+
+<p><a href="http://docs.komagata.org/5226">http://docs.komagata.org/5226</a>
+のエントリでそのままの知りたいことズバリだったのでみんなやっぱりそこら辺の事悩んでるんだなぁ。俺も知りたいから有益な情報を得るべくはてブコメントを開いて解決策を得ようとしたのですが全く参考にならない。
+全然見当違いの事を言ってる奴もいるしで非常にガッカリしていた。なんだよ「nfsじゃないとそもそもいけないの？」だよどこに目を付けたらそんな何を読んでんだか解んないコメントが出てくるんだよ。ちゃんと目を付けて文章を読めよ&hellip;.</p>
+
+<p>とか思ってたのですがはてブのコメントにツッコミを入れていくのは本位ではない。画像サーバーの分離だ。herokuでも使いたいのでnfsマウントは対象外。</p>
+
+<p>さくらvps使って画像とか動画配信しようって記事
+<a href="http://ssig33.com/text/Docker%20%E9%81%8B%E7%94%A8%E3%81%97%E3%81%BE%E3%81%8F%E3%81%A3%E3%81%A6%E5%BE%97%E3%82%89%E3%82%8C%E3%81%9F%E3%81%97%E3%82%87%E3%81%BC%E3%81%84%E7%9F%A5%E8%AD%98">http://ssig33.com/text/Docker%20%E9%81%8B%E7%94%A8%E3%81%97%E3%81%BE%E3%81%8F%E3%81%A3%E3%81%A6%E5%BE%97%E3%82%89%E3%82%8C%E3%81%9F%E3%81%97%E3%82%87%E3%81%BC%E3%81%84%E7%9F%A5%E8%AD%98</a>
+あって、まぁサーバーはさくらvps使えば良くって</p>
+
+<p>アプリが一旦画像を保存してrsyncで画像サーバーに配信するって方法もある。
+<a href="http://www.atmarkit.co.jp/fcoding/articles/rorcgm/02/rorcgm02a.html">http://www.atmarkit.co.jp/fcoding/articles/rorcgm/02/rorcgm02a.html</a>
+処理時間かかりそうだけどスケールしやすくて簡単そうではある。力技っぽいしテストだるそう</p>
+
+<p>最近だと
+<a href="http://aws.typepad.com/aws_japan/2014/11/s3-event-notification.html">【AWS発表】S3の新しいイベント通知機能</a>
+出来たし、s3に画像だけ保存して画像サーバーでsqsポーリングさせておいて画像来たら設置させるとか。</p>
+
+<p>RESTのAPI作っておいて画像設置するとか
+<a href="http://qiita.com/ocadaruma/items/d12a80f7dbe07dd851a4">http://qiita.com/ocadaruma/items/d12a80f7dbe07dd851a4</a>
+RESTのAPIアプリ自前で作っておけばなんかもうどうとでもなりそう。</p>
+
+<p>とかそんな感じかなぁ。
+RESTのAPI作っておいて複数アプリからの画像保存するようにするのがあとあと良さそうな気もするけど、本当にそんなもんなのか？</p>
+</div>
+  
+  
+
+</article>
+
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/11/14/%E3%81%BE%E3%81%8F%E3%82%89/">まくら</a></h1>
@@ -99,12 +167,10 @@
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/10/10/%E3%82%B7%E3%82%A7%E3%82%A2%E5%B7%A5%E6%88%BF/">シェア工房</a></h1>
@@ -184,12 +250,10 @@
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/09/19/%E8%BF%91%E6%B3%81/">近況</a></h1>
@@ -255,12 +319,10 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/09/01/%E3%83%AA%E3%83%88%E3%83%AB%E3%83%95%E3%82%A9%E3%83%AC%E3%82%B9%E3%83%88%E8%A6%8B%E3%81%9F/">リトルフォレスト見た</a></h1>
@@ -303,12 +365,10 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/08/30/web%E3%81%A7%E3%83%9E%E3%83%8D%E3%82%BF%E3%82%A4%E3%82%BA/">Webでマネタイズ</a></h1>
@@ -414,12 +474,10 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/08/30/web%E3%81%A6%E3%82%99%E3%83%9E%E3%83%8D%E3%82%BF%E3%82%A4%E3%82%B9%E3%82%99/">Webでマネタイズ</a></h1>
@@ -525,12 +583,10 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/08/26/%E4%BD%95%E3%81%8B/">何か</a></h1>
@@ -565,12 +621,10 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/08/26/%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%82%84%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E4%B8%80%E3%81%A4%E3%81%AE%E6%96%B9%E6%B3%95/">パートナーと仲良くやっていくための一つの方法</a></h1>
@@ -609,12 +663,10 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
+
+    <article class="post">
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/08/26/%E3%83%8F%E3%82%9A%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%82%84%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E4%B8%80%E3%81%A4%E3%81%AE%E6%96%B9%E6%B3%95/">パートナーと仲良くやっていくための一つの方法</a></h1>
@@ -653,139 +705,17 @@ webサイト作る時にビジネスモデルの流れを考えるようにな�
   
   
 
+</article>
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
+<nav id="pagenavi">
     
-      <h1 class="entry-title"><a href="/blog/2014/08/26/%E5%A4%8F%E3%81%AE%E6%B0%97%E3%81%A0%E3%82%8B%E3%81%95/">夏の気だるさ</a></h1>
+        <a href="/blog/page/8/" class="prev">Prev</a>
     
     
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-26T01:35:00+00:00" pubdate data-updated="true">Aug 26<span>th</span>, 2014</time>
-        
-      </p>
+        <a href="/blog/page/10/" class="next">Next</a>
     
-  </header>
-
-
-  <div class="entry-content"><p>夏はだるいし無駄に体力消耗して嫌いなんだけど、なくなったら困る。無くなったら悲しむ人が居ると思うから、無くなりはしないでほしい。
-夏の暑さのおかげで飲料水メーカーは儲かるし野菜も実る。夏は無いと駄目だ。</p>
-
-<p>社会人になってから夏の異様な短さに気がついて子供の頃に感じてた夏ってなんなんだろって思う。夏は夏休みだし、アイスとかクーラーの事ばっかり考えて何故か炎天下の下をだるそうに歩いてどこかに行く途中のイメージが強い。
-ガリガリ君より家の冷蔵庫にあるチューペットがいっぱい食べれるし良い感じの量だったから好きだったな。ガリガリ君は多すぎるよ。</p>
-
-<p>夏休みの初日とか最初のほうに植えたはずの朝顔はいつのまにか枯れていたし、おばあちゃん家で育てた茄子やトマトが毎回ものすごい量あるし、墓参りに行って花瓶の中の花を取り替えて墓掃除したり、お墓に行くまでの石段が急角度の坂になってたり、家に変えると父さんがクーラーをガンガンに付けてるんだけど寒過ぎて他の部屋に避難してたり、テレビを付けるとスラムダンクやタッチがやってたりした。タッチばっかりやってたかな、スラムダンクは花道がクソ涙して悲しんでる回を見てから続きがやってなくてそのままだった。</p>
-
-<p>夏休みは40日ぐらいあって、小学生、中学生、高校と毎回夏休みをしてたはずなんだけど、上で書いた思い出以上のものが思い出せない。なにかあったはずなんだけどな。
-小学生の時はプールに行ってたかもしれない。高校だとセブンでバイトしてた時期だったかもしれない。中学生だと何してたっけ？ 高校は隣町の海辺で花火をしてたときがあったな。
-なにしてたっけ。
-夏休みの宿題は大抵やってない所があったりしたんだけど、みんなやってない所あったりしたからそんなに怒られる訳でもないし、いや、めっちゃ怒られてたけど別にそこまでじゃなくて、結局お流れで出さなかったりしてたりしたとおもう。</p>
-
-<p>夏休みだから休んでたんだろうけど、毎日が長くて、とにかく長くて、今何日だったっけってカレンダー見ると20日ぐらいで、あーそろそろ宿題片付けないと行けないなーとか考えるんだけどそんなにやらなくて、また何日か繰り返して25日ぐらいで焦り始めたりしてた。5日間なんだけどものすごい時間掛かってて、とにかく長い長い時間経ってる。だけど何をしてたんだろう。何もしていなかったんだろうな。</p>
-
-<p>だけど何かしていたのかもしれない。何か、もの凄く熱中して取り組んでいた物があったんだけど、毎日が毎日が凄く楽しくて、汗が身体にまとわりつくのも構わず、楽しんで、何かを作ったり、何かを見たり、調べたり、誰かに会ったりしたり。あったのかもしれない。</p>
-
-<p>でも何も覚えてないから。何もなかったんだ。</p>
-
-<p>夏は気だるい、。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/10/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/8/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2017/02/14/2%2F13/">2/13</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/10/21/wordpress%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E5%AF%BE%E7%AD%96/">wordpressのセキュリティチェックから考えるwebアプリのセキュリティ対策</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/07/08/%E9%9B%91/">雑</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/07/03/%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC/">マネーモンスター</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/06/23/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%AB%E3%81%AFdsp%E3%83%A9%E3%82%B8%E3%82%AA%E3%81%8C%E8%89%AF%E3%81%84/">最初のラジオにはDSPラジオが良い</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/soramugi">@soramugi</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'soramugi',
-            count: 3,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav>
     </div>
   </div>
   <footer role="contentinfo"><p>
