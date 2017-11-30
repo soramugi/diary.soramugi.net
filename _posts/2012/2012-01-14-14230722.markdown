@@ -1,0 +1,16 @@
+---
+layout: post
+title: '1.14'
+published: true
+date: 2012-01-14 23:07
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+台湾にいます。社員旅行です。ちょっと飛ばしすぎたのでもう寝ますお休みなさい。
+
+---
+

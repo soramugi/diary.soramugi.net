@@ -1,0 +1,18 @@
+---
+layout: post
+title: '7.12'
+published: true
+date: 2012-07-13 02:40
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+DebianとBSD弄りだい
+
+届いたcuboxを弄りたいけど画面を出力する方法がいまいち無い。。
+
+---
+

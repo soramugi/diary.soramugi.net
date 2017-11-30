@@ -1,0 +1,26 @@
+---
+layout: post
+title: '4.30'
+published: true
+date: 2011-05-01 02:36
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ブログ更新、「4月の読書メーター」
+
+[http://d.hatena.ne.jp/soramugi/20110430/1304183938](http://d.hatena.ne.jp/soramugi/20110430/1304183938 "http://d.hatena.ne.jp/soramugi/20110430/1304183938")
+
+&nbsp;
+
+Twitterで今人気なニコ動更新サイトのプログラムがあらかた完成した。一時間のうちに何ポストされたかを調べるやつね。これを一日回して、実行結果を記録しておいてどのぐらいのポスト数の動画なら更新するとかを決めるつもり。
+
+ブログのタイトルを何にするか迷う。
+
+このブログが大体完成したらJavaScriptでミニゲーム作ってみたいな。ちょうどこんなイベントがあるみたいだし。[http://wise9.jp/archives/1737](http://wise9.jp/archives/1737 "http://wise9.jp/archives/1737") 投稿しないにしても作りやすそうなライブラリや入門用記事とかがあるみたいだから手は付けやすそう。
+
+---
+

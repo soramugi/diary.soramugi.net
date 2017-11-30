@@ -1,0 +1,22 @@
+---
+layout: post
+title: '12.25'
+published: true
+date: 2012-12-28 16:36
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+クリスマスです。
+
+腕時計をもらいました。嬉しいです。
+
+symfonyのルーティングにはまっていた。細かいところを知りたくて中まで見に行けるオープンソースはやっぱりいいですね。ものすごく勉強になる。
+
+Yiiに興味が
+
+---
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: '12.20'
+published: true
+date: 2011-12-21 02:01
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+自分が昔に作ったjsスマホゲームのコード見たらむっちゃ見やすくてビビる。今どんだけ汚いんだよ。
+
+ねよう
+
+---
+

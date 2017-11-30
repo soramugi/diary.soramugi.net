@@ -1,0 +1,18 @@
+---
+layout: post
+title: '9.5'
+published: true
+date: 2012-09-06 02:35
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+会社の仕事でやるべき事見えてきてもりもりやる気がわき上がってくるので楽しいです。
+
+寝よう。
+
+---
+

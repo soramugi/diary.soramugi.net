@@ -1,0 +1,24 @@
+---
+layout: post
+title: "ニコ動mp3にするやつ"
+published: true
+date: 2015-02-03 14:54
+comments: true
+tags: 
+categories: 
+---
+<a href="http://soramugi.tumblr.com/post/6803685750/szymon-pillow-puzzle-by-gry-fager#_=_"><img src="http://41.media.tumblr.com/tumblr_lmnjpagq3c1qz4s3wo1_500.png" alt="Tumblr lmnjpagq3c1qz4s3wo1 500" /><br />ハトムギ、玄米、月見草</a>
+
+<script src="https://gist.github.com/soramugi/52f885e08a58864b6b7e.js"></script>
+
+結構前に作った
+<http://diary.soramugi.net/blog/2014/08/12/pocketに登録したニコニコ動画を連続再生する「poolcket」作った/>
+なんだけど、pocketに登録したニコ動を流して作業BGMにしてたんだけど、動画は見ないのに流しっぱなしにするとcpuガシガシ使われてて作業自体が滞るようになって意味ない感じだったのでmp3抜き出しして音だけ聴くようにした。
+
+pocketに保存したニコ動urlからmp3にしてdropboxに入れる。これをjenkinsで定期的に回して聞きたいときに以下のコマンドで再生とかしてる。
+
+    find /Users/mugi/Dropbox\ \(個人\)/アプリ/mugi_jenkins/nico -maxdepth 1 -mindepth 1 -exec echo {} \; -exec afplay -q 1 -v 0.5 {} \;
+
+聞いてて気に入ったときにマイリス突っ込めるように別ディレクトリに移動して勝手にマイリスするとかした方が使い勝手いいかも
+
+追記: マイリスできるようにしたわー

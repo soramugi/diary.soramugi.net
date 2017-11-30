@@ -1,0 +1,20 @@
+---
+layout: post
+title: '10.7'
+published: true
+date: 2012-10-08 04:55
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ブログ更新「[9月に読んだ本まとめ - 見方次第](http://soramugi.hateblo.jp/entry/2012/10/07/162637 "9月に読んだ本まとめ - 見方次第")」
+
+GitHubでブログ作れるOctopress環境を構築した。 [dHd](http://soramugi.github.com/ "dHd") 。簡単に構築出来て良かったのですが、そんなに用途無いかなと思います。
+
+会社の人の結婚式二次会に行きました。身の回りで結婚式が多い。
+
+---
+

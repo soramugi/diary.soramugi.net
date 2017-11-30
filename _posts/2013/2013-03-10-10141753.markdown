@@ -1,0 +1,20 @@
+---
+layout: post
+title: '3.8'
+published: true
+date: 2013-03-10 14:17
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+メッセージが届くとスマホが香る 「ChatPerf」のパトロンになった。デバイス製造開始したら送ってもらうんだ。
+
+PHPする環境を作りたいがためにPHP選んでいるような気もしないでもない
+
+PHPする環境をちゃんと整備する時間の方がPHPしている時間よりも長い。
+
+---
+

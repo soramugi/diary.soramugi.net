@@ -1,0 +1,20 @@
+---
+layout: post
+title: '12.28'
+published: true
+date: 2011-12-29 03:58
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+自分で作った自動更新ブログのsmile中毒 [http://t.co/TKVx8uux](http://t.co/TKVx8uux "http://t.co/TKVx8uux") を割とヘビーに見てて、更新が楽しみになってるから作って良かった
+
+ソフトウェアをなるべくインストールしないようにすればPCを快適な状態でずっと使い続けられるような気がしてならない
+
+昨日のお酒が抜けきるまでゴロゴロしてましたもう抜けました大丈夫です。
+
+---
+

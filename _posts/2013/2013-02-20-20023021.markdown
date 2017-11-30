@@ -1,0 +1,16 @@
+---
+layout: post
+title: '2.18'
+published: true
+date: 2013-02-20 02:30
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+あんまり読めていなかった本をサクサクと読んでいく
+
+---
+

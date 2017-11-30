@@ -1,0 +1,18 @@
+---
+layout: post
+title: '4.11'
+published: true
+date: 2011-04-12 00:11
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+livedoorBlogに投稿が完全に自動化できました。やったね！
+
+追記分のところやタグ設定が実装されていないけど、「あればいいけど無くてもいいよね！」程度なことなのでもうこれでいいや。やる気になったら調べて追加しようかな。
+
+---
+

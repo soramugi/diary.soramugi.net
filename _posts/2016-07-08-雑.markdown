@@ -1,0 +1,11 @@
+---
+layout: post
+title: "雑"
+published: true
+date: 2016-07-08 12:09
+comments: true
+tags: 
+categories: 
+---
+
+最初からしっかりやるのは面倒なので雑にやって「雑じゃん」と言われても受け流して雑に続けていって雑じゃなくなるのが良いのですが、雑に続けるのが難しい

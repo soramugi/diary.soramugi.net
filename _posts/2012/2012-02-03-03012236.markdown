@@ -1,0 +1,22 @@
+---
+layout: post
+title: '2.2'
+published: true
+date: 2012-02-03 01:22
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+＼(^o^)／さむたい
+
+ブログ更新「[1月の読んだ本まとめ - 見方次第](http://soramugi.hateblo.jp/entry/2012/02/02/005449 "1月の読んだ本まとめ - 見方次第")」
+
+生姜を入れ込んだパン食べました美味しかったです。
+
+node.jsを使った簡単なチャットシステムを作った人が社内でいたのでプチ流行。作って身近な人が遊んでくれてたり遊んでると面白い。JavaScriptは生産性高いですねー
+
+---
+

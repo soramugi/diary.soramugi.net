@@ -1,0 +1,18 @@
+---
+layout: post
+title: '4.10'
+published: true
+date: 2011-04-11 02:10
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+わっほいわっほい
+
+livedoorの書込とかはなんとなく出来るようになった、ニコ動の動画URLを持ってきてテンプレに落としこんでページ作成は出来た。でも一度更新したものを弾く方法がうまくいかない。
+
+---
+

@@ -1,0 +1,20 @@
+---
+layout: post
+title: '2.12'
+published: true
+date: 2013-02-20 02:22
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+dotfilesのsubmodule管理してたneobundle.vimをsubmoduleから除外してアップデートしたら爆速でビビる
+
+チーバくんの存在は千葉には何も無いと言っているようなもの
+
+&nbsp;
+
+---
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: '3.5'
+published: true
+date: 2012-03-06 02:30
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+弊社で最初に配られるPCはWindowsが固定なのですが、サーバー用途にPCを一台購入しても良い権利が与えられたのでMac miniを買ってもらおうかと考えている。
+
+vim弄ってsinatra弄ってます。sinatra弄るというか環境構築で詰まってますね。ちゃんと躓いてちゃん学習していこう。
+
+---
+

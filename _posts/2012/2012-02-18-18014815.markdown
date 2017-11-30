@@ -1,0 +1,18 @@
+---
+layout: post
+title: '2.17'
+published: true
+date: 2012-02-18 01:48
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+エクセル作業のためにしぶしぶマウスをノートPCに取り付ける
+
+会社の社内システムでWordPressを使うことになってそれの構築。結構簡単だった。でもデザインとかを編集したくなってこまい部分の編集で時間かかりまくってヤバイ。
+
+---
+

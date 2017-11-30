@@ -1,0 +1,18 @@
+---
+layout: post
+title: '12.31'
+published: true
+date: 2012-01-01 04:59
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+化物語のニコ生一挙放送見て規制されました。
+
+ギークハウス高円寺で年末を楽しみました。人が多くて好き勝手なことするのは楽しいですね。
+
+---
+

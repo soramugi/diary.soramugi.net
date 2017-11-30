@@ -1,0 +1,18 @@
+---
+layout: post
+title: '7.1'
+published: true
+date: 2011-07-02 01:14
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ブログ更新「[6月の読書メーター - アンバランスな日々に](http://d.hatena.ne.jp/soramugi/20110701/1309515202 "6月の読書メーター - アンバランスな日々に")」
+
+マイクラで広大な試験スペースを作成するために家の周りを掘削作業してるんだけど飽きる
+
+---
+

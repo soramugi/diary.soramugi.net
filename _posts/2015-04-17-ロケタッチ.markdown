@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ロケタッチ"
+published: true
+date: 2015-04-17 12:25
+comments: true
+tags: 
+categories: 
+---
+
+いっぱい行きました
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=z0wkxqXcTtBM.kvXGWhlAQkso" width="640" height="480"></iframe>
+
+<https://www.google.com/maps/d/edit?mid=z0wkxqXcTtBM.kvXGWhlAQkso>

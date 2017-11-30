@@ -1,0 +1,16 @@
+---
+layout: post
+title: '5.31'
+published: true
+date: 2012-06-01 02:52
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+「コンビニのゆで卵は塩味が付いてる」と言っていたのを思い出してコンビニのゆで卵を買ってきて食べてみたけど、家で作ったゆで卵と塩加減がそんなに変わらなかった
+
+---
+

@@ -1,0 +1,20 @@
+---
+layout: post
+title: '11.30'
+published: true
+date: 2011-12-01 04:20
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+共有のPCにubuntu設定していつでも使えるように設定していました。
+
+ねむろう
+
+Minecraft人口をもっと増やしたい。というか○のマイクラサーバーに人増やしたい。
+
+---
+

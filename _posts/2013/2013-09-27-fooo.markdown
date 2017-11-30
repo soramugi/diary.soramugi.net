@@ -1,0 +1,11 @@
+---
+layout: post
+title: "fooo"
+published: true
+date: 2013-09-27 15:14
+comments: true
+tags: 
+categories: 
+---
+
+bar

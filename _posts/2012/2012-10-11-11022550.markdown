@@ -1,0 +1,24 @@
+---
+layout: post
+title: '10.10'
+published: true
+date: 2012-10-11 02:25
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ブログ更新「[ubuntuにjavaを入れる #Ubuntu #Java - Qiita](http://qiita.com/items/1b56bf19e4bf398de96c "ubuntuにjavaを入れる #Ubuntu #Java - Qiita")」
+
+「[MYSQLのレプリケーション不整合を解決 #MySQL - Qiita](http://qiita.com/items/3c33200b5903007f3ead "MYSQLのレプリケーション不整合を解決 #MySQL - Qiita")」
+
+女性社員のかわいいを表現する「かわいい」を聞いてかわいい気持ちになりながら和むなど
+
+感覚でフレームワークの使い方を学んで「こう書けばやりやすいのでは？」と書いたものがしっかりとマニュアルに乗っていた使い方だった時は興奮する
+
+Markdownを使いこなしたいですね。書いて確認して公開出来るような環境があればちゃんと使っていきたい。html形式に出力とかできればいいですね。見やすさ大事だし覚えといてそんは無さそう。
+
+---
+

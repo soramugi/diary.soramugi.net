@@ -1,0 +1,22 @@
+---
+layout: post
+title: '2.23'
+published: true
+date: 2012-02-24 02:16
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+アイスクリームサンドイッチ作って食べたい
+
+ブログ記事投稿「[シェアハウスに住むようになってから6ヶ月たった - 見方次第](http://soramugi.hateblo.jp/entry/2012/02/24/002003 "シェアハウスに住むようになってから6ヶ月たった - 見方次第")」
+
+ブログ記事「[JavaScriptの.lengthは不思議 - 見方次第](http://soramugi.hateblo.jp/entry/2012/02/23/140133 "JavaScriptの.lengthは不思議 - 見方次第")」
+
+Rails弄ろうと思ったけどブログ書いたり夕食作ったりしてで時間なかった。時間作ろう。でも書きたかったブログ記事かけたので満足。
+
+---
+

@@ -1,0 +1,22 @@
+---
+layout: post
+title: '3.30'
+published: true
+date: 2012-03-31 02:58
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+休みの日に読もうとJavaScriptとrubyとvimとubuntuの本持つて帰ってきたけど読み切んないな
+
+会社の机で野菜育てようと思ってそれようの物注文したけどサイズを見てなくて机に置けないような大きいものが届いてしまった・・
+
+Rubyの本とか届きました、読みます。
+
+ねる
+
+---
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: '1.23'
+published: true
+date: 2013-01-31 01:21
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+Facebookのウォール画像が勝手に流れる設定が出来るフォトフレームかいました楽しいです。
+
+投稿「[centOS6.3インストール時にRAID10設定 #RAID #CentOS - Qiita](http://qiita.com/items/315db51a8681da18c738 "centOS6.3インストール時にRAID10設定 #RAID #CentOS - Qiita")」
+
+---
+

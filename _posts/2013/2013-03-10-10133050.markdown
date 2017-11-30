@@ -1,0 +1,22 @@
+---
+layout: post
+title: '2.23'
+published: true
+date: 2013-03-10 13:30
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+Tumblr、リブログされたらポップアップで知らせてくれる新機能凄く良いと思う
+
+記事投稿「[gitのhookでtags作成 #ctags #Vim #git - Qiita](http://qiita.com/items/9a3687bb81ce35e3f99a "gitのhookでtags作成 #ctags #Vim #git - Qiita")」
+
+hetml7thのカバクッションプレゼントに見事当選してご満悦。
+
+&nbsp;
+
+---
+

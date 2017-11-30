@@ -1,0 +1,24 @@
+---
+layout: post
+title: "pebble"
+published: true
+date: 2015-05-18 14:15
+comments: true
+tags: 
+categories: 
+---
+
+そういえばpebble買ったの書いてなかった。買いました。
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">pebble届いた <a href="http://t.co/of7T45C3h4">pic.twitter.com/of7T45C3h4</a></p>&mdash; そらむぎ (@soramugi) <a href="https://twitter.com/soramugi/status/561353460730175488">2015, 1月 31</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+使い勝手はめっちゃいい。iPhoneからの通知がきたら0.5~1秒遅延ぐらいで腕時計に通知来てiPhone取り出して確認すべき内容かすぐに分かる。監視のアラートメールとか連発だとめちゃめちゃ震えてとりあえず対応しないと感出てくる。
+
+充電もかなり持つので(GPS機能使うとiPhoneの充電すぐ切れるので切ってる)1週間ぐらいずっと腕につけてる。目覚まし機能もあるのでつけたまま寝てる。風呂以外はずっとつけてる。
+
+それとTumblrで有益な情報が流れてきたのでシェアします。
+
+<div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/TJiITiElrJ1jT8GFxZCyIA/119196474343" data-did="b69b9b3c9cd08379dcdc13290cd6d92f19207f8a"><a href="http://soramugi.tumblr.com/post/119196474343/japanese-fuzzy-time">http://soramugi.tumblr.com/post/119196474343/japanese-fuzzy-time</a></div><script async src="https://secure.assets.tumblr.com/post.js"></script>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">よいwatch face入れた <a href="http://t.co/1Fi6sOGtcu">pic.twitter.com/1Fi6sOGtcu</a></p>&mdash; そらむぎ (@soramugi) <a href="https://twitter.com/soramugi/status/600131260640399360">2015, 5月 18</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ぐらいだそうです。

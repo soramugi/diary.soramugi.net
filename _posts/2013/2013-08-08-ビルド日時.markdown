@@ -1,0 +1,12 @@
+---
+layout: post
+title: "ビルド日時"
+published: true
+date: 2013-08-08 00:11
+comments: true
+tags: 
+categories: 
+---
+
+jenkinsでビルドしてoctopressブログを更新するようになると
+最新の成功ビルドで何日ブログ更新してないかわかる。

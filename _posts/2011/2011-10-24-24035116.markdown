@@ -1,0 +1,18 @@
+---
+layout: post
+title: '10.23'
+published: true
+date: 2011-10-24 03:51
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+Linux入りました、ubuntuです。今日のギー○はギークっぽいことしてた気がします。Linux入れてたり、テレビ画面にパソコン画面表示させて遊んでたり。サーバー立てて何が出来るか悩んでたり。
+
+今までubuntuの設定しててそろそろ寝なきゃいけないのでもう寝なきゃ。
+
+---
+

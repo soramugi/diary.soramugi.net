@@ -1,0 +1,16 @@
+---
+layout: post
+title: '7.27'
+published: true
+date: 2012-07-28 14:38
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+会社の飲み会でした
+
+---
+

@@ -1,0 +1,24 @@
+---
+layout: post
+title: '2.14'
+published: true
+date: 2013-02-20 02:24
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ターミナルの色を茶にしたら汚い
+
+記事投稿「[ファイルサーバーのユーザー移行 #samba #CentOS - Qiita](http://qiita.com/items/e7d35d5aac19524918a0 "ファイルサーバーのユーザー移行 #samba #CentOS - Qiita")」
+
+「[Linuxのハードディスク要領がいっぱいになった時に使ったコマンド #Linux - Qiita](http://qiita.com/items/730d643c1167884362b4 "Linuxのハードディスク要領がいっぱいになった時に使ったコマンド #Linux - Qiita")」
+
+( ૢ˃̶͈̀﹃ ˂̶͈́) ૢ
+
+&nbsp;
+
+---
+

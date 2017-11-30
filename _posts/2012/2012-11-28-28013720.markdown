@@ -1,0 +1,20 @@
+---
+layout: post
+title: '11.27'
+published: true
+date: 2012-11-28 01:37
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ctags,manよりhelpの方が圧倒的に情報量多い。manしかやってなかったの悲しい
+
+うまいメシを食べなければ
+
+警察署に行って免許証の住所変更をした
+
+---
+

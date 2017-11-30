@@ -1,0 +1,24 @@
+---
+layout: post
+title: '11.21'
+published: true
+date: 2012-11-22 09:18
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+WindowsでLinuxのコマンドライン使って慣れた後にWindows捨ててMacのコマンドライン使うと違和感覚えるからWindowsやだ
+
+今週金曜日祝日じゃないですか！
+
+あったかいコート買いたい
+
+最近はRSSの処理を頻繁にするようにはなったがinstapaperに登録するだけで、それに加えてメールの処理を怠ってきた
+
+&nbsp;
+
+---
+

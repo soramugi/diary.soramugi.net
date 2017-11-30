@@ -1,0 +1,23 @@
+---
+layout: post
+title: "エロ画像アンテナ"
+published: true
+date: 2014-01-15 11:29
+comments: true
+tags: 
+categories: 
+---
+
+作った
+<http://cryptic-meadow-1277.herokuapp.com>
+
+エロ画像サイトのRSS取得して記事のimgタグのURL全部表示するだけ。
+適当に作ったのでセキュリティヤバめだがまぁ良いでしょ。
+
+パクリもと
+
+<a href='http://x6xo.hatenablog.com/entry/2014/01/01/221132'>Sinatraで簡易アンテナサイト作った - よくできた悪い見本</a>
+
+baseのアプリケーションは健全なものをパクって画像取得のやつは作りました。
+
+thx!

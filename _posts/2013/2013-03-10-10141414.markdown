@@ -1,0 +1,24 @@
+---
+layout: post
+title: '3.6'
+published: true
+date: 2013-03-10 14:14
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+本日は
+俺「ここは6つでしょ」
+俺「いや〜でも〜、5つでもいけそうな気が〜」
+俺「いや6つでしょ」
+という事をしていた（DB構造設計の話です
+
+findの「-mtime」引数で「+1」したら２日以降を検索するのにわかりづらさを感じている
+
+&nbsp;
+
+---
+

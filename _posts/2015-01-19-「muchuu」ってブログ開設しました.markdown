@@ -1,0 +1,12 @@
+---
+layout: post
+title: "「Muchuu」ってブログ開設しました"
+published: true
+date: 2015-01-19 10:03
+comments: true
+tags: 
+categories: 
+---
+
+よろしくお願いします
+<http://blog.muchuu.net>

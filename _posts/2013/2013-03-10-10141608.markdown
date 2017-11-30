@@ -1,0 +1,24 @@
+---
+layout: post
+title: '3.7'
+published: true
+date: 2013-03-10 14:16
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+qiitaにbashやらシェルの達人が２人ほど降臨していて非常に楽しい
+
+埼玉は何も無いところと存じ上げております
+
+過去の自分が良くわかりもしない設定をそのままぶち込んでいて意味解らん構造になっているのを許せれば世界平和になると思う
+
+記事投稿「[sshのhost名を自動補完させる #Bash - Qiita](http://qiita.com/items/846e6eac0ce1d3dc1e42 "sshのhost名を自動補完させる #Bash - Qiita")」
+
+日常にやりたい事を組み込む事を考えよう
+
+---
+

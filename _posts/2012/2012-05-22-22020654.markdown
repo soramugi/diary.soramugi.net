@@ -1,0 +1,26 @@
+---
+layout: post
+title: '5.21'
+published: true
+date: 2012-05-22 02:06
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+iPhoneで流行ったアプリが飽きられてきた頃にAndroidにで公開される流れ出来てる
+
+iPhoneが欲しい
+
+cronの設定したりメールの設定したりsqlite3の読み込みパス変えたりしたらwebアプリちゃんと動くようになりました。
+
+<a title="http://midare.soramugi.net/" href="http://midare.soramugi.net/">http://midare.soramugi.net/</a>
+
+様子見てちゃんと定期的にちゃんと動くの確認したらBlogにまとめて公開したり得た知識とかまとめて記事にしたりしてアウトプットしていこう。
+
+一段落。
+
+---
+

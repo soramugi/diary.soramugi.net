@@ -1,0 +1,16 @@
+---
+layout: post
+title: '10.9'
+published: true
+date: 2012-10-10 01:55
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+symfonyをちゃんと使いこなしたいですね。joinとか。手探りで「こんな感じかな」と作ってみて次第にちゃんとした使い方解ってくるので楽しいんだけど昔のコードを見るのが辛い。
+
+---
+

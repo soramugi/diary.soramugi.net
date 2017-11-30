@@ -1,0 +1,20 @@
+---
+layout: post
+title: '8.29'
+published: true
+date: 2011-08-29 23:08
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ブログ記事更新「[PHPで短縮URLを展開するコード - アンバランスな日々に](http://d.hatena.ne.jp/soramugi/20110829/1314606533 "PHPで短縮URLを展開するコード - アンバランスな日々に")」
+
+GINGAっていうCDレーベルの存在を知って気に入ったのでCD欲しい。8/31日にCD発売みたい。
+
+ゆにって人のこの曲がお気に入り [http://gennitan.tumblr.com/post/9538857206](http://gennitan.tumblr.com/post/9538857206 "http://gennitan.tumblr.com/post/9538857206")
+
+---
+

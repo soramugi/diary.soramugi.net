@@ -1,0 +1,26 @@
+---
+layout: post
+title: '10.24'
+published: true
+date: 2012-10-26 00:58
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+iPad第4世代発表されたらしいけどiPad第3世代が今日Appleストアから届くと思うのだが？？？？？？？？刻印入りを注文したので返品対象外だそうですありがとうございました
+
+中古でも良いやぐらいに考えていたので特に気にしないように頑張る方向で
+
+アジャイルの本を勧めた人がまったくアジャイルしていなかったのでアジャイルが泣いている
+
+記事更新「[svn、チケット駆動開発時のtrunkマージスクリプト #svn #ShellScript - Qiita](http://qiita.com/items/d046f0e29fc08ad30ef9 "svn、チケット駆動開発時のtrunkマージスクリプト #svn #ShellScript - Qiita")」
+
+「[svnで特定のリビジョンのみを逆マージ（無かったことにする）方法 #svn - Qiita](http://qiita.com/items/b487d683c0339171920b "svnで特定のリビジョンのみを逆マージ（無かったことにする）方法 #svn - Qiita")」
+
+会社で13インチRetina MacBook Proを買ってもらう事が決まった。うれしい。やっとWindowsから離れることが出来る。
+
+---
+

@@ -1,0 +1,22 @@
+---
+layout: post
+title: '10.25'
+published: true
+date: 2012-10-26 01:05
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+私のページを作りました！ [http://potofoo.jp/soramugi](http://potofoo.jp/soramugi "http://potofoo.jp/soramugi") です！
+
+ブログ記事更新「[弊社の社内ブログに寄稿しました - 見方次第](http://soramugi.hateblo.jp/entry/2012/10/26/010224 "弊社の社内ブログに寄稿しました - 見方次第")」
+
+上から下に流れるだけのコードを見てるのはつらい。保守を何も考えていないソースコードを見るのも辛いし、同じ間違いを起こすシステムのまま放置しておくのも辛い。
+
+メンターになろう。
+
+---
+

@@ -1,0 +1,22 @@
+---
+layout: post
+title: '1.21'
+published: true
+date: 2013-01-31 01:16
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+一月分の電気使用量にビビっている
+
+寿司パックを買ってきて食べるということを覚えた。
+
+電気ポット、ロック解除してボタン押してお湯出すタイプのは「出湯」ボタンを「でゆ〜〜〜」って心の中で思いながらお湯入れてる
+
+記事投稿「[centOS6.3にvim7.3とtmuxをインストール #Vim #CentOS #tmux - Qiita](http://qiita.com/items/c61f2eeeb414d4844d45 "centOS6.3にvim7.3とtmuxをインストール #Vim #CentOS #tmux - Qiita")」
+
+---
+

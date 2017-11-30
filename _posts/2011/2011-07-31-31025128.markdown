@@ -1,0 +1,16 @@
+---
+layout: post
+title: '7.30'
+published: true
+date: 2011-07-31 02:51
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+enchant.jsのハッカソンに参加中なんだけど何故今ここに参加できているのか凄く疑問。
+
+---
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: '2.27'
+published: true
+date: 2013-03-10 13:37
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+AWSは省略形の名前が多いので初学の時に解らなすぎてビビる
+
+風呂場で考えたことは大抵忘れる
+
+---
+

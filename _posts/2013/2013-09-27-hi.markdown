@@ -1,0 +1,10 @@
+---
+layout: post
+title: "hi"
+published: true
+date: 2013-09-27 15:14
+comments: true
+tags: 
+categories: 
+---
+testes

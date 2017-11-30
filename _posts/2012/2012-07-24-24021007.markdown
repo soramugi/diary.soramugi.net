@@ -1,0 +1,20 @@
+---
+layout: post
+title: '7.23'
+published: true
+date: 2012-07-24 02:10
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+うわあああああああああああああねむたい
+
+AmazonAPIを弄って作る何かをやっている。
+
+朝食を抜いてくるのは良くない
+
+---
+

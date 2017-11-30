@@ -1,0 +1,22 @@
+---
+layout: post
+title: '1.7'
+published: true
+date: 2013-01-13 13:18
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ふとしたときにpokeしたい。(Facebookの話です)
+
+最近食べるパスタが総じて変な匂いを発しているのでそろそろ良い匂いがするパスタを食べたいところ
+
+パスタがくっせえてどういうことなの。
+
+手持ちのvimテクニックバイブルをbookscanで電子書籍化してiPadに取り込んだ。快適。本読むときだいたいiPadで読んでるからiPad買ってよかったな。
+
+---
+

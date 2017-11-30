@@ -1,0 +1,16 @@
+---
+layout: post
+title: '7.22'
+published: true
+date: 2011-07-23 00:43
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+とても良いマイクラ日和でした。
+
+---
+

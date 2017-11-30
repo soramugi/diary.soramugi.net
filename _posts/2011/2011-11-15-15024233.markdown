@@ -1,0 +1,22 @@
+---
+layout: post
+title: '11.14'
+published: true
+date: 2011-11-15 02:42
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+記事投稿「[Mac OS Xにeclipseの導入 - marugramming](http://marugramming.tumblr.com/post/12791655919/mac-os-x-eclipse "Mac OS Xにeclipseの導入 - marugramming")」
+
+記事投稿「[eclipseを使ってとにかく早くjavaのHallo,Worldを表示する - marugramming](http://marugramming.tumblr.com/post/12794514562/eclipse-java-hallo-world "eclipseを使ってとにかく早くjavaのHallo,Worldを表示する - marugramming")」
+
+新しくブログ作りました。「[marugramming](http://marugramming.tumblr.com/ "marugramming")」ギー○の住人達がプログラム関係の事書くブログです、情報共有とモチベーションあげるようです。あと楽しむよう。
+
+はてなブログのアカウント招待されたけど何書くのか不明。本当はギー○のプログラム関係のブログにするつもりだったけど、複数人で投稿できないみたいだったので断念。はてなグループとかも選択肢があったんだけどTumblrの方が簡単だしグループでやりやすいだろうからTumblrにしてみた。ギークハウスプロジェクトのブログもTumblrだし別に良いかなと。
+
+---
+

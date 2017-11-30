@@ -1,0 +1,24 @@
+---
+layout: post
+title: '2.10'
+published: true
+date: 2013-02-20 02:20
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+一度覚えたコマンドすぐ忘れてて身をよじる
+
+GithubでforkしてToDo書いときたいときに本家のissueに書くほどでもない時にちょっと困る
+
+銀座テアトルシネマに行って塀の中のジュリアスシーザー見てきた。えかった〜
+
+知り合いがいない飲み会に行く恐怖よ
+
+渋谷で北海道でRuby
+
+---
+

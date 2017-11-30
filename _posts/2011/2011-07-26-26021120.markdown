@@ -1,0 +1,20 @@
+---
+layout: post
+title: '7.25'
+published: true
+date: 2011-07-26 02:11
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+ゲーム投稿「[9leap : Mermaid by soramugi - どこでも遊べる、投稿型ゲームサイト](http://9leap.net/games/524/ "9leap : Mermaid by soramugi - どこでも遊べる、投稿型ゲームサイト")」
+
+途中まで作っといてほっぽっといたのを喫茶店でアイデアがひらめいたのでバババッと作って投稿しました。人魚姫が元ネタなので、人魚姫らしく出来たかなぁと思います。
+
+ブログ記事書いたお陰でenchant.jsのテクニックの「こんな方法もあるよー」と教えてくれる人が結構いたので大変嬉しいです。
+
+---
+

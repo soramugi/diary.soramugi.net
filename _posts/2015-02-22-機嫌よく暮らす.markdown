@@ -1,0 +1,11 @@
+---
+layout: post
+title: "機嫌よく暮らす"
+published: true
+date: 2015-02-22 15:18
+comments: true
+tags: 
+categories: 
+---
+
+<div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/TJiITiElrJ1jT8GFxZCyIA/111518953488" data-did="4210abbdf59afde6588508076b554fd4bcfb4fe7"><a href="http://soramugi.tumblr.com/post/111518953488">http://soramugi.tumblr.com/post/111518953488</a></div><script async src="http://assets.tumblr.com/post.js"></script>

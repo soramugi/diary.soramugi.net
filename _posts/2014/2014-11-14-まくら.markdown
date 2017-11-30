@@ -1,0 +1,11 @@
+---
+layout: post
+title: "まくら"
+published: true
+date: 2014-11-14 00:44
+comments: true
+tags: 
+categories: 
+---
+
+寝るときに咳が凄く出るようになって困ったなーってしてたんだけど枕まるごと洗ってみたら収まったので枕とか布団とか定期的に洗った方がいい

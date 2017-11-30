@@ -1,0 +1,22 @@
+---
+layout: post
+title: '12.11'
+published: true
+date: 2012-12-15 15:50
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+無印の人間をだめにする小さめクッション欲しいけど部屋が狭くなりそうだからなぁ
+
+記事投稿「[phpstormでメソッドのコメントtips #PhpStorm - Qiita](http://qiita.com/items/0501e4f9e46a69f30fb8 "phpstormでメソッドのコメントtips #PhpStorm - Qiita")」
+
+脳波でリブログできる機械が出来たらしいので始まりましたね。
+
+最近は鍋ばかりをしている。うまいし簡単なので良い。安上がりだし。
+
+---
+

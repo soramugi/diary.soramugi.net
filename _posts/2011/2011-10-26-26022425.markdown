@@ -1,0 +1,20 @@
+---
+layout: post
+title: '10.25'
+published: true
+date: 2011-10-26 02:24
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+給料日なので各種手続きや支払い済ませて、Twitterのbotの手直しして、ubuntuの軽量版いれるのにやっぱりネット環境はあった方が良いことが気づいたのと、古いPCにインストールするよりmacのVirtualHostでubuntu入れる方がむっちゃはやイのに気づいた日でした。
+
+タッチタイピングいい加減覚えたい。
+
+菓子パンとか食べるの本当に浪費だと思うのでなるべく我慢しなきゃ。
+
+---
+

@@ -1,0 +1,26 @@
+---
+layout: post
+title: '10.18'
+published: true
+date: 2012-10-19 01:27
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+引っ越しして少しずつ必要なものを買い足していって物の有り難みを感じるというライフハック
+
+朝にちょっとした物を買う為にちょっとしたお金使うんだけどちょっとした用意しておけばちょっとしたお金使わなくて済む
+
+あたたたかいコーヒーが身に染みて美味しい季節になりました
+
+symfonyの理解をちゃんとしたいのでjobeetちゃんとやろうと思っているのでちゃんとやっていきます。
+
+記事更新「[Macにsshログイン #Mac - Qiita](http://qiita.com/items/c34ec825befbc4fb7291 "Macにsshログイン #Mac - Qiita")」
+
+「[Macのlocalにgitのリモートリポジトリを構築する #git #Mac - Qiita](http://qiita.com/items/6410148064e64be129c9 "Macのlocalにgitのリモートリポジトリを構築する #git #Mac - Qiita")」
+
+---
+

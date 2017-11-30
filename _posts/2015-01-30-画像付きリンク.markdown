@@ -1,0 +1,35 @@
+---
+layout: post
+title: "画像付きリンク"
+published: true
+date: 2015-01-30 00:20
+comments: true
+tags: 
+categories: 
+---
+
+<a href="http://soramugi.tumblr.com/post/8364974960/xoangelicc-mmmm-simple-and-yummy#_=_"><img src="http://40.media.tumblr.com/tumblr_lokhlpZ3B31qzk9x9o1_500.jpg" alt="Tumblr lokhlpz3b31qzk9x9o1 500" /><br />ハトムギ、玄米、月見草</a>
+
+なんでもいいから画像つけたい時に本当になんでもいい画像を探すのは難しいけどTumblrからランダムで引っ張ってくればいいことに気づいた。
+
+<http://soramugi.tumblr.com/random>にアクセスすればランダムで表示されるのを利用。
+
+毎回ブラズザアクセスするのも面倒なのでvimプラグイン書いて適当な画像タグを作成するやつ作った。
+
+<https://gist.github.com/soramugi/4f6d95e05827018f2318>
+
+```
+"tumblrからランダムで画像リンクの出力"
+NeoBundle 'git@gist.github.com:/4f6d95e05827018f2318.git', { 'script_type' : 'plugin' }
+let g:linktotag_link = 'http://soramugi.tumblr.com/random'
+```
+
+これで
+
+    :Linktotag
+
+で画像リンクが貼り付けられる。
+
+herokuに上げたアプリ経由でhttpアクセスしてタグ作成するようにしてるんだけど必要なかったかもな。vimスクリプトだけでタグ生成するのだるかったんだけどherokuアプリ落ちてる時に起動するための時間かかるの使い勝手良くなかったな。
+
+しかし画像適当に貼れるのは雑感出て良い。

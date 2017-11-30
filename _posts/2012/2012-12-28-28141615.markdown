@@ -1,0 +1,24 @@
+---
+layout: post
+title: '12.17'
+published: true
+date: 2012-12-28 14:16
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+記事更新「[vimでgrepする時の.vimrc #Vim #vimrc #grep - Qiita](http://qiita.com/items/b97d673b6867dc572c81 "vimでgrepする時の.vimrc #Vim #vimrc #grep - Qiita")」
+
+「[.bashrc内で宣言するaliasで引数を使った物を宣言する場合 #bashrc - Qiita](http://qiita.com/items/23b69de2dada45120874 ".bashrc内で宣言するaliasで引数を使った物を宣言する場合 #bashrc - Qiita")」
+
+二度寝は怖いな
+
+荻窪で買ってきた土鍋と全く一緒の土鍋の広告を最近よく見るのでどこからか情報漏洩していると思われる
+
+ライフゲームを探していたらvimでインベーダーゲームやってたので桶屋が儲かる
+
+---
+

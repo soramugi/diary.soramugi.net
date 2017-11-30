@@ -1,0 +1,18 @@
+---
+layout: post
+title: '5.8'
+published: true
+date: 2012-05-09 01:43
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+シェアハウスの話しをするときにイメージをちゃんと伝えられている気がしない
+
+Ruby楽しいね
+
+---
+

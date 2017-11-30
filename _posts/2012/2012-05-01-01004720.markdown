@@ -1,0 +1,28 @@
+---
+layout: post
+title: '4.30'
+published: true
+date: 2012-05-01 00:47
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+優しい子に会えて本当に良かったですね
+
+実家の味噌汁の味を再現するのは難しい
+
+自分のTumblrのarchiveを眺める祝日は楽しい
+
+Tumblrのbot作ります。前はPHPだったけど今回はRubyです。書くコード量が少なすぎるのでRubyの勉強にはちっとも役に立ちません。ハリネズミの画像を収集して投稿します。Instagramの画像持ってくれば良いですかね。まだ途中です。
+
+Tumblrでたまに流れてくる激しく動き続けているgif画像を集めたTumblrページ作りたい。party hardでTumblr内検索すればそこそこ出てくる。
+
+gif画像検索サイトあったら楽しそう。
+
+man manしてもmanの意味が分からないマン
+
+---
+

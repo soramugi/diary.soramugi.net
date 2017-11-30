@@ -1,0 +1,16 @@
+---
+layout: post
+title: '8.10'
+published: true
+date: 2012-08-11 02:21
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+サーバーを弄って楽しむならphpでも別にいっかと思い始めている
+
+---
+

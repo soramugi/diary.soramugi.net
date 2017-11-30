@@ -1,0 +1,22 @@
+---
+layout: post
+title: '12.26'
+published: true
+date: 2012-12-28 16:38
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+明日会社行けば冬期休暇という事実よ
+
+午前中パワーすごい。昨日悩んでた部分が30分で解決した。
+
+年末は今までのgithubに上げたやつ見直してちゃんとGemfileとか作っておきたいですね
+
+デプロイサーバー構築し直したい
+
+---
+

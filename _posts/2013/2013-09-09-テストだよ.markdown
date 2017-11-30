@@ -1,0 +1,11 @@
+---
+layout: post
+title: "テストだよ"
+published: true
+date: 2013-09-09 17:36
+comments: true
+tags: 
+categories: 
+---
+
+てすとなんだよ

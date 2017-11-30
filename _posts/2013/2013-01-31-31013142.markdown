@@ -1,0 +1,20 @@
+---
+layout: post
+title: '1.28'
+published: true
+date: 2013-01-31 01:31
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+朝のオレを夜に飲んで自由を感じている
+
+タイポで一時間無駄にしたのでクソ。リファクタリングしたり普段気にしない動きを理解できたからいいけど。
+
+&nbsp;
+
+---
+

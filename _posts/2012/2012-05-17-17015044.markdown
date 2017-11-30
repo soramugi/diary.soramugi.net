@@ -1,0 +1,16 @@
+---
+layout: post
+title: '5.16'
+published: true
+date: 2012-05-17 01:50
+comments: true
+categories:
+- 日記
+tags: []
+keywords:
+- 日記
+---
+.bashrcに.bashrc読み込む記述しちゃって無限ループしちゃってたけど何とか解決出来た
+
+---
+

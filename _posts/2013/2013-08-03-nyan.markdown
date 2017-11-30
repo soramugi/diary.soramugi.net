@@ -1,0 +1,11 @@
+---
+layout: post
+title: "nyan"
+published: true
+date: 2013-08-03 10:54
+comments: true
+tags: 
+categories: 
+---
+
+octopress環境を整備したくて色々試しているので細かいつぶやきが多いにゃん
